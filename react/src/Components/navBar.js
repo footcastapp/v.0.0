@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./nav.css";
-import home from "../Assets/home.jpg";
+import "../Styles/nav.css";
+import home from "../Assets/home1.jpg";
 
 class navBar extends Component {
   state = {};
