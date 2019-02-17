@@ -8,17 +8,17 @@ class navBar extends Component {
   render() {
     return (
       <ul>
-        <li id="search">
-          <NavLink to="/search">Search</NavLink>
-        </li>
-        <li id="home">
-          <NavLink to="/">
-            <img src={home} alt="home" />
-          </NavLink>
-        </li>
-        <li id="football">
-          <NavLink to="football">Football</NavLink>
-        </li>
+        <NavLink to="/search">
+          <li id="search">Search</li>
+        </NavLink>
+        <NavLink to="/">
+          <li id="home">
+            <img src={home} alt="Home" />
+          </li>
+        </NavLink>
+        <NavLink to="/football">
+          <li id="football">Football</li>
+        </NavLink>
       </ul>
     );
   }
