@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../Styles/nav.css";
 import { NavLink } from "react-router-dom";
-import home from "../Assets/home1.jpg";
+import home from "../Images/Homebutton.png";
 
 class navBar extends Component {
   state = {};

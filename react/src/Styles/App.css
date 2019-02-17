@@ -1,4 +1,8 @@
 body {
+  background-image: url("../Images/back.png");
+  background-repeat: no-repeat;
+  background-position-x: 513px;
+  background-position-y: 0px;
   height: 736px;
   width: 414px;
   display: flex;
@@ -7,7 +11,8 @@ body {
   padding-top: 80px;
   margin: 0 auto;
   border-color: black;
-  border-width: 1px;
+  border-width: 5px;
+  z-index: -1;
 }
 h1 {
   border-color: black;

@@ -3,10 +3,11 @@ ul {
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
-  background-color: transparent;
+  background-color: white;
   position: fixed;
   bottom: 0;
   cursor: pointer;
+  font-weight: bold;
 }
 
 li {
@@ -14,23 +15,24 @@ li {
   padding: 15px 48.7px;
   margin: 0 auto;
   border-top: 1px solid black;
+  transition: 0.3s;
 }
 a {
   color: black;
   text-decoration: none;
 }
 li:hover {
-  background-color: wheat;
+  text-decoration-line: underline;
+  border-color: cornflowerblue;
+  border-width: 10px;
 }
 li#search {
-  border-right: 1px solid black;
   margin-left: 0.5px;
 }
 li#football {
-  border-left: 1px solid black;
 }
 li#home {
-  padding: 2px 30px 0px 30px;
+  padding: 2px 25px 0px 25px;
 }
 img {
   height: 45px;
