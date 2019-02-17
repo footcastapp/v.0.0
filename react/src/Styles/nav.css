@@ -7,6 +7,7 @@ ul {
   position: fixed;
   bottom: 0;
   cursor: pointer;
+  font-weight: bold;
 }
 
 li {
@@ -14,13 +15,14 @@ li {
   padding: 15px 48.7px;
   margin: 0 auto;
   border-top: 1px solid black;
+  transition: 1s;
 }
 a {
   color: black;
   text-decoration: none;
 }
 li:hover {
-  background-color: wheat;
+  text-decoration-line: underline;
 }
 li#search {
   border-right: 1px solid black;
