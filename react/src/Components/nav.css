@@ -1,0 +1,38 @@
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  cursor: pointer;
+}
+
+li {
+  float: left;
+  padding: 10px 52px;
+  margin: 0 auto;
+  border-top: 1px solid black;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+li:hover {
+  background-color: wheat;
+}
+li#search {
+  border-right: 1px solid black;
+  margin-left: 0.5px;
+}
+li#football {
+  border-left: 1px solid black;
+}
+li#home {
+  padding: 2px 30px 0px 30px;
+}
+img {
+  height: 38px;
+  width: 40px;
+}

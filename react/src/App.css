@@ -1,0 +1,15 @@
+body {
+  height: 736px;
+  width: 414px;
+  display: flex;
+  flex-direction: column;
+  text-align: centre;
+  padding-top: 80px;
+  margin: 0 auto;
+  border-color: black;
+  border-width: 1px;
+}
+h1 {
+  border-color: black;
+  border-width: 1px;
+}
