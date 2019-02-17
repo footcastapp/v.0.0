@@ -1,15 +1,16 @@
 import React, { Component } from "react";
-import "../Styles/nav.css";
 
-class Main extends Component {
+import NavBar from "./navBar";
+
+class Search extends Component {
   state = {};
   render() {
     return (
       <div>
-        <h1>main</h1>
+        <h1>Search</h1>
       </div>
     );
   }
 }
 
-export default Main;
+export default Search;
