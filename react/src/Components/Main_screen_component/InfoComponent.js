@@ -3,7 +3,7 @@ class InfoComponent extends Component {
   state = {};
   render() {
     return (
-      <div class="container b-radius padding-10 m-left-right">
+      <div className="container b-radius padding-10 m-left-right">
         <h1>Central London</h1>
       </div>
     );

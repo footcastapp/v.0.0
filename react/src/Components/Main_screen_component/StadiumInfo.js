@@ -4,7 +4,7 @@ class StadiumInfo extends Component {
   state = {};
   render() {
     return (
-      <div class="st-container b-radius padding-10 m-left-right">
+      <div className="st-container b-radius padding-10 m-left-right">
         <h1>Emirates Stadium</h1>
       </div>
     );

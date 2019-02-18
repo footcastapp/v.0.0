@@ -10,8 +10,8 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <CurrentCity class="z-2" />
-        <StadiumInfo class="z-2" />
+        <CurrentCity className="z-2" />
+        <StadiumInfo className="z-2" />
       </div>
     );
   }
