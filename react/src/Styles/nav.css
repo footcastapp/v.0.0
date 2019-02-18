@@ -5,7 +5,7 @@ ul {
   overflow: hidden;
   background-color: white;
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
   cursor: pointer;
   font-weight: bold;
 }
