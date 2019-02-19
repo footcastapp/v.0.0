@@ -4,7 +4,7 @@ import Main from "./Components/main";
 import Search from "./Components/Search/SearchBar";
 import Error from "./Components/error";
 import NavBar from "./Components/navBar";
-import Football from "./Components/football";
+import Football from "./Components/MainFootball";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 class App extends Component {
