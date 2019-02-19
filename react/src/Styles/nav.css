@@ -3,8 +3,10 @@ ul {
   margin: auto;
   padding: 0%;
   overflow: hidden;
+
   background-color: rgb(43, 8, 43);
   bottom: 0;
+
   cursor: pointer;
   font-weight: bold;
   position: absolute;
