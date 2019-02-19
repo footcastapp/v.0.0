@@ -9,7 +9,7 @@ ul {
 
   cursor: pointer;
   font-weight: bold;
-  position: absolute;
+  position: fixed;
 
   font-size: 15px;
   text-align: center;
