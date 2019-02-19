@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 
-import NavBar from "./navBar";
-
 class Search extends Component {
   state = {};
   render() {
