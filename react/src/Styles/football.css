@@ -1,0 +1,27 @@
+.title {
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  border: 2px solid black;
+  position: absolute;
+  box-align: center;
+  left: 36%;
+  right: 36%;
+  top: 0;
+  height: 70px;
+  background-color: rgb(43, 8, 43);
+}
+
+.buttonn {
+  color: black;
+  font-size: 11px;
+  font-size: 11px;
+  text-align: center;
+  border: none !important;
+  width: 100%;
+  padding: 0px;
+  background-color: rgba(43, 8, 43, 0.651);
+}
+.test {
+  font-size: 30px;
+}

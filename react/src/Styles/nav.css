@@ -1,38 +1,32 @@
 ul {
   list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
+  margin: auto;
+  padding: 0%;
   overflow: hidden;
-  background-color: white;
-  position: fixed;
+  background-color: rgb(43, 8, 43);
   bottom: 0;
   cursor: pointer;
   font-weight: bold;
+  position: absolute;
+  left: 36%;
+  right: 36%;
+  font-size: 15px;
+  text-align: center;
 }
 
 li {
   float: left;
-  padding: 15px 48.7px;
+  padding: 15px 44.5px;
   margin: 0 auto;
-  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   transition: 0.3s;
 }
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 li:hover {
-  text-decoration-line: underline;
-  border-color: cornflowerblue;
-  border-width: 10px;
-}
-li#search {
-  margin-left: 0.5px;
-}
-li#home {
-  padding: 2px 25px 0px 25px;
-}
-img {
-  height: 45px;
-  width: 52px;
+  border-bottom-color: white;
+
+  border-width: 5px;
 }
