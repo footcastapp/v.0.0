@@ -10,8 +10,7 @@ ul {
   cursor: pointer;
   font-weight: bold;
   position: absolute;
-  left: 36%;
-  right: 36%;
+
   font-size: 15px;
   text-align: center;
 }
