@@ -4,11 +4,27 @@
   color: white;
   z-index: 2;
   position: relative;
+  padding-left: 20px;
 }
-img {
+#weather {
   position: relative;
+  top: 10px;
+}
+#country {
+  position: absolute;
+  top: 60px;
+  font-size: 80%;
+}
+#temperature {
+  font-size: 40px;
+  position: absolute;
+  top: 67px;
+  left: 250px;
+}
+#icon {
+  position: absolute;
   left: 230px;
-  bottom: 130px;
+  bottom: 80px;
 }
 .container::before {
   content: " ";

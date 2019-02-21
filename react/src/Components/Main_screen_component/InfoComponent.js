@@ -5,8 +5,20 @@ class InfoComponent extends Component {
     return (
       <div className="container b-radius padding-10 m-left-right">
         <h1>{this.props.city}</h1>
-        <p>{this.props.country}</p>
-        <img src={image} className="z-2" />
+        <span id="country">
+          <p>{this.props.country}</p>
+        </span>
+        <img id="icon" src={image} className="z-2" />
+        <span id="weather">
+          <p>Partly cloudy</p>
+        </span>
+        <span id="temperature">
+          <p>12 ºC</p>
+        </span>
+        <br />
+        <span>
+          <p>7th Feb</p>
+        </span>
       </div>
     );
   }

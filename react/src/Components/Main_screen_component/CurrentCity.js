@@ -11,8 +11,10 @@ class CurrentCity extends Component {
           city={this.state.currentcity}
           country={this.state.country}
         />
-        <HourlyTimeline />
-        <Daily />
+        <hr />
+        <HourlyTimeline className="padding-10 m-left-right" />
+        <hr />
+        <Daily className="padding-10 m-left-right" />
       </div>
     );
   }
