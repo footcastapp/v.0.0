@@ -1,8 +1,4 @@
 body {
-  background-image: url("../Images/back.png");
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: 0px;
   height: 736px;
   width: 414px;
   display: flex;
@@ -18,3 +14,23 @@ h1 {
   border-color: black;
   border-width: 1px;
 }
+
+body::after {
+  position: fixed;
+  content: " ";
+  bottom: 100px;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(190, 144, 212, 1),
+    rgba(255, 255, 255, 1)
+  );
+  width: 414px;
+  height: 100%;
+  z-index: -2;
+}
+
+background-image: url("../Images/back.png");
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-y: 0px;

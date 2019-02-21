@@ -3,17 +3,17 @@
   font-size: 17px;
   text-align: center;
   border: 2px solid black;
-  position: absolute;
+  position: fixed;
   box-align: center;
-  left: 33.5%;
-  right: 33.5%;
+  margin: 0 auto;
   top: 0;
+  width: 414px;
   height: 70px;
   background-color: rgb(43, 8, 43);
 }
 
 .buttonn {
-  color: black;
+  color: white;
   font-size: 11px;
   font-size: 11px;
   text-align: center;

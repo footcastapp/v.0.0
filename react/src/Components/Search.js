@@ -4,7 +4,7 @@ class Search extends Component {
   state = {};
   render() {
     return (
-      <div>
+      <div className="main-screen">
         <h1>Search</h1>
       </div>
     );

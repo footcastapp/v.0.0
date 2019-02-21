@@ -5,6 +5,10 @@ import Search from "./Components/Search/SearchBar";
 import Error from "./Components/error";
 import NavBar from "./Components/navBar";
 import Football from "./Components/MainFootball";
+import "../src/Styles/nav.css";
+import "../src/Styles/main.css";
+import "../src/Styles/InfoComponent.css";
+import "../src/Styles/StadiumInfo.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 class App extends Component {
