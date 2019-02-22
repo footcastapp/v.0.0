@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import image from "../../Images/weatherIcon/Sunp.png";
+import image from "../../Images/weatherIcon/partly-sun.png";
 class InfoComponent extends Component {
   render() {
     return (
@@ -17,7 +17,7 @@ class InfoComponent extends Component {
         </span>
         <br />
         <span>
-          <p>7th Feb</p>
+          <p>7th Feb 2019</p>
         </span>
       </div>
     );

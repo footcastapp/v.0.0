@@ -1,0 +1,12 @@
+.hourly-component {
+  width: 40px;
+  text-align: center;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.hourly-component img {
+  margin: -20px auto;
+  width: 38px;
+  height: 38px;
+}

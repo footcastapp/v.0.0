@@ -1,5 +1,4 @@
 body {
-  height: 736px;
   width: 414px;
   display: flex;
   flex-direction: column;
@@ -8,7 +7,7 @@ body {
   margin: 0 auto;
   border-color: black;
   border-width: 5px;
-  z-index: -1;
+  z-index: 2;
 }
 h1 {
   border-color: black;
@@ -29,8 +28,3 @@ body::after {
   height: 100%;
   z-index: -2;
 }
-
-background-image: url("../Images/back.png");
-background-repeat: no-repeat;
-background-position-x: center;
-background-position-y: 0px;

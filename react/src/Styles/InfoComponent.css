@@ -24,7 +24,7 @@
 #icon {
   position: absolute;
   left: 230px;
-  bottom: 80px;
+  bottom: 100px;
 }
 .container::before {
   content: " ";

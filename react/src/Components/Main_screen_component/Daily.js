@@ -3,7 +3,11 @@ import React, { Component } from "react";
 class Daily extends Component {
   state = {};
   render() {
-    return <h1>Daily</h1>;
+    return (
+      <div className="m-left-right">
+        <h1>Daily</h1>
+      </div>
+    );
   }
 }
 
