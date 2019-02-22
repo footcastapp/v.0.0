@@ -1,4 +1,4 @@
-ul {
+#menu {
   list-style-type: none;
   margin: auto;
   padding: 0%;
@@ -13,9 +13,10 @@ ul {
 
   font-size: 15px;
   text-align: center;
+  z-index: 1;
 }
 
-li {
+.item {
   float: left;
   padding: 15px 44.5px;
   margin: 0 auto;
@@ -26,7 +27,7 @@ a {
   color: white;
   text-decoration: none;
 }
-li:hover {
+.item:hover {
   border-bottom-color: white;
 
   border-width: 5px;

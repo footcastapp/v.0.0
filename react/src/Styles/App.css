@@ -1,8 +1,11 @@
 body {
+<<<<<<< HEAD
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 0px;
   height: 736px;
+=======
+>>>>>>> ac84c4a33b05219d2d006771643285b1c6607ee6
   width: 414px;
   display: flex;
   flex-direction: column;
@@ -11,9 +14,24 @@ body {
   margin: 0 auto;
   border-color: black;
   border-width: 5px;
-  z-index: -1;
+  z-index: 2;
 }
 h1 {
   border-color: black;
   border-width: 1px;
+}
+
+body::after {
+  position: fixed;
+  content: " ";
+  bottom: 100px;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(190, 144, 212, 1),
+    rgba(255, 255, 255, 1)
+  );
+  width: 414px;
+  height: 100%;
+  z-index: -2;
 }
