@@ -1,11 +1,4 @@
 body {
-<<<<<<< HEAD
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: 0px;
-  height: 736px;
-=======
->>>>>>> ac84c4a33b05219d2d006771643285b1c6607ee6
   width: 414px;
   display: flex;
   flex-direction: column;

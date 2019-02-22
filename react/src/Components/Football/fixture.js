@@ -18,7 +18,7 @@ class fixture extends Component {
   clickk = () => {
     var g = document.getElementById("fixture");
     var content = this.nextElementSibling;
-    if (g.style.display == "block") {
+    if (g.style.display === "block") {
       g.style.display = "none";
     } else {
       g.style.display = "block";
