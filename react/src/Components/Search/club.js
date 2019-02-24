@@ -9,6 +9,11 @@ class club extends Component {
           alt={this.props.clubInfo.Club}
         />
         <label key={this.props.clubInfo.i}>{this.props.clubInfo.Club}</label>
+        <label key={this.props.clubInfo.i}>
+          {" "}
+          {this.props.clubInfo.Stadium}
+          {" Stadium"}
+        </label>
       </div>
     );
   }

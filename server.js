@@ -8,17 +8,17 @@ app.use("/static", express.static(__dirname + "/react/src/Images"));
 app.get("/api/clubs", (req, res) => {
   const clubs = [
     {
-      Club: "AFC Bournemouth",
-      Stadium: "Dean Court",
-      img: "/static/ClubLogos/AFC_Bournemouth.png"
-    },
-    {
       Club: "Arsenal",
       Stadium: "Emirites",
       img: "/static/ClubLogos/Arsenal.png"
     },
     {
-      Club: "Brighton",
+      Club: "Bournemouth",
+      Stadium: "Dean Court",
+      img: "/static/ClubLogos/AFC_Bournemouth.png"
+    },
+    {
+      Club: "Brighton and Hove Albion",
       Stadium: "Falmer",
       img: "/static/ClubLogos/Brighton.png"
     },
@@ -76,6 +76,11 @@ app.get("/api/clubs", (req, res) => {
       Club: "Manchester United",
       Stadium: "Old Trafford",
       img: "/static/ClubLogos//ManchesterUnited.png"
+    },
+    {
+      Club: "NewCastle United",
+      Stadium: "st James",
+      img: "/static/ClubLogos//NewCastleUnited.png"
     },
     {
       Club: "Southampton",
