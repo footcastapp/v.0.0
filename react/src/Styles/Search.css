@@ -8,7 +8,8 @@ input[type="search"] {
   padding: 20px 10px;
 }
 div {
-  position: relative;
+  top: 0;
+  position: inline;
 }
 img {
   height: 10%;
@@ -19,13 +20,20 @@ label {
   padding-bottom: 1000px;
   text-decoration: none;
   cursor: pointer;
+  margin-left: 20px;
 }
 .ratio {
   padding: 10px;
   text-decoration: none;
   color: black;
   overflow: hidden;
+  background-color: aliceblue;
+  margin: 0px 10px 10px 10px;
+  border-radius: 10px;
 }
 a {
   text-decoration: none;
+}
+label#stad {
+  margin-left: 0;
 }

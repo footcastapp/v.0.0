@@ -34,7 +34,7 @@ app.get("/api/clubs", (req, res) => {
     },
     {
       Club: "Chelsea",
-      Stadium: "Staford Bridge",
+      Stadium: "Stamford Bridge",
       img: "/static/ClubLogos//Chelsea.png"
     },
     {
