@@ -1,19 +1,22 @@
 {
-  "name": "footcast",
+  "name": "react-express",
   "version": "1.0.0",
-  "description": "GUI Module Coursework",
-  "main": "index.js",
+  "description": "First React-express app",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix react",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/footcastapp/v.1.0.git"
+  "author": "Muhammad Sumeer",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
   },
-  "author": "Team unknown",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/footcastapp/v.1.0/issues"
-  },
-  "homepage": "https://github.com/footcastapp/v.1.0#readme"
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
