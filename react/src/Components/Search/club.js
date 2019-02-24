@@ -10,9 +10,9 @@ class club extends Component {
         />
         <label key={this.props.clubInfo.i}>{this.props.clubInfo.Club}</label>
         <label key={this.props.clubInfo.i}>
-          {" "}
+          {" ("}
           {this.props.clubInfo.Stadium}
-          {" Stadium"}
+          {" Stadium)"}
         </label>
       </div>
     );
