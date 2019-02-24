@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 class fixture extends Component {
-  state = {};
   render() {
     return (
       <div>
@@ -17,7 +16,6 @@ class fixture extends Component {
   }
   clickk = () => {
     var g = document.getElementById("fixture");
-    var content = this.nextElementSibling;
     if (g.style.display === "block") {
       g.style.display = "none";
     } else {

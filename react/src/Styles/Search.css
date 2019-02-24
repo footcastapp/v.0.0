@@ -1,13 +1,23 @@
 input[type="search"] {
   width: 414px;
   height: 50px;
-  text-align: center;
+  text-align: left;
   position: fixed;
   top: 0;
   font-size: 20px;
   padding: 20px 10px;
 }
 div {
-  top: 13px;
-  position: absolute;
+  position: relative;
+}
+img {
+  height: 10%;
+  width: 10%;
+}
+label {
+  text-align: center;
+  padding-bottom: 1000px;
+}
+.ratio {
+  padding: 10px;
 }

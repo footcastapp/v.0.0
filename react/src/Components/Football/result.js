@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 
 class result extends Component {
-  state = {};
-
   render() {
     return (
       <div>
@@ -18,8 +16,7 @@ class result extends Component {
   }
   clickk = () => {
     var g = document.getElementById("result");
-    var content = this.nextElementSibling;
-    if (g.style.display == "block") {
+    if (g.style.display === "block") {
       g.style.display = "none";
     } else {
       g.style.display = "block";

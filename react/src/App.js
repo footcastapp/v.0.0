@@ -9,6 +9,7 @@ import "../src/Styles/nav.css";
 import "../src/Styles/main.css";
 import "../src/Styles/InfoComponent.css";
 import "../src/Styles/StadiumInfo.css";
+import "./Styles/Search.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 class App extends Component {

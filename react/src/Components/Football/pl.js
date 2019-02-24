@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 class pl extends Component {
-  state = {};
   render() {
     return (
       <div className="title">
