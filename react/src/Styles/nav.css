@@ -23,7 +23,7 @@
   border-bottom: 1px solid black;
   transition: 0.3s;
 }
-a {
+#nav {
   color: white;
   text-decoration: none;
 }

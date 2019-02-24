@@ -17,7 +17,15 @@ img {
 label {
   text-align: center;
   padding-bottom: 1000px;
+  text-decoration: none;
+  cursor: pointer;
 }
 .ratio {
   padding: 10px;
+  text-decoration: none;
+  color: black;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
 }
