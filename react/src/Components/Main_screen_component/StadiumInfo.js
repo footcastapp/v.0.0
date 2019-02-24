@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 class StadiumInfo extends Component {
-  state = {};
   render() {
     return (
       <div className="st-container b-radius padding-10 m-left-right">

@@ -8,7 +8,7 @@ class InfoComponent extends Component {
         <span id="country">
           <p>{this.props.country}</p>
         </span>
-        <img id="icon" src={image} className="z-2" />
+        <img id="icon" src={image} className="z-2" alt="" />
         <span id="weather">
           <p>Partly cloudy</p>
         </span>

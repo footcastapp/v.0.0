@@ -1,13 +1,30 @@
 import React, { Component } from "react";
-
+import Clubs from "./Clubs";
 class SearchBar extends Component {
-  state = {};
+  state = { clubInfo: [], search: "" };
   render() {
+    let clubs = this.state.clubInfo.filter(club => {
+      return (
+        club.Club.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1
+      );
+    });
     return (
-      <form>
-        <input type="search" placeholder="search for teams and stadiums here" />
-      </form>
+      <div id="se">
+        <Clubs clubInfo={clubs} />
+        <input
+          type="search"
+          placeholder="Search"
+          onChange={this.search.bind(this)}
+        />
+      </div>
     );
+  }
+  search(event) {
+    this.setState({ clubInfo: this.props.clubInfo });
+    this.setState({ search: event.target.value });
+    if (event.target.value === "") {
+      this.setState({ clubInfo: [] });
+    }
   }
 }
 

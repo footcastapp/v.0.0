@@ -6,7 +6,6 @@ import Table from "./Football/table";
 import Team from "./Football/team";
 import "../Styles/football.css";
 class Main extends Component {
-  state = {};
   render() {
     return (
       <div>

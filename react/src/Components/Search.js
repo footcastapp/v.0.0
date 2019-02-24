@@ -1,15 +1,24 @@
 import React, { Component } from "react";
 import SearchBar from "./Search/SearchBar";
 import "../Styles/Search.css";
-import Clubs from "./Search/Clubs";
+
 class Search extends Component {
-  state = {};
+  constructor() {
+    super();
+    this.state = {
+      clubInfo: []
+    };
+  }
+  componentDidMount() {
+    fetch("http://localhost:5000/api/clubs")
+      .then(res => res.json())
+      .then(clubInfo => this.setState({ clubInfo }));
+  }
 
   render() {
     return (
       <div>
-        <Clubs />
-        <SearchBar />
+        <SearchBar clubInfo={this.state.clubInfo} />
       </div>
     );
   }

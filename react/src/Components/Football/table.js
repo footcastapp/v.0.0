@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 class table extends Component {
-  state = {};
   render() {
     return (
       <div>
@@ -17,8 +16,7 @@ class table extends Component {
   }
   clickk = () => {
     var g = document.getElementById("table");
-    var content = this.nextElementSibling;
-    if (g.style.display == "block") {
+    if (g.style.display === "block") {
       g.style.display = "none";
     } else {
       g.style.display = "block";
