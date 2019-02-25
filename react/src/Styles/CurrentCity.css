@@ -1,3 +1,8 @@
 .slider {
   overflow: hidden;
 }
+
+.weather-container {
+  margin-top: -47px;
+  color: white;
+}

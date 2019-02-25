@@ -5,7 +5,7 @@ class Main extends Component {
   render() {
     return (
       <div className="main-screen">
-        <CurrentCity className="z-2" />
+        <CurrentCity id="top-container" className="z-2" />
         <StadiumInfo className="z-2" />
       </div>
     );

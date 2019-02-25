@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "../../Styles/StadiumInfo.css";
 class StadiumInfo extends Component {
   render() {
     return (

@@ -1,8 +1,16 @@
 import React, { Component } from "react";
+import sunny from "../../Images/weatherIcon/sunny.png";
+import "../../Styles/DailyComponent.css";
 
 class DailyComponent extends Component {
   render() {
-    return <h1>Daily Component</h1>;
+    return (
+      <div className="daily-component">
+        <p>Mon</p>
+        <img src={sunny} alt="l" />
+        <p>9-11ºC </p>
+      </div>
+    );
   }
 }
 
