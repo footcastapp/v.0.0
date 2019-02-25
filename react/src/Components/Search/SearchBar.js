@@ -5,7 +5,9 @@ class SearchBar extends Component {
   render() {
     let clubs = this.state.clubInfo.filter(club => {
       return (
-        club.Club.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1
+        (club.Stadium.toLowerCase().indexOf(this.state.search.toLowerCase()) &&
+          club.Club.toLowerCase().indexOf(this.state.search.toLowerCase())) !==
+        -1
       );
     });
     return (
