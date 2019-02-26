@@ -24,6 +24,23 @@
   border-radius: 15px;
   height: 100%;
 }
-.test {
-  font-size: 30px;
+
+#fixture {
+  width: 100%;
+  padding: 100%;
+}
+
+#result {
+  width: 100%;
+  padding: 100%;
+}
+
+#team {
+  width: 100%;
+  padding: 100%;
+}
+
+#table {
+  width: 100%;
+  padding: 100%;
 }

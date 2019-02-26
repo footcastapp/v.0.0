@@ -3,9 +3,9 @@ import React, { Component } from "react";
 class fixture extends Component {
   render() {
     return (
-      <div>
+      <div className="lund">
         <button className="buttonn" onClick={() => this.clickk()}>
-          <div className="lol">
+          <div>
             <h1>Fixture</h1>
           </div>
 
@@ -20,6 +20,7 @@ class fixture extends Component {
       g.style.display = "none";
     } else {
       g.style.display = "block";
+      document.getElementById("lund1").style.display = "none";
     }
   };
 }
