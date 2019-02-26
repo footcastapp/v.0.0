@@ -23,10 +23,10 @@
 }
 #icon {
   position: absolute;
-  left: 230px;
-  bottom: 90px;
-  width: 110px;
-  height: 110px;
+  left: 250px;
+  bottom: 110px;
+  width: 90px;
+  height: 80px;
 }
 .container::before {
   content: " ";
