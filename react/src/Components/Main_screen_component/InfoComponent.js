@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import image from "../../Images/weatherIcon/partly-sun.png";
 class InfoComponent extends Component {
   render() {
     return (
@@ -8,19 +7,38 @@ class InfoComponent extends Component {
         <span id="country">
           <p>{this.props.country}</p>
         </span>
-        <img id="icon" src={image} className="z-2" alt="" />
+        <img
+          id="icon"
+          src={this.decidePhoto(this.props.daylight, this.props.weather)}
+          className="z-2"
+          alt=""
+        />
         <span id="weather">
-          <p>Partly cloudy</p>
+          <p>{this.props.weather}</p>
         </span>
         <span id="temperature">
-          <p>12 ºC</p>
+          <p>{this.props.temp}ºC</p>
         </span>
         <br />
         <span>
-          <p>7th Feb 2019</p>
+          <p>{this.props.date}</p>
         </span>
       </div>
     );
+  }
+
+  decidePhoto(value, weather) {
+    let src = "../Images/";
+    if (value === true && weather == "Clear") {
+      src += "sunny.png";
+    } else if (value === false && weather == "Clear") {
+      src += "moon.png";
+    } else {
+      src += weather + ".png";
+    }
+    src = src.toString();
+    console.log(this.props.location);
+    return src;
   }
 }
 

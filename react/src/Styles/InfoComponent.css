@@ -1,5 +1,5 @@
 .container {
-  background: #0090ff;
+  background: rgba(43, 8, 43, 0.9);
   overflow: hidden;
   color: white;
   z-index: 2;
@@ -24,7 +24,9 @@
 #icon {
   position: absolute;
   left: 230px;
-  bottom: 100px;
+  bottom: 110px;
+  width: 80px;
+  height: 80px;
 }
 .container::before {
   content: " ";
