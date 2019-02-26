@@ -24,9 +24,9 @@
 #icon {
   position: absolute;
   left: 230px;
-  bottom: 90px;
-  width: 110px;
-  height: 110px;
+  bottom: 110px;
+  width: 80px;
+  height: 80px;
 }
 .container::before {
   content: " ";
