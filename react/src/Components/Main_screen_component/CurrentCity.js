@@ -12,23 +12,28 @@ class CurrentCity extends Component {
     weather: "",
     date: "",
     daylight: "",
-    apiKey: `QYembYNdY0Vz9auLrLTrRtR2MGJLvG2Y`,
+    hourlydata: "",
+    dailydata: "",
+    apiKey: `i1U3lyVKAAPKyOGjr5OyUYG21xMTNoxj`,
     cityKey: ""
   };
   constructor() {
     super();
+    console.log("Constructor");
     this.refreshCity = this.refreshCity.bind(this);
     this.refreshTemperature = this.refreshTemperature.bind(this);
     this.refreshCurrentTemp = this.refreshCurrentTemp.bind(this);
     this.refreshCity();
   }
   refreshCity() {
+    console.log("Api 1");
     const that = this;
     $.ajax("http://ip-api.com/json").then(
       function success(response) {
-        let { city, country, Key } = response;
-        that.setState({ currentcity: response.city });
-        that.setState({ country: response.country });
+        let { city, country } = response;
+        that.state.currentcity = city;
+        that.state.country = country;
+        that.setState({ state: that.state });
         that.refreshTemperature();
       },
 
@@ -38,6 +43,7 @@ class CurrentCity extends Component {
     );
   }
   refreshTemperature() {
+    console.log("Api 2");
     let that = this;
     $.ajax(
       `http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${
@@ -57,6 +63,7 @@ class CurrentCity extends Component {
   }
 
   refreshCurrentTemp() {
+    console.log("Api 3");
     const that = this;
     let hourlyUrl = `http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/${
       that.state.cityKey
@@ -67,19 +74,22 @@ class CurrentCity extends Component {
       dataType: "json",
       success: function(data) {
         const currentHour = data[0];
-        that.setState({
-          temp: Math.round((currentHour.Temperature.Value - 32) * (5 / 9))
-        });
-        that.setState({ weather: currentHour.IconPhrase });
-        that.setState({ daylight: currentHour.IsDaylight });
+        let temperature = Math.round(
+          (currentHour.Temperature.Value - 32) * (5 / 9)
+        );
+        that.state.temp = temperature;
+        that.state.weather = currentHour.IconPhrase;
+        that.state.daylight = currentHour.IsDaylight;
         let date = new Date(currentHour.DateTime);
         let value =
           date.getDate() +
           " / " +
           (date.getMonth() + 1) +
-          " /" +
+          " / " +
           date.getFullYear();
-        that.setState({ date: value });
+        that.state.date = value;
+        that.state.hourlydata = data;
+        that.setState({ state: that.state });
       }
     });
   }
@@ -96,7 +106,10 @@ class CurrentCity extends Component {
           date={this.state.date}
           daylight={this.state.daylight}
         />
-        <HourlyTimeline className="slider padding-10 m-left-right" />
+        <HourlyTimeline
+          className="slider padding-10 m-left-right"
+          hourlydata={this.state.hourlydata}
+        />
         <Daily className="padding-10 m-left-right" />
       </div>
     );

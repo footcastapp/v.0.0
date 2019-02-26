@@ -23,9 +23,9 @@
 }
 #icon {
   position: absolute;
-  left: 230px;
+  left: 250px;
   bottom: 110px;
-  width: 80px;
+  width: 90px;
   height: 80px;
 }
 .container::before {
