@@ -6,17 +6,17 @@ class navBar extends Component {
   render() {
     return (
       <ul id="menu">
-        <NavLink to="/search">
+        <NavLink to="/search" id="nav">
           <li className="item" id="search">
             Search
           </li>
         </NavLink>
-        <NavLink to="/">
+        <NavLink to="/" id="nav">
           <li className="item" id="home">
             Home
           </li>
         </NavLink>
-        <NavLink to="/football">
+        <NavLink to="/football" id="nav">
           <li className="item" id="football">
             Football
           </li>
