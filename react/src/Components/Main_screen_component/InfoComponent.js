@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 class InfoComponent extends Component {
   render() {
+    console.log("I am in info component");
     return (
       <div className="container b-radius padding-10 m-left-right">
         <h1>{this.props.city}</h1>
@@ -9,7 +10,7 @@ class InfoComponent extends Component {
         </span>
         <img
           id="icon"
-          src={this.decidePhoto(this.props.daylight, this.props.weather)}
+          src={this.decidePhoto(this.props.daylight, this.props.weather)} //this.props.daylight, this.props.weather)}
           className="z-2"
           alt=""
         />
