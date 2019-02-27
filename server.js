@@ -6,7 +6,7 @@ app.use(cors());
 app.use("/static", express.static(__dirname + "/react/src/Images"));
 app.use("/api", express.static(__dirname + "/API"));
 
-app.get("/api/Clubs.json", (req, res) => {
+app.get("/api/PremierLeagueClubs.json", (req, res) => {
   res.json(Clubs);
 });
 
