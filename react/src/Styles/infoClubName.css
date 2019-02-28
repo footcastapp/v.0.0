@@ -1,5 +1,5 @@
 .clubHead {
-  background-image: linear-gradient(to bottom, red, orange);
+  background-color: orange;
   text-align: center;
   width: 414px;
 
@@ -12,9 +12,11 @@
 }
 .clubTrophies {
   width: 414px;
-  height: 5px;
+  /*height: 5px;*/
   top: -90px;
-  background-color: gold;
+  background-color: white;
+  padding-bottom: 35%;
+  padding-top: 5%;
   text-align: center;
   color: gold;
   font-size: 50px;
@@ -23,14 +25,15 @@
 .clubManager{
   width: 414px;
   text-align: left;
-  background-image: linear-gradient(yellow,green);
+  
+  background-color: lawngreen;
   padding-top: 2%;
   padding-bottom: 2%;
 }
 .clubStadium{
   width: 414px;
   text-align: left;
-  background-image: linear-gradient(gold,violet);
+  background-color:lawngreen;
   padding-top: 2%;
   padding-bottom: 2%;
 }
