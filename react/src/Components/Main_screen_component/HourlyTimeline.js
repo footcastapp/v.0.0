@@ -19,6 +19,7 @@ class HourlyTimeline extends Component {
   };
 
   showHourlyComponent = () => {
+    console.log("I am in hourly timeline");
     console.log(this.props.hourlydata);
     if (this.props.hourlydata) {
       let data = this.props.hourlydata;
@@ -64,16 +65,7 @@ class HourlyTimeline extends Component {
             <li>
               <button onClick={this.previous}>{`<`}</button>
             </li>
-            {this.showHourlyComponent().map(each => (
-              <li className="hourly-tag">
-                <HourlyComponent
-                  time={each.time}
-                  weather={each.weather}
-                  temp={each.temp}
-                  daylight={each.daylight}
-                />
-              </li>
-            ))}
+
             <li>
               <button onClick={this.next}>{`>`}</button>
             </li>
