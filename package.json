@@ -1,0 +1,23 @@
+{
+  "name": "react-express",
+  "version": "1.0.0",
+  "description": "First React-express app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix react",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Muhammad Sumeer",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "nodemon": "^1.18.10"
+  }
+}
