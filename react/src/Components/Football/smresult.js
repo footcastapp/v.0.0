@@ -4,13 +4,11 @@ class smresult extends Component {
   state = {};
   render() {
     return (
-      <div id="boom">
+      <div>
         {this.props.lol.Matchday.Tue.map((obj, i) => (
-          <div>
-            <p id="result" key={i}>
-              {obj.Home}
-            </p>
-          </div>
+          <p key={i} className="res">
+            {obj.Home + " " + obj.Score + " " + obj.Away}
+          </p>
         ))}
       </div>
     );

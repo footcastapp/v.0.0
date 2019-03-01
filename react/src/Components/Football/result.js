@@ -21,18 +21,22 @@ class result extends Component {
     elements[0].style.display = "block";
   }
   clickk = () => {
-    var g = document.getElementById("result");
-    if (g.style.display === "block") {
-      g.style.display = "none";
+    let g = document.getElementsByClassName("res");
+
+    if (g[0].style.display === "block") {
+      for (let i = 0; i < g.length; i++) {
+        g[i].style.display = "none";
+      }
       let elements = document.getElementsByClassName("divTeam");
       let elements2 = document.getElementsByClassName("divTable");
       let elements3 = document.getElementsByClassName("divFixture");
-
       elements[0].style.display = "block";
       elements2[0].style.display = "block";
       elements3[0].style.display = "block";
     } else {
-      g.style.display = "block";
+      for (let i = 0; i < g.length; i++) {
+        g[i].style.display = "block";
+      }
 
       let elements = document.getElementsByClassName("divFixture");
       let elements2 = document.getElementsByClassName("divTable");

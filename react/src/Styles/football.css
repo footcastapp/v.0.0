@@ -24,8 +24,8 @@
   border-radius: 15px;
   height: 100%;
 }
-#result {
-  height: 350px;
+.res {
+  height: 30px;
   text-align: center;
   display: none;
 }
