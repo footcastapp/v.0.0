@@ -62,7 +62,7 @@ function weekly(line) {
     count++;
   }
   if (line === "Matchday 28") {
-    txt += '[{"' + line + '":{';
+    txt += '[{"Matchday":{';
     start = true;
   }
 }
