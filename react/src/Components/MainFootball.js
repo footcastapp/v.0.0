@@ -6,6 +6,19 @@ import Table from "./Football/table";
 import Team from "./Football/team";
 import "../Styles/football.css";
 class Main extends Component {
+  constructor() {
+    super();
+    this.state = {
+      resultWeek: []
+    };
+  }
+
+  componentDidMount() {
+    fetch("http://localhost:5000/api/week.txt")
+      .then(res => console.log(res))
+
+      .then(result => console.log(result));
+  }
   render() {
     return (
       <div>
