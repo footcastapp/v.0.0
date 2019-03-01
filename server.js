@@ -13,11 +13,11 @@ rl = readline.createInterface({
   terminal: false
 });
 let txt = "";
-let start = false;
-let count = 0;
-let count2 = 0;
-let i = 0;
 function weekly(line) {
+  let start = false;
+  let count = 0;
+  let count2 = 0;
+  let i = 0;
   if (start === true && !(count === 12)) {
     if (line.includes("[")) {
       if (line.substring(1, 11).includes("]")) {
