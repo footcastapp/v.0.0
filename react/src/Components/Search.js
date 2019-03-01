@@ -9,7 +9,7 @@ class Search extends Component {
     };
   }
   componentDidMount() {
-    fetch("http://localhost:5000/api/Clubs.json")
+    fetch("http://localhost:5000/api/PremierLeagueClubs.json")
       .then(res => res.json())
       .then(clubInfo => this.setState({ clubInfo }));
   }

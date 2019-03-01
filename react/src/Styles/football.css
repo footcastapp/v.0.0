@@ -18,6 +18,7 @@
   font-size: 11px;
   text-align: center;
   border: none !important;
+
   width: 100%;
   padding: 0px;
   background-color: rgba(43, 8, 43, 0.651);
@@ -27,20 +28,24 @@
 
 #fixture {
   width: 100%;
-  padding: 50%;
+  padding: 53.5%;
+  display: none;
 }
 
 #result {
   width: 100%;
-  padding: 54%;
+  padding: 53.5%;
+  display: none;
 }
 
 #team {
   width: 100%;
-  padding: 50%;
+  padding: 53.5%;
+  display: none;
 }
 
 #table {
   width: 100%;
-  padding: 50%;
+  padding: 53.5%;
+  display: none;
 }

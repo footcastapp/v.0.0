@@ -14,7 +14,7 @@ class CurrentCity extends Component {
     daylight: "",
     hourlydata: "",
     dailydata: "",
-    apiKey: `i1U3lyVKAAPKyOGjr5OyUYG21xMTNoxj`,
+    apiKey: `ozf3wmtHsujhAkZPjibABY942wvPQCyh`,
     cityKey: ""
   };
   constructor() {
@@ -33,6 +33,10 @@ class CurrentCity extends Component {
         let { city, country } = response;
         that.state.currentcity = city;
         that.state.country = country;
+        // $.getJSON("./data.json", function(data) {
+        //   that.state.hourlydata = data;
+        //   console.log(data);
+        // });
         that.setState({ state: that.state });
         that.refreshTemperature();
       },
@@ -52,7 +56,8 @@ class CurrentCity extends Component {
     ).then(
       function success(response) {
         let { Key } = response[0];
-        that.setState({ cityKey: Key });
+        that.state.cityKey = Key;
+        that.setState({ state: that.state });
         that.refreshCurrentTemp();
       },
 

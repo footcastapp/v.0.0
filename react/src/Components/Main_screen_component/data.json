@@ -1,0 +1,182 @@
+[
+  {
+    "DateTime": "2019-02-26T00:00:00+00:00",
+    "EpochDateTime": 1551139200,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 45,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&lang=en-us",
+    "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&hbhhour=0&lang=en-us"
+  },
+  {
+    "DateTime": "2019-02-26T01:00:00+00:00",
+    "EpochDateTime": 1551142800,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 43,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&lang=en-us",
+    "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&hbhhour=1&lang=en-us"
+  },
+  {
+    "DateTime": "2019-02-26T02:00:00+00:00",
+    "EpochDateTime": 1551146400,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 42,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&lang=en-us",
+    "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&hbhhour=2&lang=en-us"
+  },
+  {
+    "DateTime": "2019-02-26T03:00:00+00:00",
+    "EpochDateTime": 1551150000,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 41,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&lang=en-us",
+    "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&hbhhour=3&lang=en-us"
+  },
+  {
+    "DateTime": "2019-02-26T04:00:00+00:00",
+    "EpochDateTime": 1551153600,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 41,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&lang=en-us",
+    "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&hbhhour=4&lang=en-us"
+  },
+  {
+    "DateTime": "2019-02-26T05:00:00+00:00",
+    "EpochDateTime": 1551157200,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 40,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&lang=en-us",
+    "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&hbhhour=5&lang=en-us"
+  },
+  {
+    "DateTime": "2019-02-26T06:00:00+00:00",
+    "EpochDateTime": 1551160800,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 41,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&lang=en-us",
+    "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&hbhhour=6&lang=en-us"
+  },
+  {
+    "DateTime": "2019-02-26T07:00:00+00:00",
+    "EpochDateTime": 1551164400,
+    "WeatherIcon": 1,
+    "IconPhrase": "Sunny",
+    "IsDaylight": true,
+    "Temperature": {
+      "Value": 42,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&lang=en-us",
+    "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&hbhhour=7&lang=en-us"
+  },
+  {
+    "DateTime": "2019-02-26T08:00:00+00:00",
+    "EpochDateTime": 1551168000,
+    "WeatherIcon": 1,
+    "IconPhrase": "Sunny",
+    "IsDaylight": true,
+    "Temperature": {
+      "Value": 44,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&lang=en-us",
+    "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&hbhhour=8&lang=en-us"
+  },
+  {
+    "DateTime": "2019-02-26T09:00:00+00:00",
+    "EpochDateTime": 1551171600,
+    "WeatherIcon": 1,
+    "IconPhrase": "Sunny",
+    "IsDaylight": true,
+    "Temperature": {
+      "Value": 46,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&lang=en-us",
+    "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&hbhhour=9&lang=en-us"
+  },
+  {
+    "DateTime": "2019-02-26T10:00:00+00:00",
+    "EpochDateTime": 1551175200,
+    "WeatherIcon": 1,
+    "IconPhrase": "Sunny",
+    "IsDaylight": true,
+    "Temperature": {
+      "Value": 49,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&lang=en-us",
+    "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&hbhhour=10&lang=en-us"
+  },
+  {
+    "DateTime": "2019-02-26T11:00:00+00:00",
+    "EpochDateTime": 1551178800,
+    "WeatherIcon": 1,
+    "IconPhrase": "Sunny",
+    "IsDaylight": true,
+    "Temperature": {
+      "Value": 53,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&lang=en-us",
+    "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/hourly-weather-forecast/328328?day=2&hbhhour=11&lang=en-us"
+  }
+]
