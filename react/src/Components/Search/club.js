@@ -2,7 +2,7 @@ import React, { Component } from "react";
 class club extends Component {
   render() {
     return (
-      <a href="#">
+      <a href="/arsenal">
         <div className="ratio">
           <img
             key={this.props.clubInfo.i}

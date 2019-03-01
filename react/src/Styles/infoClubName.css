@@ -25,7 +25,7 @@
 .clubManager{
   width: 414px;
   text-align: left;
-  
+  top: -70px;
   background-color: lawngreen;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -33,7 +33,8 @@
 .clubStadium{
   width: 414px;
   text-align: left;
-  background-color:lawngreen;
+  top: -50px;
+  background-color:red;
   padding-top: 2%;
   padding-bottom: 2%;
 }

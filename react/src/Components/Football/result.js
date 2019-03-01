@@ -1,15 +1,17 @@
 import React, { Component } from "react";
+import SmResault from "./smresult";
 
 class result extends Component {
   render() {
     return (
       <div className="divResult">
         <button className="buttonn" onClick={() => this.clickk()}>
-          <div>
+          <div className="result">
             <h1>Result</h1>
           </div>
-
-          <p id="result">hgfdsxkjcsxckjhgfxa</p>
+          {this.props.result.map((result, index) => (
+            <SmResault lol={result} key={index} i={index} />
+          ))}
         </button>
       </div>
     );
