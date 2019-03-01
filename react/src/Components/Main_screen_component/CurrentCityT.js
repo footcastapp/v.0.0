@@ -4,7 +4,7 @@ import Daily from "./Daily";
 import HourlyTimeline from "./HourlyTimeline";
 import "../../Styles/CurrentCity.css";
 
-class CurrentCity extends Component {
+class CurrentCityT extends Component {
   state = {
     currentcity: "",
     country: "",
@@ -15,7 +15,9 @@ class CurrentCity extends Component {
     hourlydata: "",
     dailydata: "",
     apiKey: `iXgAA686OsaU7jvwEyJPKJEldgAJq8We`,
-    cityKey: ""
+    cityKey: "",
+    hourlyhalf: "",
+    pointer: 0
   };
   constructor() {
     super();
@@ -23,8 +25,6 @@ class CurrentCity extends Component {
     this.refreshCity = this.refreshCity.bind(this);
     this.refreshTemperature = this.refreshTemperature.bind(this);
     this.refreshCurrentTemp = this.refreshCurrentTemp.bind(this);
-  }
-  componentDidMount() {
     this.refreshCity();
   }
   refreshCity() {
@@ -94,8 +94,20 @@ class CurrentCity extends Component {
       }
     });
   }
+  next = () => {
+    console.log("Next");
+    //this.state.pointer = 6;
+    //this.setState({ state: this.state });
+  };
+
+  previous = () => {
+    console.log("Previous");
+    //this.state.pointer = 0;
+    //this.setState({ state: this.state });
+  };
 
   render() {
+    console.log("Main render");
     return (
       <div className="weather-container">
         <InfoComponent
@@ -106,14 +118,20 @@ class CurrentCity extends Component {
           date={this.state.date}
           daylight={this.state.daylight}
         />
-        <HourlyTimeline
-          className="slider padding-10 m-left-right"
-          hourlydata={this.state.hourlydata}
-        />
+        {this.state.hourlydata != "" ? (
+          <HourlyTimeline
+            className="slider padding-10 m-left-right"
+            hourlydata={this.state.hourlydata}
+            onNext={this.next}
+            onPrev={this.previous}
+          />
+        ) : (
+          <p>Loading</p>
+        )}
         <Daily className="padding-10 m-left-right" />
       </div>
     );
   }
 }
 
-export default CurrentCity;
+export default CurrentCityT;
