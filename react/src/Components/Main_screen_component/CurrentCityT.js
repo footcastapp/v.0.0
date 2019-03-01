@@ -94,17 +94,6 @@ class CurrentCityT extends Component {
       }
     });
   }
-  next = () => {
-    console.log("Next");
-    //this.state.pointer = 6;
-    //this.setState({ state: this.state });
-  };
-
-  previous = () => {
-    console.log("Previous");
-    //this.state.pointer = 0;
-    //this.setState({ state: this.state });
-  };
 
   render() {
     console.log("Main render");
