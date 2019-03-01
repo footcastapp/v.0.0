@@ -24,7 +24,7 @@ class Main extends Component {
       <div>
         <PL />
         <p> </p>
-        <Result result={this.state.resultweek} />
+        <Result result={this.state.resultweek} key={0} />
         <p> </p>
         <Fixture />
         <p> </p>

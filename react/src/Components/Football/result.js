@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import SmResault from "./smresult";
 
 class result extends Component {
   render() {
@@ -8,16 +9,9 @@ class result extends Component {
           <div className="result">
             <h1>Result</h1>
           </div>
-          {this.props.result.map((result, i) => {
-            console.log(result.Matchday.Tue);
-            result.Matchday.Tue.map((result, i) => (
-              <div id="boom">
-                <p id="result">{result.home}</p>
-                <p id="result">{result.score}</p>
-                <p id="result">{result.away}</p>
-              </div>
-            ));
-          })}
+          {this.props.result.map((result, index) => (
+            <SmResault lol={result} key={index} i={index} />
+          ))}
         </button>
       </div>
     );
