@@ -24,22 +24,9 @@
   border-radius: 15px;
   height: 100%;
 }
-<<<<<<< HEAD
-
-#fixture {
-  width: 100%;
-  height: 100%;
-  display: none;
-}
-
-#result {
-  width: 100%;
-  padding: 66.5%;
-=======
 #result {
   height: 350px;
   text-align: center;
->>>>>>> 6ff647722f79856648717ed260d05a1ae2b2d505
   display: none;
 }
 

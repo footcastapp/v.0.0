@@ -9,7 +9,7 @@ class result extends Component {
             <h1>Result</h1>
           </div>
 
-          <p>hgfdsxkjcsxckjhgfxa</p>
+          <p id="result">hgfdsxkjcsxckjhgfxa</p>
         </button>
       </div>
     );
