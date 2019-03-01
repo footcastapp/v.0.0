@@ -16,12 +16,33 @@
   color: white;
   font-size: 11px;
   font-size: 11px;
-  text-align: center;
   border: none !important;
+
   width: 100%;
   padding: 0px;
   background-color: rgba(43, 8, 43, 0.651);
+  border-radius: 15px;
+  height: 100%;
 }
-.test {
-  font-size: 30px;
+#result {
+  height: 350px;
+  text-align: center;
+  display: none;
+}
+
+#team {
+  height: 350px;
+  text-align: center;
+  display: none;
+}
+
+#table {
+  height: 350px;
+  text-align: center;
+  display: none;
+}
+#fixture {
+  height: 350px;
+  text-align: center;
+  display: none;
 }
