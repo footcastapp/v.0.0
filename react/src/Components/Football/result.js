@@ -8,8 +8,16 @@ class result extends Component {
           <div className="result">
             <h1>Result</h1>
           </div>
-
-          <p id="result">hgfdsxkjcsxckjhgfxa</p>
+          {this.props.result.map((result, i) => {
+            console.log(result.Matchday.Tue);
+            result.Matchday.Tue.map((result, i) => (
+              <div id="boom">
+                <p id="result">{result.home}</p>
+                <p id="result">{result.score}</p>
+                <p id="result">{result.away}</p>
+              </div>
+            ));
+          })}
         </button>
       </div>
     );

@@ -9,22 +9,22 @@ class Main extends Component {
   constructor() {
     super();
     this.state = {
-      resultWeek: []
+      resultweek: []
     };
   }
 
   componentDidMount() {
-    fetch("http://localhost:5000/api/week.txt")
-      .then(res => console.log(res))
-
-      .then(result => console.log(result));
+    fetch("http://localhost:5000/api/week.json")
+      .then(res => res.json())
+      .then(resultweek => this.setState({ resultweek }));
   }
   render() {
+    console.log(this.state.resultWeek);
     return (
       <div>
         <PL />
         <p> </p>
-        <Result />
+        <Result result={this.state.resultweek} />
         <p> </p>
         <Fixture />
         <p> </p>
