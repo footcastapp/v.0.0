@@ -14,7 +14,7 @@ class Main extends Component {
   }
 
   componentDidMount() {
-    fetch("http://localhost:5000/api/week.json")
+    fetch("http://localhost:5000/api/week.txt")
       .then(res => res.json())
       .then(resultweek => this.setState({ resultweek }));
   }

@@ -26,9 +26,9 @@ function weekly(line) {
         line = line.substring(1, 11);
       }
       if (count2 > 0) {
-        txt += '],"' + line + '":[';
+        txt += '],"b":[';
       } else {
-        txt += '"' + line + '":[';
+        txt += '"a":[';
       }
       count2++;
     } else {
@@ -36,10 +36,10 @@ function weekly(line) {
       arr = arr.filter(function(str) {
         return /\S/.test(str);
       });
-      if (txt[txt.length - 1] === "[") {
-        txt += '{ "Home": "';
-      } else {
+      if (txt[txt.length - 1] === "}") {
         txt += ',{ "Home": "';
+      } else {
+        txt += '{ "Home": "';
       }
       for (i = 0; i < arr.length; i++) {
         if (/\d/.test(arr[i])) {
