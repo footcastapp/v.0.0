@@ -1,6 +1,20 @@
 import React, { Component } from "react";
+import Sum from "../Football info/club";
 
 class team extends Component {
+  constructor() {
+    super();
+    this.state = {
+      info: []
+    };
+  }
+  componentDidMount() {
+    fetch("http://localhost:5000/api/PremierLeagueClubs.json")
+      .then(res => res.json())
+      .then(info => this.setState({ info }));
+  }
+  
+  
   render() {
     return (
       <div>
@@ -8,9 +22,18 @@ class team extends Component {
           <div>
             <h1>Teams</h1>
           </div>
-
-          <p id="team">hgfdsxkjcsxckjhgfxa</p>
-        </button>
+          </button>
+          {this.state.info.map((nigga,index)=>{
+            if (index < 4)
+            return(
+              <p id="team">
+              <Sum key = {index} clubInfo = {nigga} i={index} />
+              </p>
+            )
+              
+            })}
+          
+          
       </div>
     );
   }

@@ -6,15 +6,24 @@ import Trophies from "../Components/Football info/trophies";
 import Manager from "../Components/Football info/manager";
 import Stadium from "../Components/Football info/stadium";
 class mainInfo extends Component {
-  state = {};
+  constructor() {
+    super();
+    this.state = {
+      info: []
+    };
+  }
+  componentDidMount() {
+    fetch("http://localhost:5000/api/PremierLeagueClubs.json")
+      .then(res => res.json())
+      .then(info => this.setState({ info }));
+  }
   render() {
     return (
       <div>
-        
-        <Info/>
-        <Trophies/>
-        <Manager/>
-        <Stadium/>
+        <Info clubName={this.state.info} />
+        <Trophies trophies={this.state.info} />
+        <Manager managerName={this.state.info} />
+        <Stadium stadiumName={this.state.info} />
       </div>
     );
   }
