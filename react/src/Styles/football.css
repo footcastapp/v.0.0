@@ -28,13 +28,13 @@
 
 #fixture {
   width: 100%;
-  padding: 53.5%;
+  height: 100%;
   display: none;
 }
 
 #result {
   width: 100%;
-  padding: 53.5%;
+  padding: 66.5%;
   display: none;
 }
 

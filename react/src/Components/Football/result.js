@@ -5,11 +5,11 @@ class result extends Component {
     return (
       <div className="divResult">
         <button className="buttonn" onClick={() => this.clickk()}>
-          <div>
+          <div className="result">
             <h1>Result</h1>
           </div>
 
-          <p id="result">hgfdsxkjcsxckjhgfxa</p>
+          <p>hgfdsxkjcsxckjhgfxa</p>
         </button>
       </div>
     );
