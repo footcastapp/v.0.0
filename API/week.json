@@ -1,7 +1,7 @@
 [
   {
     "Matchday": {
-      "Tue": [
+      "a": [
         { "Home": "ArsenalFC", "Score": "5-1", "Away": "AFC Bournemouth" },
         {
           "Home": "LeicesterCity",
@@ -16,7 +16,7 @@
         },
         { "Home": "NewcastleUnited", "Score": "2-0", "Away": "Burnley FC" }
       ],
-      "Wed": [
+      "b": [
         {
           "Home": "CrystalPalace",
           "Score": "1-3",
