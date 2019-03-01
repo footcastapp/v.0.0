@@ -19,16 +19,12 @@ class CurrentCity extends Component {
   };
   constructor() {
     super();
-    console.log("Constructor");
     this.refreshCity = this.refreshCity.bind(this);
     this.refreshTemperature = this.refreshTemperature.bind(this);
     this.refreshCurrentTemp = this.refreshCurrentTemp.bind(this);
-  }
-  componentDidMount() {
     this.refreshCity();
   }
   refreshCity() {
-    console.log("Api 1");
     const that = this;
     $.ajax("http://ip-api.com/json").then(
       function success(response) {
@@ -44,7 +40,6 @@ class CurrentCity extends Component {
     );
   }
   refreshTemperature() {
-    console.log("Api 2");
     let that = this;
     $.ajax(
       `http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${
@@ -64,7 +59,6 @@ class CurrentCity extends Component {
   }
 
   refreshCurrentTemp() {
-    console.log("Api 3");
     const that = this;
     let hourlyUrl = `http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/${
       that.state.cityKey
@@ -106,10 +100,14 @@ class CurrentCity extends Component {
           date={this.state.date}
           daylight={this.state.daylight}
         />
-        <HourlyTimeline
-          className="slider padding-10 m-left-right"
-          hourlydata={this.state.hourlydata}
-        />
+        {this.state.hourlydata != "" ? (
+          <HourlyTimeline
+            className="slider padding-10 m-left-right"
+            hourlydata={this.state.hourlydata}
+          />
+        ) : (
+          <p>Loading</p>
+        )}
         <Daily className="padding-10 m-left-right" />
       </div>
     );

@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import CurrentCityT from "./Main_screen_component/CurrentCityT";
+import CurrentCity from "./Main_screen_component/CurrentCity";
 import StadiumInfo from "../Components/Main_screen_component/StadiumInfo";
 class Main extends Component {
   render() {
     return (
       <div className="main-screen">
-        <CurrentCityT id="top-container" className="z-2" />
+        <CurrentCity id="top-container" className="z-2" />
         <StadiumInfo className="z-2" />
       </div>
     );

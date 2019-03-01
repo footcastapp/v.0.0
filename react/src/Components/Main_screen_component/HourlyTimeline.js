@@ -7,7 +7,6 @@ class HourlyTimeline extends Component {
   };
 
   showHourlyComponent = () => {
-    console.log("I am in hourly timeline");
     if (this.props.hourlydata) {
       let data = this.props.hourlydata;
       let a,
@@ -22,9 +21,7 @@ class HourlyTimeline extends Component {
       }
       let Components = [];
       for (let x = a; x < limit; x++) {
-        console.log(x + " : " + limit);
         const each = data[x];
-        console.log(each);
         const date = new Date(each.DateTime);
         let time = date.getHours() + ":00";
         let temperature = Math.round((each.Temperature.Value - 32) * (5 / 9));
@@ -50,7 +47,6 @@ class HourlyTimeline extends Component {
       this.setState({ state: this.state });
     }
   };
-
   previous = () => {
     if (this.state.pointer == 6) {
       console.log("Previous");
@@ -58,17 +54,7 @@ class HourlyTimeline extends Component {
       this.setState({ state: this.state });
     }
   };
-  tst = () => {
-    console.log("I am in method of HourlyTimeline");
-    // const comps = this.showHourlyComponent();
-    //if (comps.length > 0) {
-    //   return comps;
-    //}
-    return <h1>Internet Problem</h1>;
-  };
   render() {
-    console.log("I am in Hourlytimeline render");
-    console.log(this.props.hourlydata);
     return (
       <div className="m-left-right">
         <hr />
