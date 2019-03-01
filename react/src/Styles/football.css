@@ -16,7 +16,6 @@
   color: white;
   font-size: 11px;
   font-size: 11px;
-  text-align: center;
   border: none !important;
 
   width: 100%;
@@ -25,6 +24,7 @@
   border-radius: 15px;
   height: 100%;
 }
+<<<<<<< HEAD
 
 #fixture {
   width: 100%;
@@ -35,17 +35,27 @@
 #result {
   width: 100%;
   padding: 66.5%;
+=======
+#result {
+  height: 350px;
+  text-align: center;
+>>>>>>> 6ff647722f79856648717ed260d05a1ae2b2d505
   display: none;
 }
 
 #team {
-  width: 100%;
-  padding: 53.5%;
+  height: 350px;
+  text-align: center;
   display: none;
 }
 
 #table {
-  width: 100%;
-  padding: 53.5%;
+  height: 350px;
+  text-align: center;
+  display: none;
+}
+#fixture {
+  height: 350px;
+  text-align: center;
   display: none;
 }

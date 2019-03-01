@@ -12,6 +12,7 @@ class SearchBar extends Component {
         -1
       );
     });
+    console.log(this.props.clubInfo);
     return (
       <div id="se">
         <Clubs clubInfo={clubs} />
@@ -20,6 +21,7 @@ class SearchBar extends Component {
           placeholder="Search"
           onChange={this.search.bind(this)}
         />
+        {this.props.clubInfo.Club}
       </div>
     );
   }
