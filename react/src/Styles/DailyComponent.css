@@ -1,5 +1,5 @@
 .daily-component {
-  width: 58px;
+  width: 60px;
   text-align: center;
   overflow: hidden;
   margin: 10px 10px;
@@ -7,5 +7,5 @@
 
 .daily-component img {
   width: 40px;
-  height: 40px;
+  height: 38px;
 }
