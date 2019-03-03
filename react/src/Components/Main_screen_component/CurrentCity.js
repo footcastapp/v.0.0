@@ -14,7 +14,7 @@ class CurrentCity extends Component {
     daylight: "",
     hourlydata: "",
     dailydata: "",
-    apiKey: `iXgAA686OsaU7jvwEyJPKJEldgAJq8We`,
+    apiKey: `ri3Pr657adc91EjNqWr2P2glmifkINNS`,
     cityKey: ""
   };
   constructor() {
@@ -22,6 +22,7 @@ class CurrentCity extends Component {
     this.refreshCity = this.refreshCity.bind(this);
     this.refreshTemperature = this.refreshTemperature.bind(this);
     this.refreshCurrentTemp = this.refreshCurrentTemp.bind(this);
+    this.getDailyTemperature = this.getDailyTemperature.bind(this);
     this.refreshCity();
   }
   refreshCity() {
@@ -84,11 +85,27 @@ class CurrentCity extends Component {
           date.getFullYear();
         that.state.date = value;
         that.state.hourlydata = data;
-        that.setState({ state: that.state });
+        that.getDailyTemperature();
       }
     });
   }
 
+  getDailyTemperature() {
+    const that = this;
+    let dailyUrl = `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${
+      this.state.cityKey
+    }?apikey=${this.state.apiKey}`;
+    $.ajax({
+      url: dailyUrl,
+      async: false,
+      dataType: "json",
+      success: function(data) {
+        const dailyData = data.DailyForecasts;
+        that.state.dailydata = dailyData;
+        that.setState({ state: that.state });
+      }
+    });
+  }
   render() {
     return (
       <div className="weather-container">
@@ -106,9 +123,16 @@ class CurrentCity extends Component {
             hourlydata={this.state.hourlydata}
           />
         ) : (
-          <p>Loading</p>
+          <p />
         )}
-        <Daily className="padding-10 m-left-right" />
+        {this.state.dailydata != "" ? (
+          <Daily
+            className="padding-10 m-left-right"
+            dailydata={this.state.dailydata}
+          />
+        ) : (
+          <span />
+        )}
       </div>
     );
   }
