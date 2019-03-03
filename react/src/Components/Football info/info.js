@@ -9,11 +9,11 @@ class info extends Component {
       </div>
     );
   }
-  /*getClub(){
+  getClub(){
     this.props.clubName.Map((obj,index)=>{
       
     });
-  }*/
+  }
 }
 
 export default info;
