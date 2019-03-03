@@ -23,7 +23,7 @@ class App extends Component {
             <Route path="/" component={Main} exact />
             <Route path="/search" component={Search} />
             <Route path="/football" component={Football} />
-            <Route path="/club" component={Club} />
+            <Route path="/club/:Club" component={Club} />
             <Route component={Error} />
           </Switch>
         </div>

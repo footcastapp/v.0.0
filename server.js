@@ -28,8 +28,8 @@ rl = readline.createInterface({
   terminal: false
 });
 rl.on("line", line => {
-  weekly(line, fixture);
-  weekly(line, weekAPI);
+  read(line, fixture);
+  read(line, weekAPI);
 });
 rl.on("close", () => {
   weekAPI.txt += "]}}]";
@@ -37,7 +37,7 @@ rl.on("close", () => {
   wStreamWeek.write(weekAPI.txt);
   wStreamFixture.write(fixture.txt);
 });
-function weekly(line, week) {
+function read(line, week) {
   if (week.txt.includes("Matchday") && week.count[0] < 12) {
     if (line.includes("[")) {
       if (line.substring(1, 11).includes("]")) {

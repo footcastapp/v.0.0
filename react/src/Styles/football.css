@@ -25,13 +25,13 @@
   height: 100%;
 }
 .res {
-  height: 30px;
+  margin-top: 30px;
   text-align: center;
   display: none;
 }
 
-#team {
-  height: 350px;
+.team {
+  margin-top: 20px;
   text-align: center;
   display: none;
 }
