@@ -5,7 +5,7 @@ class Clubs extends Component {
   render() {
     if (this.props.clubInfo) {
       return (
-        <div>
+        <div className = "mainDiv">
           {this.props.clubInfo.map((clubInfo, index) => (
             <Club key={index} clubInfo={clubInfo} i={index} />
           ))}
