@@ -1,5 +1,5 @@
 .container {
-  background: rgba(43, 8, 43, 0.9);
+  background: rgba(14, 28, 73, 0.5);
   overflow: hidden;
   color: white;
   z-index: 2;
@@ -23,10 +23,10 @@
 }
 #icon {
   position: absolute;
-  left: 250px;
-  bottom: 110px;
-  width: 90px;
-  height: 80px;
+  left: 220px;
+  bottom: 80px;
+  width: 120px;
+  height: 120px;
 }
 .container::before {
   content: " ";
