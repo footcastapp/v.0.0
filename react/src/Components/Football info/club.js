@@ -4,7 +4,12 @@ class club extends Component {
     console.log(this.props.club.Club);
     return (
       <div className="ratio">
-        <p key={this.props.i}>{this.props.club.Club}</p>
+        <p className ="clubHead" key={this.props.i}>{this.props.club.Club}</p>
+        <img 
+            
+            src={"http://localhost:5000" + this.props.club.img}
+            alt={this.props.club.Club}
+          />
       </div>
     );
   }

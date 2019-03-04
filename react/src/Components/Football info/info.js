@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Club from "./club";
+import Club from "./club2";
 class info extends Component {
   state = {};
   render() {
