@@ -1,5 +1,5 @@
 .clubHead {
-  background-color: orange;
+  background-image: radial-gradient(red,orange);
   text-align: center;
   width: 414px;
 
@@ -14,7 +14,8 @@
   width: 414px;
   /*height: 5px;*/
   top: -90px;
-  background-color: white;
+  background-image: linear-gradient(to bottom right,rgba(190, 144, 212, 1),
+  rgba(255, 255, 255, 1),violet);
   padding-bottom: 35%;
   padding-top: 5%;
   text-align: center;
@@ -26,7 +27,8 @@
   width: 414px;
   text-align: left;
   top: -70px;
-  background-color: lawngreen;
+  background-image: linear-gradient(to bottom right,green,
+  red);
   padding-top: 2%;
   padding-bottom: 2%;
 }
