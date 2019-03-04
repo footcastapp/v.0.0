@@ -1,43 +1,43 @@
-input[type="search"] {
-  width: 414px;
-  height: 50px;
-  text-align: left;
-  position: fixed;
-  top: 0;
-  font-size: 20px;
-  padding: 20px 10px;
+input[type='search'] {
+	width: 414px;
+	height: 50px;
+	text-align: left;
+	position: fixed;
+	top: 0;
+	font-size: 20px;
+	padding: 20px 10px;
 }
-div {
-  top: 0;
-  position: relative;
-  top: -3px;
+.mainDiv {
+	top: 0;
+	position: relative;
+	top: -3px;
 }
-img {
-  height: 10%;
-  width: 10%;
-  padding-top: 10px;
+.clubImg {
+	height: 10%;
+	width: 10%;
+	padding-top: 10px;
 }
-label {
-  position: relative;
-  text-decoration: none;
-  cursor: pointer;
-  margin-left: 20px;
-  top: -10px;
+.mainLab {
+	position: relative;
+	text-decoration: none;
+	cursor: pointer;
+	margin-left: 20px;
+	top: -10px;
 }
 .ratio {
-  padding: 10px;
-  text-decoration: none;
-  color: black;
-  overflow: hidden;
-  background-color: rgba(30, 10, 40, 0.5);
-  color: white;
-  margin: 0px 10px 10px 10px;
-  border-radius: 10px;
-  line-height: 20px;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	overflow: hidden;
+	background-color: rgba(30, 10, 40, 0.5);
+	color: white;
+	margin: 0px 10px 10px 10px;
+	border-radius: 10px;
+	line-height: 20px;
 }
-a {
-  text-decoration: none;
+.link {
+	text-decoration: none;
 }
-label#stad {
-  margin-left: 0;
+.mainLab#stad {
+	margin-left: 0;
 }

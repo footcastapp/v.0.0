@@ -13,7 +13,7 @@ class SearchBar extends Component {
       );
     });
     return (
-      <div id="se">
+      <div className="mainDiv">
         <Clubs clubInfo={clubs} />
         <input
           type="search"
