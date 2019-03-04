@@ -6,11 +6,25 @@ class DailyComponent extends Component {
   render() {
     return (
       <div className="daily-component">
-        <p>Mon</p>
-        <img src={sunny} alt="l" />
-        <p>9-11ºC </p>
+        <p>{this.props.day}</p>
+        <img src={this.decidePhoto(true, this.props.weather)} alt="l" />
+        <p>
+          {this.props.min}-{this.props.max}ºC{" "}
+        </p>
       </div>
     );
+  }
+  decidePhoto(value, weather) {
+    let src = "../Images/";
+    if (value === true && weather == "Clear") {
+      src += "sunny.png";
+    } else if (value === false && weather == "Clear") {
+      src += "moon.png";
+    } else {
+      src += weather + ".png";
+    }
+    src = src.toString();
+    return src;
   }
 }
 

@@ -6,21 +6,7 @@ class HourlyTimeline extends Component {
     pointer: 0
   };
 
-  next = () => {
-    console.log("Next");
-    this.state.pointer = 6;
-    this.setState({ state: this.state });
-  };
-
-  previous = () => {
-    console.log("Previous");
-    this.state.pointer = 0;
-    this.setState({ state: this.state });
-  };
-
   showHourlyComponent = () => {
-    console.log("I am in hourly timeline");
-    console.log(this.props.hourlydata);
     if (this.props.hourlydata) {
       let data = this.props.hourlydata;
       let a,
@@ -35,11 +21,9 @@ class HourlyTimeline extends Component {
       }
       let Components = [];
       for (let x = a; x < limit; x++) {
-        console.log(x + " : " + limit);
         const each = data[x];
-        console.log(each);
         const date = new Date(each.DateTime);
-        let time = date.getHours() + ":" + date.getMinutes();
+        let time = date.getHours() + ":00";
         let temperature = Math.round((each.Temperature.Value - 32) * (5 / 9));
         let daylight = each.IsDayLight;
         let obj = {
@@ -55,6 +39,21 @@ class HourlyTimeline extends Component {
       return Components;
     }
   };
+
+  next = () => {
+    if (this.state.pointer == 0) {
+      console.log("Next");
+      this.state.pointer = 6;
+      this.setState({ state: this.state });
+    }
+  };
+  previous = () => {
+    if (this.state.pointer == 6) {
+      console.log("Previous");
+      this.state.pointer = 0;
+      this.setState({ state: this.state });
+    }
+  };
   render() {
     return (
       <div className="m-left-right">
@@ -65,7 +64,16 @@ class HourlyTimeline extends Component {
             <li>
               <button onClick={this.previous}>{`<`}</button>
             </li>
-
+            {this.showHourlyComponent().map(each => (
+              <li className="hourly-tag">
+                <HourlyComponent
+                  time={each.time}
+                  weather={each.weather}
+                  temp={each.temp}
+                  daylight={each.daylight}
+                />
+              </li>
+            ))}
             <li>
               <button onClick={this.next}>{`>`}</button>
             </li>
@@ -78,14 +86,19 @@ class HourlyTimeline extends Component {
 }
 
 export default HourlyTimeline;
-/*{this.showHourlyComponent().map(each => (
-  <li className="hourly-tag">
-    <HourlyComponent
-      time={each.time}
-      weather={each.weather}
-      temp={each.temp}
-      daylight={each.daylight}
-    />
-  </li>
-))}
-*/
+/*
+{this.props.hourlydata != null ? (
+              this.props.hourlydata.map(each => (
+                <li className="hourly-tag">
+                  <HourlyComponent
+                    time={each.DateTime}
+                    weather={each.weather}
+                    temp={each.temp}
+                    daylight={each.daylight}
+                  />
+                </li>
+              ))
+            ) : (
+              <li>Internet problem</li>
+            )}
+ */

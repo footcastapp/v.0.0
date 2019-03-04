@@ -2,77 +2,89 @@ const express = require("express");
 const cors = require("cors");
 const fs = require("fs");
 const readline = require("readline");
+
 const rstream = fs.createReadStream(
   __dirname + "/API/1-premierleague.txt",
   "utf8"
 );
+let weekAPI = {
+  txt: "",
+  count: [0, 0],
+  name: "Matchday 28"
+};
+let fixture = {
+  txt: "",
+  count: [0, 0],
+  name: "Matchday 29"
+};
 
-const wstream = fs.createWriteStream(__dirname + "/API/week.txt", "utf8");
+const wStreamWeek = fs.createWriteStream(__dirname + "/API/week.txt", "utf8");
+const wStreamFixture = fs.createWriteStream(
+  __dirname + "/API/fixture.txt",
+  "utf8"
+);
 rl = readline.createInterface({
   input: rstream,
   terminal: false
 });
-let txt = "";
-let start = false;
-let count = 0;
-let count2 = 0;
-let i = 0;
-function weekly(line) {
-  if (start === true && !(count === 12)) {
+rl.on("line", line => {
+  read(line, fixture);
+  read(line, weekAPI);
+});
+rl.on("close", () => {
+  weekAPI.txt += "]}}]";
+  fixture.txt += "]}}]";
+  wStreamWeek.write(weekAPI.txt);
+  wStreamFixture.write(fixture.txt);
+});
+function read(line, week) {
+  if (week.txt.includes("Matchday") && week.count[0] < 12) {
     if (line.includes("[")) {
       if (line.substring(1, 11).includes("]")) {
         line = line.substring(1, 10);
       } else {
         line = line.substring(1, 11);
       }
-      if (count2 > 0) {
-        txt += '],"' + line + '":[';
+      if (week.count[1] > 0) {
+        week.txt += '],"b":[';
       } else {
-        txt += '"' + line + '":[';
+        week.txt += '"a":[';
       }
-      count2++;
+      week.count[1]++;
     } else {
       let arr = line.split(" ");
       arr = arr.filter(function(str) {
         return /\S/.test(str);
       });
-      if (txt[txt.length - 1] === "[") {
-        txt += '{ "Home": "';
+      if (week.txt[week.txt.length - 1] === "}") {
+        week.txt += ',{ "Home": "';
       } else {
-        txt += ',{ "Home": "';
+        week.txt += '{ "Home": "';
       }
       for (i = 0; i < arr.length; i++) {
-        if (/\d/.test(arr[i])) {
+        if (/\d/.test(arr[i]) || arr[i].includes("-")) {
           break;
         } else {
-          txt += arr[i];
+          week.txt += arr[i];
         }
       }
-      txt += '", "Score": "' + arr[i] + '", "Away": "';
+      week.txt += '", "Score": "' + arr[i] + '", "Away": "';
       i++;
       for (; i < arr.length; i++) {
         if (i == arr.length - 1) {
-          txt += arr[i];
+          week.txt += arr[i];
         } else {
-          txt += arr[i] + " ";
+          week.txt += arr[i];
         }
       }
-      txt += '"}';
+      week.txt += '"}';
     }
-    count++;
-  }
-  if (line === "Matchday 28") {
-    txt += '[{"Matchday":{';
-    start = true;
+    week.count[0]++;
+  } else if (line === week.name) {
+    week.txt += '[{"Matchday":{';
   }
 }
-rl.on("line", line => {
-  weekly(line);
-});
-rl.on("close", () => {
-  txt += "]}}]";
-  wstream.write(txt);
-});
+
 const app = express();
 app.use(cors());
 

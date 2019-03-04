@@ -18,9 +18,10 @@ class mainInfo extends Component {
       .then(info => this.setState({ info }));
   }
   render() {
+    console.log(this.props.match.params.Club);
     return (
       <div>
-        <Info clubName={this.state.info} />
+        <Info clubName={this.state.info} club={this.props.match.params.Club} />
         <Trophies trophies={this.state.info} />
         <Manager managerName={this.state.info} />
         <Stadium stadiumName={this.state.info} />

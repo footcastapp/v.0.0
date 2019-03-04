@@ -1,682 +1,682 @@
 [
-  {
-    "Club": "Arsenal",
-    "Stadium": {
-      "Name": "Emirates",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos/Arsenal.png",
-    "History": {
-      "Establishment": "1886",
-      "Manager": {
-        "FullName": "Unai Emery",
-        "Nationality": "Spain",
-        "DOB": "03/11/1971",
-        "Img": ""
-      },
-      "Trophies": {
-        "PremierLeague": {
-          "Won": 3,
-          "Img": ""
-        },
-        "FA": {
-          "Won": 13,
-          "Img": ""
-        },
-        "FACommunityShield": {
-          "Won": 15,
-          "Img": ""
-        }
-      }
-    }
-  },
-  {
-    "Club": "Bournemouth",
-    "Stadium": {
-      "Name": "Dean Court",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos/AFC_Bournemouth.png",
-    "History": {
-      "Establishment": "1899",
-      "Manager": [
-        {
-          "FullName": "Eddie Howe",
-          "Nationality": "England",
-          "DOB": "29/11/1977",
-          "Img": ""
-        }
-      ],
-      "Trophies": {
-        "EFLChampionship": {
-          "Won": 1,
-          "img": ""
-        }
-      }
-    }
-  },
-  {
-    "Club": "Brighton and Hove Albion",
-    "Stadium": {
-      "Name": "Falmer",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos/Brighton.png",
-    "History": {
-      "Establishment": "1901",
-      "Manager": [
-        {
-          "FullName": "Chris Hughton",
-          "Nationality": "Ireland",
-          "DOB": "11/12/1958",
-          "Img": ""
-        }
-      ],
-      "Trophies": {
-        "EFLChampionship": {
-          "Won": 1,
-          "img": ""
-        }
-      }
-    }
-  },
-  {
-    "Club": "Burnley",
-    "Stadium": {
-      "Name": "Turf Moor",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//Burnley.png",
-    "History": {
-      "Establishment": "1882",
-      "Manager": {
-        "FullName": "Sean Dyche",
-        "Nationality": "England",
-        "DOB": "28/06/1971",
-        "Img": ""
-      },
-      "Trophies": {
-        "PremierLeague": {
-          "Won": 2,
-          "Img": ""
-        },
-        "FA": {
-          "Won": 1,
-          "Img": ""
-        },
-        "FACommunityShield": {
-          "Won": 2,
-          "Img": ""
-        }
-      }
-    }
-  },
-  {
-    "Club": "Cardiff City",
-    "Stadium": {
-      "Name": "Cardiff City",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//Cardiff.png",
-    "History": {
-      "Establishment": "1899",
-      "Manager": {
-        "FullName": "Neil Warnock",
-        "Nationality": "England",
-        "DOB": "01/12/1948",
-        "Img": ""
-      },
-      "Trophies": {
-        "PremierLeague": {
-          "Won": 1,
-          "Img": ""
-        },
-        "EFLChampionship": {
-          "Won": 1,
-          "Img": ""
-        },
-        "Fa": {
-          "Won": 1,
-          "Img": ""
-        },
-        "FaCommunityShield": {
-          "Won": 1,
-          "Img": ""
-        }
-      }
-    }
-  },
-  {
-    "Club": "Chelsea",
-    "Stadium": {
-      "Name": "Emirates",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//Chelsea.png",
-    "History": {
-      "Establishment": "1905",
-      "Manager": {
-        "FullName": "Maurizio Sarri",
-        "Nationality": "Italy",
-        "DOB": "10/01/1959",
-        "Img": ""
-      },
-      "Trophies": {
-        "PremierLeague": {
-          "Won": 5,
-          "Img": ""
-        },
-        "Fa": {
-          "Won": 8,
-          "Img": ""
-        },
-        "FaCommunityShield": {
-          "Won": 4,
-          "Img": ""
-        },
-        "UEFA": {
-          "Champions League": {
-            "Won": 1,
-            "img": ""
-          },
-          "Europa League": {
-            "Won": 1,
-            "img": ""
-          }
-        }
-      }
-    }
-  },
-  {
-    "Club": "Crystal Palace",
-    "Stadium": {
-      "Name": "SelHurst Park",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//CrystalPalace.png",
-    "History": {
-      "Establishment": "1905",
-      "Manager": {
-        "FullName": "Roy Hodgeson",
-        "Nationality": "England",
-        "DOB": "09/08/1947",
-        "Img": ""
-      },
-      "Trophies": {
-        "EFLChampionship": {
-          "Won": 2,
-          "Img": ""
-        }
-      }
-    }
-  },
-  {
-    "Club": "Everton",
-    "Stadium": {
-      "Name": "Goodison Park",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//Everton.png",
-    "History": {
-      "Establishment": "1878",
-      "Manager": {
-        "FullName": "Marco Silva",
-        "Nationality": "Portugal",
-        "DOB": "12/07/1977",
-        "Img": ""
-      },
-      "Trophies": {
-        "Fa": {
-          "Won": 5,
-          "Img": ""
-        },
-        "FaCommunityShield": {
-          "Won": 9,
-          "Img": ""
-        }
-      }
-    }
-  },
-  {
-    "Club": "Fulham",
-    "Stadium": {
-      "Name": "Craven Cottage",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//Fulham.png",
-    "History": {
-      "Establishment": "1882",
-      "Manager": {
-        "FullName": "Sean Dyche",
-        "Nationality": "England",
-        "DOB": "28/06/1971",
-        "Img": ""
-      },
-      "Trophies": {
-        "PremierLeague": {
-          "Won": 2,
-          "Img": ""
-        },
-        "Fa": {
-          "Won": 1,
-          "Img": ""
-        },
-        "FaCommunityShield": {
-          "Won": 2,
-          "Img": ""
-        }
-      }
-    }
-  },
-  {
-    "Club": "Huddersfield Town",
-    "Stadium": {
-      "Name": "Jhon Smith's",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//HuddersField.png",
-    "History": {
-      "Establishment": "1908",
-      "Manager": {
-        "FullName": "Jan Siewart",
-        "Nationality": "German",
-        "DOB": "23/08/1982",
-        "Img": ""
-      },
-      "Trophies": {
-        "PremierLeague": {
-          "Won": 3,
-          "Img": ""
-        },
-        "EFLChampionship": {
-          "Won": 1,
-          "Img": ""
-        },
-        "Fa": {
-          "Won": 1,
-          "Img": ""
-        },
-        "FaCommunityShield": {
-          "Won": 1,
-          "Img": ""
-        }
-      }
-    }
-  },
-  {
-    "Club": "Leicester City",
-    "Stadium": {
-      "Name": "King Power",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//LeicesterCity.png",
-    "History": {
-      "Establishment": "1884",
-      "Manager": {
-        "FullName": "Claude Puel",
-        "Nationality": "France",
-        "DOB": "02/10/1961",
-        "Img": ""
-      },
-      "Trophies": {
-        "PremierLeague": {
-          "Won": 1,
-          "Img": ""
-        },
-        "EFLChampionship": {
-          "Won": 7,
-          "Img": ""
-        },
-        "FaCommunityShield": {
-          "Won": 1,
-          "Img": ""
-        }
-      }
-    }
-  },
-  {
-    "Club": "Liverpool",
-    "Stadium": {
-      "Name": "Anfield",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//Liverpool.png",
-    "History": {
-      "Establishment": "1892",
-      "Manager": {
-        "FullName": "Claude Puel",
-        "Nationality": "France",
-        "DOB": "02/10/1961",
-        "Img": ""
-      },
-      "Trophies": {
-        "PremierLeague": {
-          "Won": 18,
-          "Img": ""
-        },
-        "FA": {
-          "Won": 7,
-          "Img": ""
-        },
-        "FaCommunityShield": {
-          "Won": 15,
-          "Img": ""
-        },
-        "UEFA": {
-          "ChampionsLeague": {
-            "Won": 5,
-            "Img": ""
-          },
-          "UEFACup": {
-            "Won": 3,
-            "Img": ""
-          },
-          "SuperCup": {
-            "Won": 3,
-            "Img": ""
-          }
-        }
-      }
-    }
-  },
-  {
-    "Club": "Manchester City",
-    "Stadium": {
-      "Name": "Etihad",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//ManchesterCity.png",
-    "History": {
-      "Establishment": "1880",
-      "Manager": {
-        "FullName": "Josep Guardiola",
-        "Nationality": "Spain",
-        "DOB": "18/01/1971",
-        "Img": ""
-      },
-      "Trophies": {
-        "PremierLeague": {
-          "Won": 5,
-          "Img": ""
-        },
-        "FA": {
-          "Won": 5,
-          "Img": ""
-        },
-        "FaCommunityShield": {
-          "Won": 5,
-          "Img": ""
-        }
-      }
-    }
-  },
-  {
-    "Club": "Manchester United",
-    "Stadium": {
-      "Name": "Old Trafford",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//ManchesterUnited.png",
-    "History": {
-      "Establishment": "1878",
-      "Manager": {
-        "FullName": "Ole Gunnar Solskjær",
-        "Nationality": "Norway",
-        "DOB": "26/02/1973",
-        "Img": ""
-      },
-      "Trophies": {
-        "PremierLeague": {
-          "Won": 20,
-          "Img": ""
-        },
-        "FA": {
-          "Won": 12,
-          "Img": ""
-        },
-        "FaCommunityShield": {
-          "Won": 21,
-          "Img": ""
-        },
-        "UEFA": {
-          "ChampionsLeague": {
-            "Won": 3,
-            "Img": ""
-          },
-          "Europa League": {
-            "Won": 1,
-            "Img": ""
-          },
-          "Super Cup": {
-            "Won": 1,
-            "Img": ""
-          }
-        },
-        "FIFAClubWorldCup": {
-          "Won": 1,
-          "Img": ""
-        }
-      }
-    }
-  },
-  {
-    "Club": "NewCastle United",
-    "Stadium": {
-      "Name": "St James",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//NewCastleUnited.png",
-    "History": {
-      "Establishment": "1892",
-      "Manager": {
-        "FullName": "Rafael Benítez",
-        "Nationality": "Spain",
-        "DOB": "16/04/1960",
-        "Img": ""
-      },
-      "Trophies": {
-        "PremierLeague": {
-          "Won": 4,
-          "Img": ""
-        },
-        "FA": {
-          "Won": 6,
-          "Img": ""
-        },
-        "FaCommunityShield": {
-          "Won": 1,
-          "Img": ""
-        },
-        "UEFA": {
-          "IntertotoCup": {
-            "Won": 1,
-            "Img": ""
-          }
-        }
-      }
-    }
-  },
-  {
-    "Club": "Southampton",
-    "Stadium": {
-      "Name": "St Mary's",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//Southampton.png",
-    "History": {
-      "Establishment": "1885",
-      "Manager": {
-        "FullName": "Ralph Hasenhüttl",
-        "Nationality": "Austria",
-        "DOB": "09/08/1967",
-        "Img": ""
-      },
-      "Trophies": {
-        "FA": {
-          "Won": 1,
-          "Img": ""
-        }
-      }
-    }
-  },
-  {
-    "Club": "Tottenham Hotspur",
-    "Stadium": {
-      "Name": "Wembley",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//Tottenham.png",
-    "History": {
-      "Establishment": "1882",
-      "Manager": {
-        "FullName": "Mauricio Pochettino",
-        "Nationality": "Argentina",
-        "DOB": "02/03/1972",
-        "Img": ""
-      },
-      "Trophies": {
-        "PremierLeague": {
-          "Won": 2,
-          "Img": ""
-        },
-        "FA": {
-          "Won": 8,
-          "Img": ""
-        },
-        "FaCommunityShield": {
-          "Won": 7,
-          "Img": ""
-        },
-        "UEFA": {
-          "Europa League": {
-            "Won": 1,
-            "Img": ""
-          }
-        }
-      }
-    }
-  },
-  {
-    "Club": "Watfoord",
-    "Stadium": {
-      "Name": "Vicarage Road",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//Watford.png",
-    "History": {
-      "Establishment": "1898",
-      "Manager": {
-        "FullName": "Javier Gracia",
-        "Nationality": "Spain",
-        "DOB": "01/05/1970",
-        "Img": ""
-      },
-      "Trophies": {
-        "EFLChampionship": 1,
-        "Img": ""
-      }
-    }
-  },
-  {
-    "Club": "West Ham United",
-    "Stadium": {
-      "Name": "London",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//WestHam.png",
-    "History": {
-      "Establishment": "1877",
-      "Manager": {
-        "FullName": "Nuno Espírito Santo",
-        "Nationality": "Portugal",
-        "DOB": "25/01/1974",
-        "Img": ""
-      },
-      "Trophies": {
-        "PremierLeague": {
-          "Won": 3,
-          "Img": ""
-        },
-        "FA": {
-          "Won": 4,
-          "Img": ""
-        },
-        "FaCommunityShield": {
-          "Won": 4,
-          "Img": ""
-        }
-      }
-    }
-  },
-  {
-    "Club": "Wolverthampton Wanderers",
-    "Stadium": {
-      "Name": "Molineux",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
-    },
-    "img": "/static/ClubLogos//Wolverthampton.png",
-    "History": {
-      "Establishment": "1880",
-      "Manager": {
-        "FullName": "Josep Guardiola",
-        "Nationality": "Spain",
-        "DOB": "18/101/1971",
-        "Img": ""
-      },
-      "Trophies": {
-        "PremierLeague": {
-          "Won": 5,
-          "Img": ""
-        },
-        "FA": {
-          "Won": 5,
-          "Img": ""
-        },
-        "FaCommunityShield": {
-          "Won": 5,
-          "Img": ""
-        }
-      }
-    }
-  }
+	{
+		"Club": "Arsenal",
+		"Stadium": {
+			"Name": "Emirates",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos/Arsenal.png",
+		"History": {
+			"Establishment": "1886",
+			"Manager": {
+				"FullName": "Unai Emery",
+				"Nationality": "Spain",
+				"DOB": "03/11/1971",
+				"Img": ""
+			},
+			"Trophies": {
+				"PremierLeague": {
+					"Won": 3,
+					"Img": ""
+				},
+				"FA": {
+					"Won": 13,
+					"Img": ""
+				},
+				"FACommunityShield": {
+					"Won": 15,
+					"Img": ""
+				}
+			}
+		}
+	},
+	{
+		"Club": "Bournemouth",
+		"Stadium": {
+			"Name": "Dean Court",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"History": {
+			"Establishment": "1899",
+			"Manager": [
+				{
+					"FullName": "Eddie Howe",
+					"Nationality": "England",
+					"DOB": "29/11/1977",
+					"Img": ""
+				}
+			],
+			"Trophies": {
+				"EFLChampionship": {
+					"Won": 1,
+					"img": ""
+				}
+			}
+		}
+	},
+	{
+		"Club": "Brighton and Hove Albion",
+		"Stadium": {
+			"Name": "Falmer",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos/Brighton.png",
+		"History": {
+			"Establishment": "1901",
+			"Manager": [
+				{
+					"FullName": "Chris Hughton",
+					"Nationality": "Ireland",
+					"DOB": "11/12/1958",
+					"Img": ""
+				}
+			],
+			"Trophies": {
+				"EFLChampionship": {
+					"Won": 1,
+					"img": ""
+				}
+			}
+		}
+	},
+	{
+		"Club": "Burnley",
+		"Stadium": {
+			"Name": "Turf Moor",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//Burnley.png",
+		"History": {
+			"Establishment": "1882",
+			"Manager": {
+				"FullName": "Sean Dyche",
+				"Nationality": "England",
+				"DOB": "28/06/1971",
+				"Img": ""
+			},
+			"Trophies": {
+				"PremierLeague": {
+					"Won": 2,
+					"Img": ""
+				},
+				"FA": {
+					"Won": 1,
+					"Img": ""
+				},
+				"FACommunityShield": {
+					"Won": 2,
+					"Img": ""
+				}
+			}
+		}
+	},
+	{
+		"Club": "Cardiff City",
+		"Stadium": {
+			"Name": "Cardiff City",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//Cardiff.png",
+		"History": {
+			"Establishment": "1899",
+			"Manager": {
+				"FullName": "Neil Warnock",
+				"Nationality": "England",
+				"DOB": "01/12/1948",
+				"Img": ""
+			},
+			"Trophies": {
+				"PremierLeague": {
+					"Won": 1,
+					"Img": ""
+				},
+				"EFLChampionship": {
+					"Won": 1,
+					"Img": ""
+				},
+				"Fa": {
+					"Won": 1,
+					"Img": ""
+				},
+				"FaCommunityShield": {
+					"Won": 1,
+					"Img": ""
+				}
+			}
+		}
+	},
+	{
+		"Club": "Chelsea",
+		"Stadium": {
+			"Name": "Emirates",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//Chelsea.png",
+		"History": {
+			"Establishment": "1905",
+			"Manager": {
+				"FullName": "Maurizio Sarri",
+				"Nationality": "Italy",
+				"DOB": "10/01/1959",
+				"Img": ""
+			},
+			"Trophies": {
+				"PremierLeague": {
+					"Won": 5,
+					"Img": ""
+				},
+				"Fa": {
+					"Won": 8,
+					"Img": ""
+				},
+				"FaCommunityShield": {
+					"Won": 4,
+					"Img": ""
+				},
+				"UEFA": {
+					"Champions League": {
+						"Won": 1,
+						"img": ""
+					},
+					"Europa League": {
+						"Won": 1,
+						"img": ""
+					}
+				}
+			}
+		}
+	},
+	{
+		"Club": "Crystal Palace",
+		"Stadium": {
+			"Name": "SelHurst Park",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//CrystalPalace.png",
+		"History": {
+			"Establishment": "1905",
+			"Manager": {
+				"FullName": "Roy Hodgeson",
+				"Nationality": "England",
+				"DOB": "09/08/1947",
+				"Img": ""
+			},
+			"Trophies": {
+				"EFLChampionship": {
+					"Won": 2,
+					"Img": ""
+				}
+			}
+		}
+	},
+	{
+		"Club": "Everton",
+		"Stadium": {
+			"Name": "Goodison Park",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//Everton.png",
+		"History": {
+			"Establishment": "1878",
+			"Manager": {
+				"FullName": "Marco Silva",
+				"Nationality": "Portugal",
+				"DOB": "12/07/1977",
+				"Img": ""
+			},
+			"Trophies": {
+				"Fa": {
+					"Won": 5,
+					"Img": ""
+				},
+				"FaCommunityShield": {
+					"Won": 9,
+					"Img": ""
+				}
+			}
+		}
+	},
+	{
+		"Club": "Fulham",
+		"Stadium": {
+			"Name": "Craven Cottage",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//Fulham.png",
+		"History": {
+			"Establishment": "1882",
+			"Manager": {
+				"FullName": "Sean Dyche",
+				"Nationality": "England",
+				"DOB": "28/06/1971",
+				"Img": ""
+			},
+			"Trophies": {
+				"PremierLeague": {
+					"Won": 2,
+					"Img": ""
+				},
+				"Fa": {
+					"Won": 1,
+					"Img": ""
+				},
+				"FaCommunityShield": {
+					"Won": 2,
+					"Img": ""
+				}
+			}
+		}
+	},
+	{
+		"Club": "Huddersfield Town",
+		"Stadium": {
+			"Name": "Jhon Smith's",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//HuddersField.png",
+		"History": {
+			"Establishment": "1908",
+			"Manager": {
+				"FullName": "Jan Siewart",
+				"Nationality": "German",
+				"DOB": "23/08/1982",
+				"Img": ""
+			},
+			"Trophies": {
+				"PremierLeague": {
+					"Won": 3,
+					"Img": ""
+				},
+				"EFLChampionship": {
+					"Won": 1,
+					"Img": ""
+				},
+				"Fa": {
+					"Won": 1,
+					"Img": ""
+				},
+				"FaCommunityShield": {
+					"Won": 1,
+					"Img": ""
+				}
+			}
+		}
+	},
+	{
+		"Club": "Leicester City",
+		"Stadium": {
+			"Name": "King Power",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//LeicesterCity.png",
+		"History": {
+			"Establishment": "1884",
+			"Manager": {
+				"FullName": "Claude Puel",
+				"Nationality": "France",
+				"DOB": "02/10/1961",
+				"Img": ""
+			},
+			"Trophies": {
+				"PremierLeague": {
+					"Won": 1,
+					"Img": ""
+				},
+				"EFLChampionship": {
+					"Won": 7,
+					"Img": ""
+				},
+				"FaCommunityShield": {
+					"Won": 1,
+					"Img": ""
+				}
+			}
+		}
+	},
+	{
+		"Club": "Liverpool",
+		"Stadium": {
+			"Name": "Anfield",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//Liverpool.png",
+		"History": {
+			"Establishment": "1892",
+			"Manager": {
+				"FullName": "Claude Puel",
+				"Nationality": "France",
+				"DOB": "02/10/1961",
+				"Img": ""
+			},
+			"Trophies": {
+				"PremierLeague": {
+					"Won": 18,
+					"Img": ""
+				},
+				"FA": {
+					"Won": 7,
+					"Img": ""
+				},
+				"FaCommunityShield": {
+					"Won": 15,
+					"Img": ""
+				},
+				"UEFA": {
+					"ChampionsLeague": {
+						"Won": 5,
+						"Img": ""
+					},
+					"UEFACup": {
+						"Won": 3,
+						"Img": ""
+					},
+					"SuperCup": {
+						"Won": 3,
+						"Img": ""
+					}
+				}
+			}
+		}
+	},
+	{
+		"Club": "Manchester City",
+		"Stadium": {
+			"Name": "Etihad",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//ManchesterCity.png",
+		"History": {
+			"Establishment": "1880",
+			"Manager": {
+				"FullName": "Josep Guardiola",
+				"Nationality": "Spain",
+				"DOB": "18/01/1971",
+				"Img": ""
+			},
+			"Trophies": {
+				"PremierLeague": {
+					"Won": 5,
+					"Img": ""
+				},
+				"FA": {
+					"Won": 5,
+					"Img": ""
+				},
+				"FaCommunityShield": {
+					"Won": 5,
+					"Img": ""
+				}
+			}
+		}
+	},
+	{
+		"Club": "Manchester United",
+		"Stadium": {
+			"Name": "Old Trafford",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//ManchesterUnited.png",
+		"History": {
+			"Establishment": "1878",
+			"Manager": {
+				"FullName": "Ole Gunnar Solskjær",
+				"Nationality": "Norway",
+				"DOB": "26/02/1973",
+				"Img": ""
+			},
+			"Trophies": {
+				"PremierLeague": {
+					"Won": 20,
+					"Img": ""
+				},
+				"FA": {
+					"Won": 12,
+					"Img": ""
+				},
+				"FaCommunityShield": {
+					"Won": 21,
+					"Img": ""
+				},
+				"UEFA": {
+					"ChampionsLeague": {
+						"Won": 3,
+						"Img": ""
+					},
+					"Europa League": {
+						"Won": 1,
+						"Img": ""
+					},
+					"Super Cup": {
+						"Won": 1,
+						"Img": ""
+					}
+				},
+				"FIFAClubWorldCup": {
+					"Won": 1,
+					"Img": ""
+				}
+			}
+		}
+	},
+	{
+		"Club": "NewCastle United",
+		"Stadium": {
+			"Name": "St James",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//NewCastleUnited.png",
+		"History": {
+			"Establishment": "1892",
+			"Manager": {
+				"FullName": "Rafael Benítez",
+				"Nationality": "Spain",
+				"DOB": "16/04/1960",
+				"Img": ""
+			},
+			"Trophies": {
+				"PremierLeague": {
+					"Won": 4,
+					"Img": ""
+				},
+				"FA": {
+					"Won": 6,
+					"Img": ""
+				},
+				"FaCommunityShield": {
+					"Won": 1,
+					"Img": ""
+				},
+				"UEFA": {
+					"IntertotoCup": {
+						"Won": 1,
+						"Img": ""
+					}
+				}
+			}
+		}
+	},
+	{
+		"Club": "Southampton",
+		"Stadium": {
+			"Name": "St Mary's",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//Southampton.png",
+		"History": {
+			"Establishment": "1885",
+			"Manager": {
+				"FullName": "Ralph Hasenhüttl",
+				"Nationality": "Austria",
+				"DOB": "09/08/1967",
+				"Img": ""
+			},
+			"Trophies": {
+				"FA": {
+					"Won": 1,
+					"Img": ""
+				}
+			}
+		}
+	},
+	{
+		"Club": "Tottenham Hotspur",
+		"Stadium": {
+			"Name": "Wembley",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//Tottenham.png",
+		"History": {
+			"Establishment": "1882",
+			"Manager": {
+				"FullName": "Mauricio Pochettino",
+				"Nationality": "Argentina",
+				"DOB": "02/03/1972",
+				"Img": ""
+			},
+			"Trophies": {
+				"PremierLeague": {
+					"Won": 2,
+					"Img": ""
+				},
+				"FA": {
+					"Won": 8,
+					"Img": ""
+				},
+				"FaCommunityShield": {
+					"Won": 7,
+					"Img": ""
+				},
+				"UEFA": {
+					"Europa League": {
+						"Won": 1,
+						"Img": ""
+					}
+				}
+			}
+		}
+	},
+	{
+		"Club": "Watford",
+		"Stadium": {
+			"Name": "Vicarage Road",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//Watford.png",
+		"History": {
+			"Establishment": "1898",
+			"Manager": {
+				"FullName": "Javier Gracia",
+				"Nationality": "Spain",
+				"DOB": "01/05/1970",
+				"Img": ""
+			},
+			"Trophies": {
+				"EFLChampionship": 1,
+				"Img": ""
+			}
+		}
+	},
+	{
+		"Club": "West Ham United",
+		"Stadium": {
+			"Name": "London",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//WestHam.png",
+		"History": {
+			"Establishment": "1877",
+			"Manager": {
+				"FullName": "Nuno Espírito Santo",
+				"Nationality": "Portugal",
+				"DOB": "25/01/1974",
+				"Img": ""
+			},
+			"Trophies": {
+				"PremierLeague": {
+					"Won": 3,
+					"Img": ""
+				},
+				"FA": {
+					"Won": 4,
+					"Img": ""
+				},
+				"FaCommunityShield": {
+					"Won": 4,
+					"Img": ""
+				}
+			}
+		}
+	},
+	{
+		"Club": "Wolverthampton Wanderers",
+		"Stadium": {
+			"Name": "Molineux",
+			"Capacity": "",
+			"Location": "",
+			"Establishment": ""
+		},
+		"img": "/static/ClubLogos//Wolverthampton.png",
+		"History": {
+			"Establishment": "1880",
+			"Manager": {
+				"FullName": "Josep Guardiola",
+				"Nationality": "Spain",
+				"DOB": "18/101/1971",
+				"Img": ""
+			},
+			"Trophies": {
+				"PremierLeague": {
+					"Won": 5,
+					"Img": ""
+				},
+				"FA": {
+					"Won": 5,
+					"Img": ""
+				},
+				"FaCommunityShield": {
+					"Won": 5,
+					"Img": ""
+				}
+			}
+		}
+	}
 ]

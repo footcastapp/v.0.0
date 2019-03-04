@@ -24,14 +24,14 @@
   border-radius: 15px;
   height: 100%;
 }
-#result {
-  height: 350px;
+.res {
+  margin-top: 30px;
   text-align: center;
   display: none;
 }
 
-#team {
-  height: 350px;
+.team {
+  margin-top: 20px;
   text-align: center;
   display: none;
 }
