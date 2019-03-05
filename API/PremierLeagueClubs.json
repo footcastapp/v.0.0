@@ -19,12 +19,12 @@
 				{
 					"exists": true,
 					"name": "PremierLeague",
-					"won": 3
+					"won": 13
 				},
 				{
-					"exists": true,
+					"exists": false,
 					"name": "EFLChampionship",
-					"won": 1
+					"won": 0
 				},
 				{
 					"exists": true,
@@ -36,7 +36,11 @@
 					"name": "FACommunityShield",
 					"won": 15
 				},
-				{}
+				{
+					"exists": false,
+					"name": "ChampionsLeague",
+					"won": 0
+				}
 			]
 		}
 	},
@@ -77,6 +81,11 @@
 					"exists": false,
 					"name": "FACommunityShield",
 					"won": 0
+				},
+				{
+					"exists": false,
+					"name": "ChampionsLeague",
+					"won": 0
 				}
 			]
 		}
@@ -97,30 +106,33 @@
 				"Nationality": "Ireland",
 				"DOB": "11/12/1958"
 			},
-			"Trophies": {
-				"Trophies": [
-					{
-						"exists": false,
-						"name": "PremierLeague",
-						"won": 0
-					},
-					{
-						"exists": false,
-						"name": "EFLChampionship",
-						"won": 1
-					},
-					{
-						"exists": false,
-						"name": "FA",
-						"won": 0
-					},
-					{
-						"exists": false,
-						"name": "FACommunityShield",
-						"won": 0
-					}
-				]
-			}
+			"Trophies": [
+				{
+					"exists": false,
+					"name": "PremierLeague",
+					"won": 0
+				},
+				{
+					"exists": true,
+					"name": "EFLChampionship",
+					"won": 1
+				},
+				{
+					"exists": false,
+					"name": "FA",
+					"won": 0
+				},
+				{
+					"exists": true,
+					"name": "FACommunityShield",
+					"won": 1
+				},
+				{
+					"exists": false,
+					"name": "ChampionsLeague",
+					"won": 0
+				}
+			]
 		}
 	},
 	{
@@ -146,9 +158,9 @@
 					"won": 2
 				},
 				{
-					"exists": false,
+					"exists": true,
 					"name": "EFLChampionship",
-					"won": 0
+					"won": 3
 				},
 				{
 					"exists": true,
@@ -159,6 +171,11 @@
 					"exists": true,
 					"name": "FACommunityShield",
 					"won": 2
+				},
+				{
+					"exists": false,
+					"name": "ChampionsLeague",
+					"won": 0
 				}
 			]
 		}
@@ -182,9 +199,9 @@
 			},
 			"Trophies": [
 				{
-					"exists": true,
+					"exists": false,
 					"name": "PremierLeague",
-					"won": 1
+					"won": 0
 				},
 				{
 					"exists": true,
@@ -200,6 +217,11 @@
 					"exists": true,
 					"name": "FACommunityShield",
 					"won": 1
+				},
+				{
+					"exists": false,
+					"name": "ChampionsLeague",
+					"won": 0
 				}
 			]
 		}
@@ -225,12 +247,12 @@
 				{
 					"exists": true,
 					"name": "PremierLeague",
-					"won": 5
+					"won": 6
 				},
 				{
-					"exists": false,
+					"exists": true,
 					"name": "EFLChampionship",
-					"won": 0
+					"won": 2
 				},
 				{
 					"exists": true,
@@ -241,6 +263,11 @@
 					"exists": true,
 					"name": "FACommunityShield",
 					"won": 4
+				},
+				{
+					"exists": false,
+					"name": "ChampionsLeague",
+					"won": 1
 				}
 			]
 		}
@@ -305,14 +332,14 @@
 			},
 			"Trophies": [
 				{
-					"exists": false,
+					"exists": true,
 					"name": "PremierLeague",
-					"won": 0
+					"won": 9
 				},
 				{
-					"exists": false,
+					"exists": true,
 					"name": "EFLChampionship",
-					"won": 0
+					"won": 1
 				},
 				{
 					"exists": true,
@@ -323,6 +350,11 @@
 					"exists": true,
 					"name": "FACommunityShield",
 					"won": 9
+				},
+				{
+					"exists": false,
+					"name": "ChampionsLeague",
+					"won": 0
 				}
 			]
 		}
@@ -348,22 +380,27 @@
 				{
 					"exists": true,
 					"name": "PremierLeague",
-					"won": 2
+					"won": 1
 				},
 				{
 					"exists": false,
 					"name": "EFLChampionship",
-					"won": 0
+					"won": 4
 				},
 				{
-					"exists": true,
+					"exists": false,
 					"name": "FA",
-					"won": 1
+					"won": 0
 				},
 				{
 					"exists": true,
 					"name": "FACommunityShield",
 					"won": 2
+				},
+				{
+					"exists": false,
+					"name": "ChampionsLeague",
+					"won": 0
 				}
 			]
 		}
@@ -405,6 +442,11 @@
 					"exists": true,
 					"name": "FACommunityShield",
 					"won": 1
+				},
+				{
+					"exists": false,
+					"name": "ChampionsLeague",
+					"won": 0
 				}
 			]
 		}
@@ -446,6 +488,11 @@
 					"exists": true,
 					"name": "FACommunityShield",
 					"won": 1
+				},
+				{
+					"exists": false,
+					"name": "ChampionsLeague",
+					"won": 0
 				}
 			]
 		}
@@ -475,9 +522,9 @@
 						"won": 18
 					},
 					{
-						"exists": false,
+						"exists": true,
 						"name": "EFLChampionship",
-						"won": 0
+						"won": 4
 					},
 					{
 						"exists": true,
@@ -488,6 +535,11 @@
 						"exists": true,
 						"name": "FACommunityShield",
 						"won": 15
+					},
+					{
+						"exists": true,
+						"name": "ChampionsLeague",
+						"won": 5
 					}
 				]
 			}
@@ -519,7 +571,7 @@
 				{
 					"exists": false,
 					"name": "EFLChampionship",
-					"won": 0
+					"won": 7
 				},
 				{
 					"exists": true,
@@ -530,6 +582,11 @@
 					"exists": true,
 					"name": "FACommunityShield",
 					"won": 5
+				},
+				{
+					"exists": false,
+					"name": "ChampionsLeague",
+					"won": 0
 				}
 			]
 		}
@@ -558,9 +615,9 @@
 					"won": 20
 				},
 				{
-					"exists": false,
+					"exists": true,
 					"name": "EFLChampionship",
-					"won": 0
+					"won": 2
 				},
 				{
 					"exists": true,
@@ -571,6 +628,11 @@
 					"exists": true,
 					"name": "FACommunityShield",
 					"won": 21
+				},
+				{
+					"exists": false,
+					"name": "ChampionsLeague",
+					"won": 3
 				}
 			]
 		}
@@ -600,9 +662,9 @@
 						"won": 4
 					},
 					{
-						"exists": false,
+						"exists": true,
 						"name": "EFLChampionship",
-						"won": 0
+						"won": 4
 					},
 					{
 						"exists": true,
@@ -613,6 +675,11 @@
 						"exists": true,
 						"name": "FACommunityShield",
 						"won": 1
+					},
+					{
+						"exists": false,
+						"name": "ChampionsLeague",
+						"won": 0
 					}
 				]
 			}
@@ -638,9 +705,9 @@
 			"Trophies": {
 				"Trophies": [
 					{
-						"exists": false,
+						"exists": true,
 						"name": "PremierLeague",
-						"won": 0
+						"won": 1
 					},
 					{
 						"exists": false,
@@ -655,6 +722,11 @@
 					{
 						"exists": false,
 						"name": "FACommunityShield",
+						"won": 0
+					},
+					{
+						"exists": false,
+						"name": "ChampionsLeague",
 						"won": 0
 					}
 				]
@@ -685,9 +757,9 @@
 					"won": 2
 				},
 				{
-					"exists": false,
+					"exists": true,
 					"name": "EFLChampionship",
-					"won": 0
+					"won": 2
 				},
 				{
 					"exists": true,
@@ -698,6 +770,11 @@
 					"exists": true,
 					"name": "FACommunityShield",
 					"won": 7
+				},
+				{
+					"exists": false,
+					"name": "ChampionsLeague",
+					"won": 0
 				}
 			]
 		}
@@ -721,9 +798,9 @@
 			},
 			"Trophies": [
 				{
-					"exists": false,
+					"exists": true,
 					"name": "PremierLeague",
-					"won": 0
+					"won": 1
 				},
 				{
 					"exists": true,
@@ -738,6 +815,11 @@
 				{
 					"exists": false,
 					"name": "FACommunityShield",
+					"won": 0
+				},
+				{
+					"exists": false,
+					"name": "ChampionsLeague",
 					"won": 0
 				}
 			]
@@ -763,24 +845,29 @@
 			"Trophies": {
 				"Trophies": [
 					{
-						"exists": true,
-						"name": "PremierLeague",
-						"won": 3
-					},
-					{
 						"exists": false,
-						"name": "EFLChampionship",
+						"name": "PremierLeague",
 						"won": 0
 					},
 					{
 						"exists": true,
+						"name": "EFLChampionship",
+						"won": 2
+					},
+					{
+						"exists": true,
 						"name": "FA",
-						"won": 4
+						"won": 3
 					},
 					{
 						"exists": true,
 						"name": "FACommunityShield",
-						"won": 4
+						"won": 1
+					},
+					{
+						"exists": false,
+						"name": "ChampionsLeague",
+						"won": 0
 					}
 				]
 			}
@@ -807,22 +894,27 @@
 				{
 					"exists": true,
 					"name": "PremierLeague",
-					"won": 5
+					"won": 3
 				},
 				{
-					"exists": false,
+					"exists": true,
 					"name": "EFLChampionship",
-					"won": 0
+					"won": 4
 				},
 				{
 					"exists": true,
 					"name": "FA",
-					"won": 5
+					"won": 4
 				},
 				{
 					"exists": true,
 					"name": "FACommunityShield",
-					"won": 5
+					"won": 4
+				},
+				{
+					"exists": false,
+					"name": "ChampionsLeague",
+					"won": 0
 				}
 			]
 		}

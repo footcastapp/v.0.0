@@ -423,9 +423,9 @@ Matchday 28
   Arsenal FC              5-1 AFC Bournemouth
   Leicester City          2-1 Brighton & Hove Albion
   Cardiff City            0-3 Everton FC
+[Wed Feb/27]
   Huddersfield Town       1-0 Wolverhampton Wanderers
   Newcastle United        2-0 Burnley FC
-[Wed Feb/27]
   Crystal Palace          1-3 Manchester United
   Southampton FC          2-0 Fulham FC
   Chelsea FC              2-0 Tottenham Hotspur
