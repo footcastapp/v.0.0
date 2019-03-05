@@ -1,12 +1,14 @@
 import React, { Component } from "react";
-class club extends Component {
+class club2 extends Component {
   render() {
     console.log(this.props.club.Club);
     return (
-      <div className="ratio">
-        <p className ="teamText" key={this.props.i}>{this.props.club.Club}</p>
+      <div className="clubHead">
+
+      
+        
         <img 
-            className = "image2"
+            className ="image"
             src={"http://localhost:5000" + this.props.club.img}
             alt={this.props.club.Club}
           />
@@ -15,4 +17,4 @@ class club extends Component {
   }
 }
 
-export default club;
+export default club2;

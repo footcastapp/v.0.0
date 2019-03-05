@@ -3,8 +3,8 @@
 
   padding-top: 5%;
   margin: 0%;
-  background-color: black;
-
+  
+  text-align: center;
   position: relative;
 }
 
@@ -13,11 +13,21 @@
   top: 0%;
   margin-top: 0px;
 }
-
-.image {
-  height: 10%;
-  width: 70%;
+.image { /*mypage*/
+  
+  width: 40%;
 }
+
+.image2{
+  height: 30%;
+  width: 30%;
+}
+
+.teamText{
+  text-align: center;
+}
+
+
 .clubTrophies {
   width: 414px;
 
