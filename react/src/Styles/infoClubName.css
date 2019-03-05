@@ -1,40 +1,64 @@
 .clubHead {
-  background-color: orange;
-  text-align: center;
   width: 414px;
 
-  padding-bottom: 5%;
   padding-top: 5%;
-  top: -65px;
-  left: 0px;
-  right: 0px;
   margin: 0%;
+  
+  text-align: center;
+  position: relative;
 }
+
+.classtop {
+  position: relative;
+  top: 0%;
+  margin-top: 0px;
+}
+.image { /*mypage*/
+  
+  width: 40%;
+}
+
+.image2{
+  height: 30%;
+  width: 30%;
+}
+
+.teamText{
+  text-align: center;
+}
+
+
 .clubTrophies {
   width: 414px;
-  /*height: 5px;*/
-  top: -90px;
+
+  position: relative;
   background-color: white;
-  padding-bottom: 35%;
+  padding-bottom: 5%;
   padding-top: 5%;
   text-align: center;
   color: gold;
-  font-size: 50px;
+  font-size: 20px;
+  position: inline;
 }
 
-.clubManager{
+.clubManager {
   width: 414px;
   text-align: left;
-  top: -70px;
-  background-color: lawngreen;
+
+  background-image: linear-gradient(to bottom right, green, red);
+  padding-top: 2%;
+  padding-bottom: 2%;
+  position: relative;
+}
+.clubStadium {
+  width: 414px;
+  text-align: left;
+  position: relative;
+  background-color: red;
   padding-top: 2%;
   padding-bottom: 2%;
 }
-.clubStadium{
-  width: 414px;
-  text-align: left;
-  top: -50px;
-  background-color:red;
-  padding-top: 2%;
-  padding-bottom: 2%;
+.out {
+  top: 0;
+  position: absolute;
 }

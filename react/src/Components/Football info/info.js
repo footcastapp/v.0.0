@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import Club from "./club";
+import Club from "./club2";
 class info extends Component {
   state = {};
   render() {
     return (
-      <div className="clubHead">
+      <div className="classtop">
         {this.props.clubName.map((obj, index) => {
-          console.log(obj.Club);
           if (obj.Club.toLowerCase() === this.props.club.toLowerCase()) {
             return <Club club={obj} key={index} i={index} />;
           }
