@@ -20,26 +20,22 @@
 				{
 					"exists": true,
 					"name": "PremierLeague",
-					"won": 3,
-					"Img": ""
+					"won": 3
 				},
 				{
 					"exists": true,
 					"name": "EFLChampionship",
-					"won": 1,
-					"img": ""
+					"won": 1
 				},
 				{
 					"exists": true,
 					"name": "FA",
-					"won": 13,
-					"Img": ""
+					"won": 13
 				},
 				{
 					"exists": true,
 					"name": "FACommunityShield",
-					"won": 15,
-					"Img": ""
+					"won": 15
 				}
 			]
 		}
@@ -65,26 +61,22 @@
 				{
 					"exists": false,
 					"name": "PremierLeague",
-					"won": 0,
-					"Img": ""
+					"won": 0
 				},
 				{
 					"exists": true,
 					"name": "EFLChampionship",
-					"won": 1,
-					"img": ""
+					"won": 1
 				},
 				{
 					"exists": false,
 					"name": "FA",
-					"won": 0,
-					"Img": ""
+					"won": 0
 				},
 				{
 					"exists": false,
 					"name": "FACommunityShield",
-					"won": 0,
-					"Img": ""
+					"won": 0
 				}
 			]
 		}
@@ -100,19 +92,35 @@
 		"img": "/static/ClubLogos/Brighton.png",
 		"History": {
 			"Establishment": "1901",
-			"Manager": [
-				{
-					"FullName": "Chris Hughton",
-					"Nationality": "Ireland",
-					"DOB": "11/12/1958",
-					"Img": ""
-				}
-			],
+			"Manager": {
+				"FullName": "Chris Hughton",
+				"Nationality": "Ireland",
+				"DOB": "11/12/1958",
+				"Img": ""
+			},
 			"Trophies": {
-				"EFLChampionship": {
-					"Won": 1,
-					"img": ""
-				}
+				"Trophies": [
+					{
+						"exists": false,
+						"name": "PremierLeague",
+						"won": 0
+					},
+					{
+						"exists": false,
+						"name": "EFLChampionship",
+						"won": 1
+					},
+					{
+						"exists": false,
+						"name": "FA",
+						"won": 0
+					},
+					{
+						"exists": false,
+						"name": "FACommunityShield",
+						"won": 0
+					}
+				]
 			}
 		}
 	},
@@ -133,20 +141,28 @@
 				"DOB": "28/06/1971",
 				"Img": ""
 			},
-			"Trophies": {
-				"PremierLeague": {
-					"Won": 2,
-					"Img": ""
+			"Trophies": [
+				{
+					"exists": true,
+					"name": "PremierLeague",
+					"won": 2
 				},
-				"FA": {
-					"Won": 1,
-					"Img": ""
+				{
+					"exists": false,
+					"name": "EFLChampionship",
+					"won": 0
 				},
-				"FACommunityShield": {
-					"Won": 2,
-					"Img": ""
+				{
+					"exists": true,
+					"name": "FA",
+					"won": 1
+				},
+				{
+					"exists": true,
+					"name": "FACommunityShield",
+					"won": 2
 				}
-			}
+			]
 		}
 	},
 	{
@@ -166,24 +182,28 @@
 				"DOB": "01/12/1948",
 				"Img": ""
 			},
-			"Trophies": {
-				"PremierLeague": {
-					"Won": 1,
-					"Img": ""
+			"Trophies": [
+				{
+					"exists": true,
+					"name": "PremierLeague",
+					"won": 1
 				},
-				"EFLChampionship": {
-					"Won": 1,
-					"Img": ""
+				{
+					"exists": true,
+					"name": "EFLChampionship",
+					"won": 1
 				},
-				"Fa": {
-					"Won": 1,
-					"Img": ""
+				{
+					"exists": true,
+					"name": "FA",
+					"won": 1
 				},
-				"FaCommunityShield": {
-					"Won": 1,
-					"Img": ""
+				{
+					"exists": true,
+					"name": "FACommunityShield",
+					"won": 1
 				}
-			}
+			]
 		}
 	},
 	{
@@ -203,30 +223,28 @@
 				"DOB": "10/01/1959",
 				"Img": ""
 			},
-			"Trophies": {
-				"PremierLeague": {
-					"Won": 5,
-					"Img": ""
+			"Trophies": [
+				{
+					"exists": true,
+					"name": "PremierLeague",
+					"won": 5
 				},
-				"Fa": {
-					"Won": 8,
-					"Img": ""
+				{
+					"exists": false,
+					"name": "EFLChampionship",
+					"won": 0
 				},
-				"FaCommunityShield": {
-					"Won": 4,
-					"Img": ""
+				{
+					"exists": true,
+					"name": "FA",
+					"won": 8
 				},
-				"UEFA": {
-					"Champions League": {
-						"Won": 1,
-						"img": ""
-					},
-					"Europa League": {
-						"Won": 1,
-						"img": ""
-					}
+				{
+					"exists": true,
+					"name": "FACommunityShield",
+					"won": 4
 				}
-			}
+			]
 		}
 	},
 	{
@@ -246,12 +264,28 @@
 				"DOB": "09/08/1947",
 				"Img": ""
 			},
-			"Trophies": {
-				"EFLChampionship": {
-					"Won": 2,
-					"Img": ""
+			"Trophies": [
+				{
+					"exists": false,
+					"name": "PremierLeague",
+					"won": 0
+				},
+				{
+					"exists": true,
+					"name": "EFLChampionship",
+					"won": 2
+				},
+				{
+					"exists": false,
+					"name": "FA",
+					"won": 0
+				},
+				{
+					"exists": false,
+					"name": "FACommunityShield",
+					"won": 0
 				}
-			}
+			]
 		}
 	},
 	{
@@ -271,16 +305,28 @@
 				"DOB": "12/07/1977",
 				"Img": ""
 			},
-			"Trophies": {
-				"Fa": {
-					"Won": 5,
-					"Img": ""
+			"Trophies": [
+				{
+					"exists": false,
+					"name": "PremierLeague",
+					"won": 0
 				},
-				"FaCommunityShield": {
-					"Won": 9,
-					"Img": ""
+				{
+					"exists": false,
+					"name": "EFLChampionship",
+					"won": 0
+				},
+				{
+					"exists": true,
+					"name": "FA",
+					"won": 5
+				},
+				{
+					"exists": true,
+					"name": "FACommunityShield",
+					"won": 9
 				}
-			}
+			]
 		}
 	},
 	{
@@ -300,20 +346,28 @@
 				"DOB": "28/06/1971",
 				"Img": ""
 			},
-			"Trophies": {
-				"PremierLeague": {
-					"Won": 2,
-					"Img": ""
+			"Trophies": [
+				{
+					"exists": true,
+					"name": "PremierLeague",
+					"won": 2
 				},
-				"Fa": {
-					"Won": 1,
-					"Img": ""
+				{
+					"exists": false,
+					"name": "EFLChampionship",
+					"won": 0
 				},
-				"FaCommunityShield": {
-					"Won": 2,
-					"Img": ""
+				{
+					"exists": true,
+					"name": "FA",
+					"won": 1
+				},
+				{
+					"exists": true,
+					"name": "FACommunityShield",
+					"won": 2
 				}
-			}
+			]
 		}
 	},
 	{
@@ -333,24 +387,28 @@
 				"DOB": "23/08/1982",
 				"Img": ""
 			},
-			"Trophies": {
-				"PremierLeague": {
-					"Won": 3,
-					"Img": ""
+			"Trophies": [
+				{
+					"exists": true,
+					"name": "PremierLeague",
+					"won": 3
 				},
-				"EFLChampionship": {
-					"Won": 1,
-					"Img": ""
+				{
+					"exists": true,
+					"name": "EFLChampionship",
+					"won": 1
 				},
-				"Fa": {
-					"Won": 1,
-					"Img": ""
+				{
+					"exists": true,
+					"name": "FA",
+					"won": 1
 				},
-				"FaCommunityShield": {
-					"Won": 1,
-					"Img": ""
+				{
+					"exists": true,
+					"name": "FACommunityShield",
+					"won": 1
 				}
-			}
+			]
 		}
 	},
 	{
@@ -370,20 +428,28 @@
 				"DOB": "02/10/1961",
 				"Img": ""
 			},
-			"Trophies": {
-				"PremierLeague": {
-					"Won": 1,
-					"Img": ""
+			"Trophies": [
+				{
+					"exists": true,
+					"name": "PremierLeague",
+					"won": 1
 				},
-				"EFLChampionship": {
-					"Won": 7,
-					"Img": ""
+				{
+					"exists": false,
+					"name": "EFLChampionship",
+					"won": 7
 				},
-				"FaCommunityShield": {
-					"Won": 1,
-					"Img": ""
+				{
+					"exists": false,
+					"name": "FA",
+					"won": 0
+				},
+				{
+					"exists": true,
+					"name": "FACommunityShield",
+					"won": 1
 				}
-			}
+			]
 		}
 	},
 	{
@@ -404,28 +470,28 @@
 				"Img": ""
 			},
 			"Trophies": {
-				"PremierLeague": {
-					"Won": 18,
-					"Img": ""
-				},
-				"FA": {
-					"Won": 7,
-					"Img": ""
-				},
-				"FaCommunityShield": {
-					"Won": 15,
-					"Img": ""
-				},
-				"UEFA": {
-					"ChampionsLeague": {
-						"Won": 5,
-						"Img": ""
+				"Trophies": [
+					{
+						"exists": true,
+						"name": "PremierLeague",
+						"won": 18
 					},
-					"UEFACup": {
-						"Won": 3,
-						"Img": ""
+					{
+						"exists": false,
+						"name": "EFLChampionship",
+						"won": 0
+					},
+					{
+						"exists": true,
+						"name": "FA",
+						"won": 7
+					},
+					{
+						"exists": true,
+						"name": "FACommunityShield",
+						"won": 15
 					}
-				}
+				]
 			}
 		}
 	},
@@ -446,20 +512,28 @@
 				"DOB": "18/01/1971",
 				"Img": ""
 			},
-			"Trophies": {
-				"PremierLeague": {
-					"Won": 5,
-					"Img": ""
+			"Trophies": [
+				{
+					"exists": true,
+					"name": "PremierLeague",
+					"won": 5
 				},
-				"FA": {
-					"Won": 5,
-					"Img": ""
+				{
+					"exists": false,
+					"name": "EFLChampionship",
+					"won": 0
 				},
-				"FaCommunityShield": {
-					"Won": 5,
-					"Img": ""
+				{
+					"exists": true,
+					"name": "FA",
+					"won": 5
+				},
+				{
+					"exists": true,
+					"name": "FACommunityShield",
+					"won": 5
 				}
-			}
+			]
 		}
 	},
 	{
@@ -479,30 +553,28 @@
 				"DOB": "26/02/1973",
 				"Img": ""
 			},
-			"Trophies": {
-				"PremierLeague": {
-					"Won": 20,
-					"Img": ""
+			"Trophies": [
+				{
+					"exists": true,
+					"name": "PremierLeague",
+					"won": 20
 				},
-				"FA": {
-					"Won": 12,
-					"Img": ""
+				{
+					"exists": false,
+					"name": "EFLChampionship",
+					"won": 0
 				},
-				"FaCommunityShield": {
-					"Won": 21,
-					"Img": ""
+				{
+					"exists": true,
+					"name": "FA",
+					"won": 12
 				},
-				"UEFA": {
-					"ChampionsLeague": {
-						"Won": 3,
-						"Img": ""
-					},
-					"Europa League": {
-						"Won": 1,
-						"Img": ""
-					}
+				{
+					"exists": true,
+					"name": "FACommunityShield",
+					"won": 21
 				}
-			}
+			]
 		}
 	},
 	{
@@ -523,19 +595,28 @@
 				"Img": ""
 			},
 			"Trophies": {
-				"PremierLeague": {
-					"Won": 4,
-					"Img": ""
-				},
-				"FA": {
-					"Won": 6,
-					"Img": ""
-				},
-				"FaCommunityShield": {
-					"Won": 1,
-					"Img": ""
-				},
-				"UEFA": {}
+				"Trophies": [
+					{
+						"exists": true,
+						"name": "PremierLeague",
+						"won": 4
+					},
+					{
+						"exists": false,
+						"name": "EFLChampionship",
+						"won": 0
+					},
+					{
+						"exists": true,
+						"name": "FA",
+						"won": 6
+					},
+					{
+						"exists": true,
+						"name": "FACommunityShield",
+						"won": 1
+					}
+				]
 			}
 		}
 	},
@@ -557,10 +638,28 @@
 				"Img": ""
 			},
 			"Trophies": {
-				"FA": {
-					"Won": 1,
-					"Img": ""
-				}
+				"Trophies": [
+					{
+						"exists": false,
+						"name": "PremierLeague",
+						"won": 0
+					},
+					{
+						"exists": false,
+						"name": "EFLChampionship",
+						"won": 0
+					},
+					{
+						"exists": true,
+						"name": "FA",
+						"won": 1
+					},
+					{
+						"exists": false,
+						"name": "FACommunityShield",
+						"won": 0
+					}
+				]
 			}
 		}
 	},
@@ -581,26 +680,28 @@
 				"DOB": "02/03/1972",
 				"Img": ""
 			},
-			"Trophies": {
-				"PremierLeague": {
-					"Won": 2,
-					"Img": ""
+			"Trophies": [
+				{
+					"exists": true,
+					"name": "PremierLeague",
+					"won": 2
 				},
-				"FA": {
-					"Won": 8,
-					"Img": ""
+				{
+					"exists": false,
+					"name": "EFLChampionship",
+					"won": 0
 				},
-				"FaCommunityShield": {
-					"Won": 7,
-					"Img": ""
+				{
+					"exists": true,
+					"name": "FA",
+					"won": 8
 				},
-				"UEFA": {
-					"Europa League": {
-						"Won": 1,
-						"Img": ""
-					}
+				{
+					"exists": true,
+					"name": "FACommunityShield",
+					"won": 7
 				}
-			}
+			]
 		}
 	},
 	{
@@ -620,10 +721,28 @@
 				"DOB": "01/05/1970",
 				"Img": ""
 			},
-			"Trophies": {
-				"EFLChampionship": 1,
-				"Img": ""
-			}
+			"Trophies": [
+				{
+					"exists": false,
+					"name": "PremierLeague",
+					"won": 0
+				},
+				{
+					"exists": true,
+					"name": "EFLChampionship",
+					"won": 1
+				},
+				{
+					"exists": false,
+					"name": "FA",
+					"won": 0
+				},
+				{
+					"exists": false,
+					"name": "FACommunityShield",
+					"won": 0
+				}
+			]
 		}
 	},
 	{
@@ -644,18 +763,28 @@
 				"Img": ""
 			},
 			"Trophies": {
-				"PremierLeague": {
-					"Won": 3,
-					"Img": ""
-				},
-				"FA": {
-					"Won": 4,
-					"Img": ""
-				},
-				"FaCommunityShield": {
-					"Won": 4,
-					"Img": ""
-				}
+				"Trophies": [
+					{
+						"exists": true,
+						"name": "PremierLeague",
+						"won": 3
+					},
+					{
+						"exists": false,
+						"name": "EFLChampionship",
+						"won": 0
+					},
+					{
+						"exists": true,
+						"name": "FA",
+						"won": 4
+					},
+					{
+						"exists": true,
+						"name": "FACommunityShield",
+						"won": 4
+					}
+				]
 			}
 		}
 	},
@@ -676,20 +805,28 @@
 				"DOB": "18/101/1971",
 				"Img": ""
 			},
-			"Trophies": {
-				"PremierLeague": {
-					"Won": 5,
-					"Img": ""
+			"Trophies": [
+				{
+					"exists": true,
+					"name": "PremierLeague",
+					"won": 5
 				},
-				"FA": {
-					"Won": 5,
-					"Img": ""
+				{
+					"exists": false,
+					"name": "EFLChampionship",
+					"won": 0
 				},
-				"FaCommunityShield": {
-					"Won": 5,
-					"Img": ""
+				{
+					"exists": true,
+					"name": "FA",
+					"won": 5
+				},
+				{
+					"exists": true,
+					"name": "FACommunityShield",
+					"won": 5
 				}
-			}
+			]
 		}
 	}
 ]
