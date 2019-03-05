@@ -18,16 +18,36 @@
 			},
 			"Trophies": {
 				"PremierLeague": {
+					"exists":true,
 					"Won": 3,
 					"Img": ""
 				},
+				"EFLChampionship": {
+					"exists":true,
+					"Won": 1,
+					"img": ""
+				},
 				"FA": {
+					"exists":true,
 					"Won": 13,
 					"Img": ""
 				},
 				"FACommunityShield": {
+					"exists":true,
 					"Won": 15,
 					"Img": ""
+				},
+				"UEFA": {
+					"Champions League": {
+						"exists":false,
+						"Won": 0,
+						"img": ""
+					},
+					"Europa League": {
+						"exists":false,
+						"Won": 0,
+						"img": ""
+					}
 				}
 			}
 		}
@@ -52,11 +72,38 @@
 				}
 			],
 			"Trophies": {
+				"PremierLeague": {
+					"exists":true,
+					"Won": 3,
+					"Img": ""
+				},
 				"EFLChampionship": {
+					"exists":true,
 					"Won": 1,
 					"img": ""
-				}
-			}
+				},
+				"FA": {
+					"exists":true,
+					"Won": 13,
+					"Img": ""
+				},
+				"FACommunityShield": {
+					"exists":true,
+					"Won": 15,
+					"Img": ""
+				},
+				"UEFA":{
+					"Champions League": {
+						"exists":false,
+						"Won": 0,
+						"img": ""
+					},
+					"Europa League": {
+						"exists":false,
+						"Won": 0,
+						"img": ""
+					}
+			}	}
 		}
 	},
 	{
@@ -394,10 +441,6 @@
 					"UEFACup": {
 						"Won": 3,
 						"Img": ""
-					},
-					"SuperCup": {
-						"Won": 3,
-						"Img": ""
 					}
 				}
 			}
@@ -474,15 +517,7 @@
 					"Europa League": {
 						"Won": 1,
 						"Img": ""
-					},
-					"Super Cup": {
-						"Won": 1,
-						"Img": ""
 					}
-				},
-				"FIFAClubWorldCup": {
-					"Won": 1,
-					"Img": ""
 				}
 			}
 		}
@@ -518,10 +553,6 @@
 					"Img": ""
 				},
 				"UEFA": {
-					"IntertotoCup": {
-						"Won": 1,
-						"Img": ""
-					}
 				}
 			}
 		}
