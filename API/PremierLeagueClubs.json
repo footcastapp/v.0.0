@@ -16,40 +16,32 @@
 				"DOB": "03/11/1971",
 				"Img": ""
 			},
-			"Trophies": {
-				"PremierLeague": {
+			"Trophies":[
+				 {
 					"exists":true,
+					"name":"PremierLeague",
 					"Won": 3,
 					"Img": ""
 				},
-				"EFLChampionship": {
+				{
 					"exists":true,
+					"name":"EFLChampionship",
 					"Won": 1,
 					"img": ""
 				},
-				"FA": {
+				 {
 					"exists":true,
+					"name":"FA",
 					"Won": 13,
 					"Img": ""
 				},
-				"FACommunityShield": {
+				{
 					"exists":true,
+					"name":"FACommunityShield",
 					"Won": 15,
 					"Img": ""
-				},
-				"UEFA": {
-					"Champions League": {
-						"exists":false,
-						"Won": 0,
-						"img": ""
-					},
-					"Europa League": {
-						"exists":false,
-						"Won": 0,
-						"img": ""
-					}
 				}
-			}
+			]
 		}
 	},
 	{
@@ -73,8 +65,8 @@
 			],
 			"Trophies": {
 				"PremierLeague": {
-					"exists":true,
-					"Won": 3,
+					"exists":false,
+					"Won": 0,
 					"Img": ""
 				},
 				"EFLChampionship": {
@@ -83,8 +75,8 @@
 					"img": ""
 				},
 				"FA": {
-					"exists":true,
-					"Won": 13,
+					"exists":false,
+					"Won": 0,
 					"Img": ""
 				},
 				"FACommunityShield": {

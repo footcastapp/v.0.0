@@ -6,7 +6,6 @@ class info extends Component {
     return (
       <div className="classtop">
         {this.props.clubName.map((obj, index) => {
-          console.log(obj.Club);
           if (obj.Club.toLowerCase() === this.props.club.toLowerCase()) {
             return <Club club={obj} key={index} i={index} />;
           }
