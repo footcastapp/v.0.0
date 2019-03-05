@@ -5,11 +5,13 @@ import Fixture from "./Football/fixture";
 import Table from "./Football/table";
 import Team from "./Football/team";
 import "../Styles/football.css";
+
 class Main extends Component {
   constructor() {
     super();
     this.state = {
-      resultweek: []
+      resultweek: [],
+      fixtureweek: []
     };
   }
 
@@ -17,6 +19,10 @@ class Main extends Component {
     fetch("http://localhost:5000/api/week.txt")
       .then(res => res.json())
       .then(resultweek => this.setState({ resultweek }));
+
+    fetch("http://localhost:5000/api/fixture.txt")
+      .then(res => res.json())
+      .then(fixtureweek => this.setState({ fixtureweek }));
   }
   render() {
     console.log(this.state.resultWeek);
@@ -25,8 +31,9 @@ class Main extends Component {
         <PL />
         <p> </p>
         <Result result={this.state.resultweek} />
+
         <p> </p>
-        <Fixture />
+        <Fixture fixture={this.state.fixtureweek} />
         <p> </p>
         <Table />
         <p> </p>

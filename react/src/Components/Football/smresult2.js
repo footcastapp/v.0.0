@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
-class smresult extends Component {
+class smresult2 extends Component {
   state = {};
   render() {
     return (
       <div>
-        {this.props.lol.Matchday.a.map((obj, i) => (
-          <p key={i} className="re">
+        {this.props.lol.Matchday.b.map((obj, i) => (
+          <p key={i} className="res">
             {obj.Home + " " + obj.Score + " " + obj.Away}
           </p>
         ))}
@@ -15,4 +15,4 @@ class smresult extends Component {
   }
 }
 
-export default smresult;
+export default smresult2;

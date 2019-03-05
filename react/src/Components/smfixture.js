@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class smresult extends Component {
+class smfixture extends Component {
   state = {};
   render() {
     return (
@@ -15,4 +15,4 @@ class smresult extends Component {
   }
 }
 
-export default smresult;
+export default smfixture;
