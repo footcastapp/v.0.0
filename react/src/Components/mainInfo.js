@@ -20,7 +20,7 @@ class mainInfo extends Component {
   render() {
     console.log(this.props.match.params.Club);
     return (
-      <div>
+      <div className='out'>
         <Info clubName={this.state.info} club={this.props.match.params.Club} />
         <Trophies trophies={this.state.info} />
         <Manager managerName={this.state.info} />

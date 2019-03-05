@@ -4,7 +4,7 @@ class info extends Component {
   state = {};
   render() {
     return (
-      <div className="clubHead">
+      <div className="classtop">
         {this.props.clubName.map((obj, index) => {
           console.log(obj.Club);
           if (obj.Club.toLowerCase() === this.props.club.toLowerCase()) {
