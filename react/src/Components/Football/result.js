@@ -1,21 +1,26 @@
 import React, { Component } from "react";
 import SmResault from "./smresult";
+import SmResault2 from "./smresult2";
 
 class result extends Component {
   render() {
     return (
       <div className="divResult">
         <button className="buttonn" onClick={() => this.clickk()}>
-          <div className="result">
-            <h1>Result</h1>
+          <div>
+            <h1 className="u">Result</h1>
+            {this.props.result.map((result, index) => (
+              <SmResault lol={result} key={index} i={index} />
+            ))}
           </div>
           {this.props.result.map((result, index) => (
-            <SmResault lol={result} key={index} i={index} />
+            <SmResault2 lol={result} key={index} i={index} />
           ))}
         </button>
       </div>
     );
   }
+
   componentDidMount() {
     let elements = document.getElementsByClassName("divResult");
     elements[0].style.display = "block";

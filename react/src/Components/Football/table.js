@@ -6,7 +6,7 @@ class table extends Component {
       <div className="divTable">
         <button className="buttonn" onClick={() => this.clickk()}>
           <div>
-            <h1>Table</h1>
+            <h1 className="u">Table</h1>
           </div>
 
           <p id="table">hgfdsxkjcsxckjhgfxa</p>

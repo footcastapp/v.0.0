@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import SmFixturee from "./smfixture";
+import SmFixturee2 from "./smfixture2";
 
 class fixture extends Component {
   render() {
@@ -6,9 +8,14 @@ class fixture extends Component {
       <div className="divFixture">
         <button className="buttonn" onClick={() => this.clickk()}>
           <div>
-            <h1>Fixture</h1>
+            <h1 className="u">Fixture</h1>
+            {this.props.fixture.map((result, index) => (
+              <SmFixturee lol={result} key={index} i={index} />
+            ))}
           </div>
-          <p id="fixture">hgfdsxkjcsxckjhgfxa</p>
+          {this.props.fixture.map((result, index) => (
+            <SmFixturee2 lol={result} key={index} i={index} />
+          ))}
         </button>
       </div>
     );

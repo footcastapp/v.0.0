@@ -46,7 +46,7 @@ class team extends Component {
       <div className="divTeam">
         <button className="buttonn" onClick={() => this.clickk()}>
           <div>
-            <h1>Teams</h1>
+            <h1 className="u">Teams</h1>
           </div>
         </button>
         {this.state.info.map((obj, index) => {
