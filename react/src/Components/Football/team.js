@@ -17,14 +17,9 @@ class team extends Component {
 	}
 	clickk = () => {
 		let g = document.getElementsByClassName('team');
-		let h = document.getElementsByClassName('boom');
-		if (h[0].style.display === 'block') {
-			console.log('boom');
+		if (g[0].style.display === 'block') {
 			for (let i = 0; i < g.length; i++) {
-				g[i].style.display = 'block';
-			}
-			for (let i = 0; i < h.length; i++) {
-				h[i].style.display = 'none';
+				g[i].style.display = 'none';
 			}
 			let elements = document.getElementsByClassName('divResult');
 			let elements2 = document.getElementsByClassName('divTable');
@@ -34,12 +29,8 @@ class team extends Component {
 			elements2[0].style.display = 'block';
 			elements3[0].style.display = 'block';
 		} else {
-			console.log('boom2');
 			for (let i = 0; i < g.length; i++) {
-				g[i].style.display = 'none';
-			}
-			for (let i = 0; i < h.length; i++) {
-				h[i].style.display = 'block';
+				g[i].style.display = 'block';
 			}
 			let elements = document.getElementsByClassName('divResult');
 			let elements2 = document.getElementsByClassName('divTable');
@@ -59,22 +50,9 @@ class team extends Component {
 					</div>
 				</button>
 				{this.state.info.map((obj, index) => {
-					if (index < 4) {
-						return (
-							<a
-								className='team'
-								href={'/club/' + obj.Club}
-								key={index}
-							>
-								<Club key={index} club={obj} i={index} />
-							</a>
-						);
-					}
-				})}
-				{this.state.info.map((obj, index) => {
 					return (
 						<a
-							className='boom'
+							className='team'
 							href={'/club/' + obj.Club}
 							key={index}
 						>
