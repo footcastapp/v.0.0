@@ -16,29 +16,29 @@
 				"DOB": "03/11/1971",
 				"Img": ""
 			},
-			"Trophies":[
-				 {
-					"exists":true,
-					"name":"PremierLeague",
-					"Won": 3,
+			"Trophies": [
+				{
+					"exists": true,
+					"name": "PremierLeague",
+					"won": 3,
 					"Img": ""
 				},
 				{
-					"exists":true,
-					"name":"EFLChampionship",
-					"Won": 1,
+					"exists": true,
+					"name": "EFLChampionship",
+					"won": 1,
 					"img": ""
 				},
-				 {
-					"exists":true,
-					"name":"FA",
-					"Won": 13,
+				{
+					"exists": true,
+					"name": "FA",
+					"won": 13,
 					"Img": ""
 				},
 				{
-					"exists":true,
-					"name":"FACommunityShield",
-					"Won": 15,
+					"exists": true,
+					"name": "FACommunityShield",
+					"won": 15,
 					"Img": ""
 				}
 			]
@@ -55,47 +55,38 @@
 		"img": "/static/ClubLogos/AFC_Bournemouth.png",
 		"History": {
 			"Establishment": "1899",
-			"Manager": [
+			"Manager": {
+				"FullName": "Eddie Howe",
+				"Nationality": "England",
+				"DOB": "29/11/1977",
+				"Img": ""
+			},
+			"Trophies": [
 				{
-					"FullName": "Eddie Howe",
-					"Nationality": "England",
-					"DOB": "29/11/1977",
-					"Img": ""
-				}
-			],
-			"Trophies": {
-				"PremierLeague": {
-					"exists":false,
-					"Won": 0,
+					"exists": false,
+					"name": "PremierLeague",
+					"won": 0,
 					"Img": ""
 				},
-				"EFLChampionship": {
-					"exists":true,
-					"Won": 1,
+				{
+					"exists": true,
+					"name": "EFLChampionship",
+					"won": 1,
 					"img": ""
 				},
-				"FA": {
-					"exists":false,
-					"Won": 0,
+				{
+					"exists": false,
+					"name": "FA",
+					"won": 0,
 					"Img": ""
 				},
-				"FACommunityShield": {
-					"exists":true,
-					"Won": 15,
+				{
+					"exists": false,
+					"name": "FACommunityShield",
+					"won": 0,
 					"Img": ""
-				},
-				"UEFA":{
-					"Champions League": {
-						"exists":false,
-						"Won": 0,
-						"img": ""
-					},
-					"Europa League": {
-						"exists":false,
-						"Won": 0,
-						"img": ""
-					}
-			}	}
+				}
+			]
 		}
 	},
 	{
@@ -544,8 +535,7 @@
 					"Won": 1,
 					"Img": ""
 				},
-				"UEFA": {
-				}
+				"UEFA": {}
 			}
 		}
 	},
