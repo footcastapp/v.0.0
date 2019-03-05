@@ -13,8 +13,7 @@
 			"Manager": {
 				"FullName": "Unai Emery",
 				"Nationality": "Spain",
-				"DOB": "03/11/1971",
-				"Img": ""
+				"DOB": "03/11/1971"
 			},
 			"Trophies": [
 				{
@@ -36,7 +35,8 @@
 					"exists": true,
 					"name": "FACommunityShield",
 					"won": 15
-				}
+				},
+				{}
 			]
 		}
 	},
@@ -95,8 +95,7 @@
 			"Manager": {
 				"FullName": "Chris Hughton",
 				"Nationality": "Ireland",
-				"DOB": "11/12/1958",
-				"Img": ""
+				"DOB": "11/12/1958"
 			},
 			"Trophies": {
 				"Trophies": [
@@ -138,8 +137,7 @@
 			"Manager": {
 				"FullName": "Sean Dyche",
 				"Nationality": "England",
-				"DOB": "28/06/1971",
-				"Img": ""
+				"DOB": "28/06/1971"
 			},
 			"Trophies": [
 				{

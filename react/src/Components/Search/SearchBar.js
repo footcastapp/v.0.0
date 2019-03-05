@@ -16,6 +16,7 @@ class SearchBar extends Component {
       <div className="mainDiv">
         <Clubs clubInfo={clubs} />
         <input
+          className = "searchinp"
           type="search"
           placeholder="Search"
           onChange={this.search.bind(this)}
