@@ -7,6 +7,7 @@
   padding-left: 20px;
   border-radius: 10px;
   margin-bottom: 0px;
+  top:-60px;
   
   text-align: center;
   position: relative;
@@ -14,7 +15,7 @@
 
 .classtop {
   position: relative;
-  top: 0%;
+  top: 0;
   margin-top: 0px;
 }
 .image { /*mypage*/
@@ -42,12 +43,14 @@
   margin-bottom: 10px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 50px;
+  top: -60px;
 }
 
 
 .clubTrophies {
   width: 414px;
-
+  top: -40px;
+  
   position: relative;
   margin-top: 0px;
   padding-bottom: 5%;
