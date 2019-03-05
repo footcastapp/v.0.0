@@ -8,6 +8,7 @@ class fixture extends Component {
           <div>
             <h1>Fixture</h1>
           </div>
+          <p id="fixture">hgfdsxkjcsxckjhgfxa</p>
         </button>
       </div>
     );

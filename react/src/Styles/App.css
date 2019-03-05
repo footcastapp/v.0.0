@@ -16,14 +16,20 @@ h1 {
 
 body::after {
   position: fixed;
-  content: " ";
-  bottom: 100px;
+  background-image: url("http://localhost:5000/static/gay1.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(20px);
+  top: 0;
+  bottom: 0;
 
-  background: linear-gradient(
+  content: " ";
+
+  /*background: linear-gradient(
     to bottom,
     rgba(190, 144, 212, 1),
     rgba(255, 255, 255, 1)
   );
+  */
   width: 414px;
   height: 100%;
   z-index: -2;

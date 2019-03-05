@@ -17,11 +17,11 @@ class DailyComponent extends Component {
   decidePhoto(value, weather) {
     let src = "../Images/";
     if (value === true && weather == "Clear") {
-      src += "sunny.png";
+      src += "Sunny.svg";
     } else if (value === false && weather == "Clear") {
-      src += "moon.png";
+      src += "Moon.svg";
     } else {
-      src += weather + ".png";
+      src += weather + ".svg";
     }
     src = src.toString();
     return src;
