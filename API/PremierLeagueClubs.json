@@ -97,7 +97,7 @@
 				"Nationality": "Ireland",
 				"DOB": "11/12/1958"
 			},
-			"Trophies": {
+			
 				"Trophies": [
 					{
 						"exists": false,
@@ -105,7 +105,7 @@
 						"won": 0
 					},
 					{
-						"exists": false,
+						"exists": true,
 						"name": "EFLChampionship",
 						"won": 1
 					},
@@ -115,12 +115,12 @@
 						"won": 0
 					},
 					{
-						"exists": false,
+						"exists": true,
 						"name": "FACommunityShield",
-						"won": 0
+						"won": 1
 					}
 				]
-			}
+			
 		}
 	},
 	{

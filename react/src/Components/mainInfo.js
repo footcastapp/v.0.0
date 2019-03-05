@@ -22,9 +22,9 @@ class mainInfo extends Component {
     return (
       <div className='out'>
         <Info clubName={this.state.info} club={this.props.match.params.Club} />
-        <Trophies trophies={this.state.info} />
-        <Manager managerName={this.state.info} />
-        <Stadium stadiumName={this.state.info} />
+        <Trophies trophies={this.state.info} club={this.props.match.params.Club}/>
+        <Manager managerName={this.state.info} club={this.props.match.params.Club} />
+        <Stadium stadiumName={this.state.info} club={this.props.match.params.Club} />
       </div>
     );
   }

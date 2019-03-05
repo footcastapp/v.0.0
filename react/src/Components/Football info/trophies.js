@@ -5,11 +5,13 @@ class trophies extends Component {
   render() {
     return (
       <div className="clubTrophies">
-        <p>dd</p>
+        <p>Club Trophies</p>
+        
         {this.props.trophies.map((obj, index) => {
-          console.log(obj.Trophies);
-          if (obj.Trophies.toLowerCase() === this.props.club.toLowerCase()) {
-            return <Trophy club={obj} key={index} i={index} />;
+          console.log(obj.History.Trophies);
+          if (obj.Club.toLowerCase() === this.props.club.toLowerCase()) {
+
+            return <Trophy eltrophy={obj} key={index} i={index} />;
           }
         })}
       </div>
