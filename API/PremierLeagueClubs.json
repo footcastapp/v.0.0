@@ -514,7 +514,7 @@
         "DOB": "02/10/1961",
         "Img": ""
       },
-      "Trophies": {
+      
         "Trophies": [
           {
             "exists": true,
@@ -542,7 +542,7 @@
             "won": 5
           }
         ]
-      }
+      
     }
   },
   {
@@ -569,7 +569,7 @@
           "won": 5
         },
         {
-          "exists": false,
+          "exists": true,
           "name": "EFLChampionship",
           "won": 7
         },
@@ -654,7 +654,7 @@
         "DOB": "16/04/1960",
         "Img": ""
       },
-      "Trophies": {
+      
         "Trophies": [
           {
             "exists": true,
@@ -682,7 +682,7 @@
             "won": 0
           }
         ]
-      }
+      
     }
   },
   {
@@ -702,7 +702,7 @@
         "DOB": "09/08/1967",
         "Img": ""
       },
-      "Trophies": {
+      
         "Trophies": [
           {
             "exists": true,
@@ -730,7 +730,7 @@
             "won": 0
           }
         ]
-      }
+      
     }
   },
   {
@@ -842,7 +842,7 @@
         "DOB": "25/01/1974",
         "Img": ""
       },
-      "Trophies": {
+      
         "Trophies": [
           {
             "exists": false,
@@ -870,7 +870,7 @@
             "won": 0
           }
         ]
-      }
+      
     }
   },
   {

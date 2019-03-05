@@ -5,7 +5,7 @@ class trophies extends Component {
   render() {
     return (
       <div className="clubTrophies">
-        <p>Club Trophies</p>
+        <p className="trophead">Club Trophies</p>
         
         {this.props.trophies.map((obj, index) => {
           console.log(obj.History.Trophies);
