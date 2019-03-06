@@ -18,12 +18,12 @@
       "Trophies": [
         {
           "exists": true,
-          "name": "PremierLeague",
+          "name": "Premier League",
           "won": 13
         },
         {
           "exists": false,
-          "name": "EFLChampionship",
+          "name": "EFL Championship",
           "won": 0
         },
         {
@@ -33,12 +33,12 @@
         },
         {
           "exists": true,
-          "name": "FACommunityShield",
+          "name": "FA Community Shield",
           "won": 15
         },
         {
           "exists": false,
-          "name": "ChampionsLeague",
+          "name": "Champions League",
           "won": 0
         }
       ]
@@ -64,12 +64,12 @@
       "Trophies": [
         {
           "exists": false,
-          "name": "PremierLeague",
+          "name": "Premier League",
           "won": 0
         },
         {
           "exists": true,
-          "name": "EFLChampionship",
+          "name": "EFL Championship",
           "won": 1
         },
         {
@@ -79,7 +79,7 @@
         },
         {
           "exists": false,
-          "name": "FACommunityShield",
+          "name": "FA Community Shield",
           "won": 0
         },
         {
@@ -109,12 +109,12 @@
       "Trophies": [
         {
           "exists": false,
-          "name": "PremierLeague",
+          "name": "Premier League",
           "won": 0
         },
         {
           "exists": true,
-          "name": "EFLChampionship",
+          "name": "EFL Championship",
           "won": 1
         },
         {
@@ -124,7 +124,7 @@
         },
         {
           "exists": true,
-          "name": "FACommunityShield",
+          "name": "FA Community Shield",
           "won": 1
         },
         {
@@ -154,12 +154,12 @@
       "Trophies": [
         {
           "exists": true,
-          "name": "PremierLeague",
+          "name": "Premier League",
           "won": 2
         },
         {
           "exists": true,
-          "name": "EFLChampionship",
+          "name": "EFL Championship",
           "won": 3
         },
         {
@@ -169,7 +169,7 @@
         },
         {
           "exists": true,
-          "name": "FACommunityShield",
+          "name": "FA Community Shield",
           "won": 2
         },
         {
@@ -200,12 +200,12 @@
       "Trophies": [
         {
           "exists": false,
-          "name": "PremierLeague",
+          "name": "Premier League",
           "won": 0
         },
         {
           "exists": true,
-          "name": "EFLChampionship",
+          "name": "EFL Championship",
           "won": 1
         },
         {
@@ -215,7 +215,7 @@
         },
         {
           "exists": true,
-          "name": "FACommunityShield",
+          "name": "FA Community Shield",
           "won": 1
         },
         {
@@ -246,12 +246,12 @@
       "Trophies": [
         {
           "exists": true,
-          "name": "PremierLeague",
+          "name": "Premier League",
           "won": 6
         },
         {
           "exists": true,
-          "name": "EFLChampionship",
+          "name": "EFL Championship",
           "won": 2
         },
         {
@@ -261,7 +261,7 @@
         },
         {
           "exists": true,
-          "name": "FACommunityShield",
+          "name": "FA Community Shield",
           "won": 4
         },
         {
@@ -292,12 +292,12 @@
       "Trophies": [
         {
           "exists": false,
-          "name": "PremierLeague",
+          "name": "Premier League",
           "won": 0
         },
         {
           "exists": true,
-          "name": "EFLChampionship",
+          "name": "EFL Championship",
           "won": 2
         },
         {
@@ -307,7 +307,7 @@
         },
         {
           "exists": false,
-          "name": "FACommunityShield",
+          "name": "FA Community Shield",
           "won": 0
         }
       ]
@@ -333,12 +333,12 @@
       "Trophies": [
         {
           "exists": true,
-          "name": "PremierLeague",
+          "name": "Premier League",
           "won": 9
         },
         {
           "exists": true,
-          "name": "EFLChampionship",
+          "name": "EFL Championship",
           "won": 1
         },
         {
@@ -348,7 +348,7 @@
         },
         {
           "exists": true,
-          "name": "FACommunityShield",
+          "name": "FA Community Shield",
           "won": 9
         },
         {
@@ -379,12 +379,12 @@
       "Trophies": [
         {
           "exists": true,
-          "name": "PremierLeague",
+          "name": "Premier League",
           "won": 1
         },
         {
           "exists": false,
-          "name": "EFLChampionship",
+          "name": "EFL Championship",
           "won": 4
         },
         {
@@ -394,7 +394,7 @@
         },
         {
           "exists": true,
-          "name": "FACommunityShield",
+          "name": "FA Community Shield",
           "won": 2
         },
         {
@@ -408,7 +408,7 @@
   {
     "Club": "Huddersfield Town",
     "Stadium": {
-      "Name": "Jhon Smith's",
+      "Name": "John Smith's",
       "Capacity": "",
       "Location": "",
       "Establishment": ""
@@ -425,12 +425,12 @@
       "Trophies": [
         {
           "exists": true,
-          "name": "PremierLeague",
+          "name": "Premier League",
           "won": 3
         },
         {
           "exists": true,
-          "name": "EFLChampionship",
+          "name": "EFL Championship",
           "won": 1
         },
         {
@@ -440,7 +440,7 @@
         },
         {
           "exists": true,
-          "name": "FACommunityShield",
+          "name": "FA Community Shield",
           "won": 1
         },
         {
@@ -471,12 +471,12 @@
       "Trophies": [
         {
           "exists": true,
-          "name": "PremierLeague",
+          "name": "Premier League",
           "won": 1
         },
         {
           "exists": false,
-          "name": "EFLChampionship",
+          "name": "EFL Championship",
           "won": 7
         },
         {
@@ -486,7 +486,7 @@
         },
         {
           "exists": true,
-          "name": "FACommunityShield",
+          "name": "FA Community Shield",
           "won": 1
         },
         {
@@ -518,12 +518,12 @@
         "Trophies": [
           {
             "exists": true,
-            "name": "PremierLeague",
+            "name": "Premier League",
             "won": 18
           },
           {
             "exists": true,
-            "name": "EFLChampionship",
+            "name": "EFL Championship",
             "won": 4
           },
           {
@@ -533,7 +533,7 @@
           },
           {
             "exists": true,
-            "name": "FACommunityShield",
+            "name": "FA Community Shield",
             "won": 15
           },
           {
@@ -565,12 +565,12 @@
       "Trophies": [
         {
           "exists": true,
-          "name": "PremierLeague",
+          "name": "Premier League",
           "won": 5
         },
         {
           "exists": true,
-          "name": "EFLChampionship",
+          "name": "EFL Championship",
           "won": 7
         },
         {
@@ -580,7 +580,7 @@
         },
         {
           "exists": true,
-          "name": "FACommunityShield",
+          "name": "FA Community Shield",
           "won": 5
         },
         {
@@ -611,12 +611,12 @@
       "Trophies": [
         {
           "exists": true,
-          "name": "PremierLeague",
+          "name": "Premier League",
           "won": 20
         },
         {
           "exists": true,
-          "name": "EFLChampionship",
+          "name": "EFL Championship",
           "won": 2
         },
         {
@@ -626,7 +626,7 @@
         },
         {
           "exists": true,
-          "name": "FACommunityShield",
+          "name": "FA Community Shield",
           "won": 21
         },
         {
@@ -658,12 +658,12 @@
         "Trophies": [
           {
             "exists": true,
-            "name": "PremierLeague",
+            "name": "Premier League",
             "won": 4
           },
           {
             "exists": true,
-            "name": "EFLChampionship",
+            "name": "EFL Championship",
             "won": 4
           },
           {
@@ -673,7 +673,7 @@
           },
           {
             "exists": true,
-            "name": "FACommunityShield",
+            "name": "FA Community Shield",
             "won": 1
           },
           {
@@ -706,12 +706,12 @@
         "Trophies": [
           {
             "exists": true,
-            "name": "PremierLeague",
+            "name": "Premier League",
             "won": 1
           },
           {
             "exists": false,
-            "name": "EFLChampionship",
+            "name": "EFL Championship",
             "won": 0
           },
           {
@@ -721,7 +721,7 @@
           },
           {
             "exists": false,
-            "name": "FACommunityShield",
+            "name": "FA Community Shield",
             "won": 0
           },
           {
@@ -753,12 +753,12 @@
       "Trophies": [
         {
           "exists": true,
-          "name": "PremierLeague",
+          "name": "Premier League",
           "won": 2
         },
         {
           "exists": true,
-          "name": "EFLChampionship",
+          "name": "EFL Championship",
           "won": 2
         },
         {
@@ -768,7 +768,7 @@
         },
         {
           "exists": true,
-          "name": "FACommunityShield",
+          "name": "FA Community Shield",
           "won": 7
         },
         {
@@ -799,12 +799,12 @@
       "Trophies": [
         {
           "exists": true,
-          "name": "PremierLeague",
+          "name": "Premier League",
           "won": 1
         },
         {
           "exists": true,
-          "name": "EFLChampionship",
+          "name": "EFL Championship",
           "won": 1
         },
         {
@@ -814,7 +814,7 @@
         },
         {
           "exists": false,
-          "name": "FACommunityShield",
+          "name": "FA Community Shield",
           "won": 0
         },
         {
@@ -846,12 +846,12 @@
         "Trophies": [
           {
             "exists": false,
-            "name": "PremierLeague",
+            "name": "Premier League",
             "won": 0
           },
           {
             "exists": true,
-            "name": "EFLChampionship",
+            "name": "EFL Championship",
             "won": 2
           },
           {
@@ -861,7 +861,7 @@
           },
           {
             "exists": true,
-            "name": "FACommunityShield",
+            "name": "FA Community Shield",
             "won": 1
           },
           {
@@ -893,12 +893,12 @@
       "Trophies": [
         {
           "exists": true,
-          "name": "PremierLeague",
+          "name": "Premier League",
           "won": 3
         },
         {
           "exists": true,
-          "name": "EFLChampionship",
+          "name": "EFL Championship",
           "won": 4
         },
         {
@@ -908,7 +908,7 @@
         },
         {
           "exists": true,
-          "name": "FACommunityShield",
+          "name": "FA Community Shield",
           "won": 4
         },
         {

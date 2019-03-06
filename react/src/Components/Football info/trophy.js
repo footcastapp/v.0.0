@@ -12,7 +12,7 @@ class trophy extends Component {
             let com = "";
             
             
-            if (obj.name === "PremierLeague") {
+            if (obj.name === "Premier League") {
               blah = (
                 <img
                   className="image2"
@@ -20,7 +20,7 @@ class trophy extends Component {
                 />
               );
             }
-            if (obj.name === "EFLChampionship") {
+            if (obj.name === "EFL Championship") {
               cara = (
                 <img
                   className="image2"
@@ -36,7 +36,7 @@ class trophy extends Component {
                 />
               );
             }
-            if (obj.name === "FACommunityShield") {
+            if (obj.name === "FA Community Shield") {
               com = (
                 <img
                   className="image2"
