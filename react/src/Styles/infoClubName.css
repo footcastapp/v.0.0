@@ -1,8 +1,13 @@
 .clubHead {
-  width: 414px;
-
-  padding-top: 5%;
-  margin: 0%;
+  width: 400px;
+  background: rgba(14, 28, 73, 0.5);
+  overflow: hidden;
+  padding-top: 10px;
+  margin-top: 0px;
+  padding-left: 20px;
+  border-radius: 10px;
+  margin-bottom: 0px;
+  top:-60px;
   
   text-align: center;
   position: relative;
@@ -10,7 +15,7 @@
 
 .classtop {
   position: relative;
-  top: 0%;
+  top: 0;
   margin-top: 0px;
 }
 .image { /*mypage*/
@@ -27,38 +32,77 @@
   text-align: center;
 }
 
+.trophead{
+  background: rgba(14, 28, 73, 0.5);
+  overflow: hidden;
+  color: white;
+  z-index: 2;
+  position: relative;
+  padding-left: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  top: -60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 
 .clubTrophies {
   width: 414px;
-
-  position: relative;
+  top: -40px;
   
+  position: relative;
+  margin-top: 0px;
   padding-bottom: 5%;
   padding-top: 5%;
   text-align: center;
-  color: gold;
+  color: whitesmoke;
   font-size: 20px;
   position: inline;
 }
 
-.clubManager {
-  width: 414px;
-  text-align: left;
-
-  background-image: linear-gradient(to bottom right, green, red);
-  padding-top: 2%;
-  padding-bottom: 2%;
+.indiTrophy{
+  background: rgba(14, 28, 73, 0.5);
+  overflow: hidden;
+  color: white;
+  z-index: 2;
   position: relative;
+  padding-left: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.clubManager {
+  background: rgba(14, 28, 73, 0.5);
+  overflow: hidden;
+  color: white;
+  z-index: 2;
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  top: -80px;
 }
 .clubStadium {
-  width: 414px;
-  text-align: left;
+  background: rgba(14, 28, 73, 0.5);
+  overflow: hidden;
+  color: white;
+  z-index: 2;
   position: relative;
-  background-color: red;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-left: 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  top: -20px;
 }
 .out {
   top: 0;
-  position: absolute;
+  position: relative;
 }
