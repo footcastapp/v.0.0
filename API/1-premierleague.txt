@@ -438,11 +438,11 @@ Matchday 29
   Tottenham Hotspur       - Arsenal FC
   Wolverhampton Wanderers - Cardiff City
   Burnley FC              - Crystal Palace
+[Sun Mar/3]
   Brighton & Hove Albion  - Huddersfield Town
   AFC Bournemouth         - Manchester City
   West Ham United         - Newcastle United
   Manchester United       - Southampton FC
-[Sun Mar/3]
   Watford FC              - Leicester City
   Everton FC              - Liverpool FC
   Fulham FC               - Chelsea FC
