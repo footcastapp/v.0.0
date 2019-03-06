@@ -21,11 +21,10 @@ class Main extends Component {
       .then(resultweek => this.setState({ resultweek }));
 
     fetch("http://localhost:5000/api/fixture.txt")
-      .then(res => res.json())
+      .then(rses => rses.json())
       .then(fixtureweek => this.setState({ fixtureweek }));
   }
   render() {
-    console.log(this.state.resultWeek);
     return (
       <div>
         <PL />
