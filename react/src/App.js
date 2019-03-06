@@ -6,6 +6,7 @@ import Error from './Components/error';
 import NavBar from './Components/navBar';
 import Football from './Components/MainFootball';
 import Club from './Components/mainInfo';
+import MAinStadium from './Components/mainStadium';
 import '../src/Styles/nav.css';
 import '../src/Styles/main.css';
 import '../src/Styles/InfoComponent.css';
@@ -24,6 +25,7 @@ class App extends Component {
 						<Route path='/search' component={Search} />
 						<Route path='/football' component={Football} />
 						<Route path='/club/:Club' component={Club} />
+						<Route path='/:Club' component={MAinStadium} />
 						<Route component={Error} />
 					</Switch>
 				</div>
