@@ -8,6 +8,7 @@ class stad extends Component {
         <p> Stadium Name : {this.props.stadi.Stadium.Name}</p>
         <p> Capacity : {this.props.stadi.Stadium.Capacity}</p>
         <p> Location : {this.props.stadi.Stadium.Location}</p>
+        <p>Established : {this.props.stadi.Stadium.Establishment}</p>
       </div>
     );
   }
