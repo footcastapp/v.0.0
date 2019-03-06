@@ -16,7 +16,7 @@ class trophy extends Component {
               blah = (
                 <img
                   className="image2"
-                  src="http://localhost:5000/static/trophy/premier.png"
+                  src="http://localhost:5000/static/trophy/pl.png"
                 />
               );
             }
