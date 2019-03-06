@@ -2,13 +2,22 @@ import React, { Component } from "react";
 
 class smfixture extends Component {
   state = {};
+
   render() {
     return (
       <div>
         {this.props.lol.Matchday.a.map((obj, i) => (
-          <p key={i} className="re">
-            {obj.Home + " " + obj.Score + " " + obj.Away}
-          </p>
+          <div>
+            <p key={i} className="re">
+              {obj.Home}
+            </p>
+            <p key={i} className="ra">
+              {obj.Score}
+            </p>
+            <p key={i} className="ro">
+              {obj.Away}
+            </p>
+          </div>
         ))}
       </div>
     );
