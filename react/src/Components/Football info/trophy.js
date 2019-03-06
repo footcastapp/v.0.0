@@ -10,7 +10,7 @@ class trophy extends Component {
             let cara = "";
             let fa = "";
             let com = "";
-            let count = 0;
+            
             
             if (obj.name === "PremierLeague") {
               blah = (
@@ -47,7 +47,7 @@ class trophy extends Component {
             
 
             return (
-                <div>
+                <div className="indiTrophy">
                    <label>{obj.name}</label>
                    <p>{obj.won}</p>
                    {blah}

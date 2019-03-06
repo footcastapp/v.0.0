@@ -61,7 +61,7 @@
   position: inline;
 }
 
-.clubManager {
+.indiTrophy{
   background: rgba(14, 28, 73, 0.5);
   overflow: hidden;
   color: white;
@@ -69,7 +69,21 @@
   position: relative;
   padding-left: 20px;
   border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.clubManager {
+  background: rgba(14, 28, 73, 0.5);
+  overflow: hidden;
+  color: white;
+  z-index: 2;
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 10px;
   margin-bottom: 10px;
+  top: -70px;
 }
 .clubStadium {
   background: rgba(14, 28, 73, 0.5);
@@ -80,6 +94,9 @@
   padding-left: 20px;
   border-radius: 10px;
   margin-bottom: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  top: -20px;
 }
 .out {
   top: 0;
