@@ -11,7 +11,8 @@ class Main extends Component {
     super();
     this.state = {
       resultweek: [],
-      fixtureweek: []
+      fixtureweek: [],
+      tablee: []
     };
   }
 
@@ -23,6 +24,10 @@ class Main extends Component {
     fetch("http://localhost:5000/api/fixture.txt")
       .then(rses => rses.json())
       .then(fixtureweek => this.setState({ fixtureweek }));
+
+    fetch("http://localhost:5000/api/table.json")
+      .then(rses => rses.json())
+      .then(tablee => this.setState({ tablee }));
   }
   render() {
     return (
@@ -34,7 +39,7 @@ class Main extends Component {
         <p> </p>
         <Fixture fixture={this.state.fixtureweek} />
         <p> </p>
-        <Table />
+        <Table table={this.state.tablee} />
         <p> </p>
         <Team />
       </div>

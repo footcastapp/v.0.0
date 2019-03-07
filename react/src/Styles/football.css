@@ -39,13 +39,12 @@
 }
 .ras {
   margin-top: -23px;
-
   text-align: center;
   display: none;
 }
 .ros {
   margin-top: -23px;
-  margin-left: 10px;
+  margin-right: 10px;
   text-align: right;
   display: none;
 }
@@ -77,6 +76,7 @@
   margin-top: 20px;
   text-align: center;
   display: none;
+  text-decoration: none;
 }
 
 #table {
@@ -89,6 +89,47 @@
   text-align: center;
   display: none;
 }
-.c {
-  text-align: center;
+.logo {
+  margin-left: 10px;
+  text-align: left;
+  width: 25px;
+  height: 25px;
+}
+
+.tablere {
+  margin-left: 50px;
+  text-align: left;
+  margin-top: -23px;
+}
+.tablera {
+  margin-left: 100px;
+  text-align: left;
+  margin-top: -24px;
+}
+.tablero {
+  margin-left: 150px;
+  text-align: left;
+  margin-top: -24px;
+}
+
+.tableri {
+  margin-left: 200px;
+  text-align: left;
+  margin-top: -24px;
+}
+
+.tablery {
+  margin-left: 250px;
+  text-align: left;
+  margin-top: -24px;
+}
+.tablerd {
+  margin-left: 300px;
+  text-align: left;
+  margin-top: -24px;
+}
+.tablerp {
+  margin-left: 350px;
+  text-align: left;
+  margin-top: -24px;
 }

@@ -27,10 +27,18 @@ class result extends Component {
   }
   clickk = () => {
     let g = document.getElementsByClassName("res");
+    let a = document.getElementsByClassName("ras");
+    let b = document.getElementsByClassName("ros");
 
     if (g[0].style.display === "block") {
       for (let i = 0; i < g.length; i++) {
         g[i].style.display = "none";
+      }
+      for (let i = 0; i < a.length; i++) {
+        a[i].style.display = "none";
+      }
+      for (let i = 0; i < b.length; i++) {
+        b[i].style.display = "none";
       }
       let elements = document.getElementsByClassName("divTeam");
       let elements2 = document.getElementsByClassName("divTable");
@@ -41,6 +49,12 @@ class result extends Component {
     } else {
       for (let i = 0; i < g.length; i++) {
         g[i].style.display = "block";
+      }
+      for (let i = 0; i < a.length; i++) {
+        a[i].style.display = "block";
+      }
+      for (let i = 0; i < b.length; i++) {
+        b[i].style.display = "block";
       }
 
       let elements = document.getElementsByClassName("divFixture");
