@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import SmFixturee from "./smfixture";
-import SmFixturee2 from "./smfixture2";
+import SmFixture from "./smfixture";
+import SmFixturee from "./smfixture2";
 
 class fixture extends Component {
   render() {
@@ -9,34 +9,54 @@ class fixture extends Component {
         <button className="buttonn" onClick={() => this.clickk()}>
           <div>
             <h1 className="u">Fixture</h1>
-            {this.props.fixture.map((result, index) => (
-              <SmFixturee lol={result} key={index} i={index} />
+            {this.props.fixture.map((fixture, index) => (
+              <SmFixture lol={fixture} key={index} i={index} />
             ))}
           </div>
-          {this.props.fixture.map((result, index) => (
-            <SmFixturee2 lol={result} key={index} i={index} />
+          {this.props.fixture.map((fixture, index) => (
+            <SmFixturee lol={fixture} key={index} i={index} />
           ))}
         </button>
       </div>
     );
   }
+
   componentDidMount() {
     let elements = document.getElementsByClassName("divFixture");
     elements[0].style.display = "block";
   }
   clickk = () => {
-    var g = document.getElementById("fixture");
-    if (g.style.display === "block") {
-      g.style.display = "none";
-      let elements = document.getElementsByClassName("divResult");
-      let elements2 = document.getElementsByClassName("divTable");
-      let elements3 = document.getElementsByClassName("divTeam");
+    let g = document.getElementsByClassName("res");
+    let a = document.getElementsByClassName("ras");
+    let b = document.getElementsByClassName("ros");
 
+    if (g[0].style.display === "block") {
+      for (let i = 0; i < g.length; i++) {
+        g[i].style.display = "none";
+      }
+      for (let i = 0; i < a.length; i++) {
+        a[i].style.display = "none";
+      }
+      for (let i = 0; i < b.length; i++) {
+        b[i].style.display = "none";
+      }
+      let elements = document.getElementsByClassName("divTeam");
+      let elements2 = document.getElementsByClassName("divTable");
+      let elements3 = document.getElementsByClassName("divResult");
       elements[0].style.display = "block";
       elements2[0].style.display = "block";
       elements3[0].style.display = "block";
     } else {
-      g.style.display = "block";
+      for (let i = 0; i < g.length; i++) {
+        g[i].style.display = "block";
+      }
+      for (let i = 0; i < a.length; i++) {
+        a[i].style.display = "block";
+      }
+      for (let i = 0; i < b.length; i++) {
+        b[i].style.display = "block";
+      }
+
       let elements = document.getElementsByClassName("divResult");
       let elements2 = document.getElementsByClassName("divTable");
       let elements3 = document.getElementsByClassName("divTeam");
