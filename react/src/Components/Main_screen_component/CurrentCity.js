@@ -14,7 +14,7 @@ class CurrentCity extends Component {
     daylight: "",
     hourlydata: "",
     dailydata: "",
-    apiKey: `toRxP8wDhv0YnSKLDXxcI63KvAASRz50`,
+    apiKey: `rx1DN7CQbiUvcufv1cmQ9ndoYOKKxgwg`,
     cityKey: ""
   };
   constructor() {
