@@ -1,0 +1,24 @@
+.info {
+	color: white;
+	top: -50px;
+	position: relative;
+	width: 414px;
+	height: 100%;
+    border-radius: 10px;
+    border:solid rgba(14, 28, 73, 0.5)
+}
+.top {
+	text-align: center;
+	float: right;
+	padding-right: 50px;
+	padding-left: 30px;
+    border-radius: 10px;
+}
+.left {
+	text-align: center;
+	float: left;
+}
+#top {
+	background: rgba(14, 28, 73, 0.5);
+	height: 100%;
+}

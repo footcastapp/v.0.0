@@ -1,7 +1,7 @@
 [
 	{
 		"Club": "ARS",
-		"img": "/static/ClubLogos/Arsenal.png",
+		"img": "http://localhost:5000/static/ClubLogos/Arsenal.png",
 		"points": 57,
 		"played": 29,
 		"W": 17,
@@ -11,7 +11,7 @@
 	},
 	{
 		"Club": "Bou",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 34,
 		"played": 29,
 		"W": 10,
@@ -21,7 +21,7 @@
 	},
 	{
 		"Club": "BHA",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 30,
 		"played": 29,
 		"W": 8,
@@ -31,7 +31,7 @@
 	},
 	{
 		"Club": "BUR",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 30,
 		"played": 29,
 		"W": 8,
@@ -41,7 +41,7 @@
 	},
 	{
 		"Club": "CAR",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 25,
 		"played": 29,
 		"W": 7,
@@ -51,7 +51,7 @@
 	},
 	{
 		"Club": "CHE",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 56,
 		"played": 28,
 		"W": 17,
@@ -61,7 +61,7 @@
 	},
 	{
 		"Club": "CRY",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 33,
 		"played": 29,
 		"W": 9,
@@ -71,7 +71,7 @@
 	},
 	{
 		"Club": "EVE",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 37,
 		"played": 29,
 		"W": 10,
@@ -81,7 +81,7 @@
 	},
 	{
 		"Club": "FUL",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 17,
 		"played": 29,
 		"W": 4,
@@ -91,7 +91,7 @@
 	},
 	{
 		"Club": "HUD",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 14,
 		"played": 29,
 		"W": 3,
@@ -101,7 +101,7 @@
 	},
 	{
 		"Club": "LEI",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 35,
 		"played": 29,
 		"W": 10,
@@ -111,7 +111,7 @@
 	},
 	{
 		"Club": "LIV",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 70,
 		"played": 29,
 		"W": 21,
@@ -121,7 +121,7 @@
 	},
 	{
 		"Club": "MCI",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 71,
 		"played": 29,
 		"W": 23,
@@ -131,7 +131,7 @@
 	},
 	{
 		"Club": "MUN",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 58,
 		"played": 29,
 		"W": 17,
@@ -141,7 +141,7 @@
 	},
 	{
 		"Club": "NEW",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 31,
 		"played": 29,
 		"W": 8,
@@ -151,7 +151,7 @@
 	},
 	{
 		"Club": "SOU",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 27,
 		"played": 29,
 		"W": 6,
@@ -161,7 +161,7 @@
 	},
 	{
 		"Club": "TOT",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 61,
 		"played": 29,
 		"W": 20,
@@ -171,7 +171,7 @@
 	},
 	{
 		"Club": "WAT",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 43,
 		"played": 29,
 		"W": 12,
@@ -181,7 +181,7 @@
 	},
 	{
 		"Club": "WHU",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"points": 39,
 		"played": 29,
 		"W": 11,
@@ -191,7 +191,7 @@
 	},
 	{
 		"Club": "WOL",
-		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
 		"pos": 43,
 		"played": 29,
 		"W": 12,
