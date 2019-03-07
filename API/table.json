@@ -1,0 +1,223 @@
+[
+  {
+    "Club": "LIV",
+    "img": "http://localhost:5000/static/ClubLogos/Liverpool.png",
+    "points": 70,
+    "played": 29,
+    "W": 21,
+    "D": 7,
+    "L": 1,
+    "GD": 49,
+    "Position": 2
+  },
+  {
+    "Club": "MCI",
+    "img": "http://localhost:5000/static/ClubLogos/ManchesterCity.png",
+    "points": 71,
+    "played": 29,
+    "W": 23,
+    "D": 2,
+    "L": 4,
+    "GD": 56,
+    "Position": 1
+  },
+  {
+    "Club": "TOT",
+    "img": "http://localhost:5000/static/ClubLogos/Tottenham.png",
+    "points": 61,
+    "played": 29,
+    "W": 20,
+    "D": 1,
+    "L": 8,
+    "GD": 26,
+    "Position": 3
+  },
+  {
+    "Club": "MUN",
+    "img": "http://localhost:5000/static/ClubLogos/ManchesterUnited.png",
+    "points": 58,
+    "played": 29,
+    "W": 17,
+    "D": 7,
+    "L": 5,
+    "GD": 20,
+    "Position": 4
+  },
+  {
+    "Club": "ARS",
+    "img": "http://localhost:5000/static/ClubLogos/Arsenal.png",
+    "points": 57,
+    "played": 29,
+    "W": 17,
+    "D": 6,
+    "L": 6,
+    "GD": 22,
+    "Position": 5
+  },
+  {
+    "Club": "CHE",
+    "img": "http://localhost:5000/static/ClubLogos/Chelsea.png",
+    "points": 56,
+    "played": 28,
+    "W": 17,
+    "D": 5,
+    "L": 6,
+    "GD": 19,
+    "Position": 6
+  },
+  {
+    "Club": "WOL",
+    "img": "http://localhost:5000/static/ClubLogos/Wolverthampton.png",
+    "points": 43,
+    "played": 29,
+    "W": 12,
+    "D": 7,
+    "L": 10,
+    "GD": 2,
+    "Position": 7
+  },
+
+  {
+    "Club": "WAT",
+    "img": "http://localhost:5000/static/ClubLogos/Watford.png",
+    "points": 43,
+    "played": 29,
+    "W": 12,
+    "D": 7,
+    "L": 10,
+    "GD": 43,
+    "Position": 8
+  },
+  {
+    "Club": "WHU",
+    "img": "http://localhost:5000/static/ClubLogos/WestHam.png",
+    "points": 39,
+    "played": 29,
+    "W": 11,
+    "D": 6,
+    "L": 12,
+    "GD": -4,
+    "Position": 9
+  },
+  {
+    "Club": "EVE",
+    "img": "http://localhost:5000/static/ClubLogos/Everton.png",
+    "points": 37,
+    "played": 29,
+    "W": 10,
+    "D": 7,
+    "L": 12,
+    "GD": 0,
+    "Position": 10
+  },
+  {
+    "Club": "LEI",
+    "img": "http://localhost:5000/static/ClubLogos/LeicesterCity.png",
+    "points": 35,
+    "played": 29,
+    "W": 10,
+    "D": 5,
+    "L": 14,
+    "GD": -6,
+    "Position": 11
+  },
+  {
+    "Club": "BOU",
+    "img": "http://localhost:5000/static/ClubLogos/AFC_Bournemouth.png",
+    "points": 34,
+    "played": 29,
+    "W": 10,
+    "D": 4,
+    "L": 15,
+    "GD": -22,
+    "Position": 12
+  },
+  {
+    "Club": "CRY",
+    "img": "http://localhost:5000/static/ClubLogos/CrystalPalace.png",
+    "points": 33,
+    "played": 29,
+    "W": 9,
+    "D": 6,
+    "L": 14,
+    "GD": -4,
+    "Position": 13
+  },
+  {
+    "Club": "NEW",
+    "img": "http://localhost:5000/static/ClubLogos/NewCastleUnited.png",
+    "points": 31,
+    "played": 29,
+    "W": 8,
+    "D": 7,
+    "L": 14,
+    "GD": -10,
+    "Position": 14
+  },
+  {
+    "Club": "BHA",
+    "img": "http://localhost:5000/static/ClubLogos/Brighton.png",
+    "points": 30,
+    "played": 29,
+    "W": 8,
+    "D": 6,
+    "L": 14,
+    "GD": -11,
+    "Position": 15
+  },
+  {
+    "Club": "BUR",
+    "img": "http://localhost:5000/static/ClubLogos/Burnley.png",
+    "points": 30,
+    "played": 29,
+    "W": 8,
+    "D": 6,
+    "L": 15,
+    "GD": -21,
+    "Position": 16
+  },
+  {
+    "Club": "SOU",
+    "img": "http://localhost:5000/static/ClubLogos/Southampton.png",
+    "points": 27,
+    "played": 29,
+    "W": 6,
+    "D": 9,
+    "L": 14,
+    "GD": -17,
+    "Position": 17
+  },
+  {
+    "Club": "CAR",
+    "img": "http://localhost:5000/static/ClubLogos/Cardiff.png",
+    "points": 25,
+    "played": 29,
+    "W": 7,
+    "D": 4,
+    "L": 18,
+    "GD": -32,
+    "Position": 18
+  },
+  {
+    "Club": "FUL",
+    "img": "http://localhost:5000/static/ClubLogos/Fulham.png",
+    "points": 17,
+    "played": 29,
+    "W": 4,
+    "D": 5,
+    "L": 20,
+    "GD": -38,
+    "Position": 19
+  },
+  {
+    "Club": "HUD",
+    "img": "http://localhost:5000/static/ClubLogos/Huddersfield.png",
+    "points": 14,
+    "played": 29,
+    "W": 3,
+    "D": 5,
+    "L": 21,
+    "GD": -36,
+    "Position": 20
+  }
+]

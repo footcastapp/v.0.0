@@ -6,9 +6,11 @@ class smresult2 extends Component {
     return (
       <div>
         {this.props.lol.Matchday.b.map((obj, i) => (
-          <p key={i} className="res">
-            {obj.Home + " " + obj.Score + " " + obj.Away}
-          </p>
+          <div key={i}>
+            <p className="res">{obj.Home}</p>
+            <p className="ras">{obj.Score}</p>
+            <p className="ros">{obj.Away}</p>
+          </div>
         ))}
       </div>
     );
