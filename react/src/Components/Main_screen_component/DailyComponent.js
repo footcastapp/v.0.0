@@ -31,7 +31,6 @@ class DailyComponent extends Component {
       src += weather + ".svg";
     }
     src = src.toString();
-    console.log(src);
     return src;
   }
 }

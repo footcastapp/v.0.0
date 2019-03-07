@@ -32,8 +32,7 @@ class InfoComponent extends Component {
     let src = "../Images/";
     let realWeather = weather.split(" w/ ");
     realWeather.map(each => each.trim());
-    weather = realWeather.join("");
-    console.log(weather);
+    weather = realWeather.join(" ");
     if (value === true && weather == "Clear") {
       src += "Sunny.svg";
     } else if (value === true && weather === "Mostly clear") {
@@ -46,7 +45,6 @@ class InfoComponent extends Component {
       src += weather + ".svg";
     }
     src = src.toString();
-    console.log(src);
     return src;
   }
 }
