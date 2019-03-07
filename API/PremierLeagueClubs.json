@@ -3,9 +3,9 @@
     "Club": "Arsenal",
     "Stadium": {
       "Name": "Emirates",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "60,260",
+      "Location": "Holloway, London",
+      "Establishment": "2006"
     },
     "img": "/static/ClubLogos/Arsenal.png",
     "History": {
@@ -47,10 +47,10 @@
   {
     "Club": "Bournemouth",
     "Stadium": {
-      "Name": "Dean Court",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Name": "Vitality Stadium",
+      "Capacity": "11,464",
+      "Location": "Kings Park, Bournemouth",
+      "Establishment": "1910"
     },
     "img": "/static/ClubLogos/AFC_Bournemouth.png",
     "History": {
@@ -94,9 +94,9 @@
     "Club": "Brighton and Hove Albion",
     "Stadium": {
       "Name": "Falmer",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "30,666",
+      "Location": "Village Way, Brighton",
+      "Establishment": "2011"
     },
     "img": "/static/ClubLogos/Brighton.png",
     "History": {
@@ -139,9 +139,9 @@
     "Club": "Burnley",
     "Stadium": {
       "Name": "Turf Moor",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "22,546",
+      "Location": "Burnley",
+      "Establishment": "1883"
     },
     "img": "/static/ClubLogos//Burnley.png",
     "History": {
@@ -184,9 +184,9 @@
     "Club": "Cardiff City",
     "Stadium": {
       "Name": "Cardiff City",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "33,280",
+      "Location": "Cardiff",
+      "Establishment": "2009"
     },
     "img": "/static/ClubLogos//Cardiff.png",
     "History": {
@@ -229,10 +229,10 @@
   {
     "Club": "Chelsea",
     "Stadium": {
-      "Name": "Emirates",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Name": "Stamford Bridge",
+      "Capacity": "41,631",
+      "Location": "Fulham, london",
+      "Establishment": "1876"
     },
     "img": "/static/ClubLogos//Chelsea.png",
     "History": {
@@ -275,10 +275,10 @@
   {
     "Club": "Crystal Palace",
     "Stadium": {
-      "Name": "SelHurst Park",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Name": "Selhurst Park",
+      "Capacity": "25,456",
+      "Location": "Croydon",
+      "Establishment": "1924"
     },
     "img": "/static/ClubLogos//CrystalPalace.png",
     "History": {
@@ -317,9 +317,9 @@
     "Club": "Everton",
     "Stadium": {
       "Name": "Goodison Park",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "39,572",
+      "Location": "Walton, Liverpool",
+      "Establishment": "1892"
     },
     "img": "/static/ClubLogos//Everton.png",
     "History": {
@@ -363,9 +363,9 @@
     "Club": "Fulham",
     "Stadium": {
       "Name": "Craven Cottage",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "25,700",
+      "Location": "Fulham",
+      "Establishment": "1896"
     },
     "img": "/static/ClubLogos//Fulham.png",
     "History": {
@@ -409,9 +409,9 @@
     "Club": "Huddersfield Town",
     "Stadium": {
       "Name": "John Smith's",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "24,500",
+      "Location": "Huddersfield",
+      "Establishment": "1994"
     },
     "img": "/static/ClubLogos//Huddersfield.png",
     "History": {
@@ -455,9 +455,9 @@
     "Club": "Leicester City",
     "Stadium": {
       "Name": "King Power",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "32,312",
+      "Location": "Leicester",
+      "Establishment": "2002"
     },
     "img": "/static/ClubLogos//LeicesterCity.png",
     "History": {
@@ -501,9 +501,9 @@
     "Club": "Liverpool",
     "Stadium": {
       "Name": "Anfield",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "54,074",
+      "Location": "Anfield, Liverpool",
+      "Establishment": "1884"
     },
     "img": "/static/ClubLogos//Liverpool.png",
     "History": {
@@ -549,9 +549,9 @@
     "Club": "Manchester City",
     "Stadium": {
       "Name": "Etihad",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "55,097",
+      "Location": "Manchester",
+      "Establishment": "1999"
     },
     "img": "/static/ClubLogos//ManchesterCity.png",
     "History": {
@@ -595,9 +595,9 @@
     "Club": "Manchester United",
     "Stadium": {
       "Name": "Old Trafford",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "74,994",
+      "Location": "Manchester",
+      "Establishment": "1910"
     },
     "img": "/static/ClubLogos//ManchesterUnited.png",
     "History": {
@@ -641,9 +641,9 @@
     "Club": "NewCastle United",
     "Stadium": {
       "Name": "St James",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "52,405",
+      "Location": "Newcastle upon Tyne",
+      "Establishment": "1892"
     },
     "img": "/static/ClubLogos//NewCastleUnited.png",
     "History": {
@@ -686,12 +686,12 @@
     }
   },
   {
-    "Club": "Southampton",
+    "Club": "Southampton F.C",
     "Stadium": {
       "Name": "St Mary's",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "32,505",
+      "Location": "Southampton",
+      "Establishment": "2001"
     },
     "img": "/static/ClubLogos//Southampton.png",
     "History": {
@@ -737,9 +737,9 @@
     "Club": "Tottenham Hotspur",
     "Stadium": {
       "Name": "Wembley",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "90,000",
+      "Location": "Wembley, London",
+      "Establishment": "2007"
     },
     "img": "/static/ClubLogos//Tottenham.png",
     "History": {
@@ -783,9 +783,9 @@
     "Club": "Watford",
     "Stadium": {
       "Name": "Vicarage Road",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "21,577",
+      "Location": "Watford",
+      "Establishment": "1922"
     },
     "img": "/static/ClubLogos//Watford.png",
     "History": {
@@ -829,9 +829,9 @@
     "Club": "West Ham United",
     "Stadium": {
       "Name": "London",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "66,000",
+      "Location": "Stratford, London",
+      "Establishment": "2012"
     },
     "img": "/static/ClubLogos//WestHam.png",
     "History": {
@@ -877,17 +877,17 @@
     "Club": "Wolverthampton Wanderers",
     "Stadium": {
       "Name": "Molineux",
-      "Capacity": "",
-      "Location": "",
-      "Establishment": ""
+      "Capacity": "31,700",
+      "Location": "Wolverhampton",
+      "Establishment": "1889"
     },
     "img": "/static/ClubLogos//Wolverthampton.png",
     "History": {
       "Establishment": "1880",
       "Manager": {
-        "FullName": "Josep Guardiola",
-        "Nationality": "Spain",
-        "DOB": "18/101/1971",
+        "FullName": "Nuno Esperito Santo",
+        "Nationality": "Portugal",
+        "DOB": "25/01/1974",
         "Img": ""
       },
       "Trophies": [
