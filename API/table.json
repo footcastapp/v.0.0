@@ -1,0 +1,202 @@
+[
+	{
+		"Club": "ARS",
+		"img": "/static/ClubLogos/Arsenal.png",
+		"points": 57,
+		"played": 29,
+		"W": 17,
+		"D": 6,
+		"L": 6,
+		"GD": 22
+	},
+	{
+		"Club": "Bou",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 34,
+		"played": 29,
+		"W": 10,
+		"D": 4,
+		"L": 15,
+		"GD": -22
+	},
+	{
+		"Club": "BHA",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 30,
+		"played": 29,
+		"W": 8,
+		"D": 6,
+		"L": 14,
+		"GD": -11
+	},
+	{
+		"Club": "BUR",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 30,
+		"played": 29,
+		"W": 8,
+		"D": 6,
+		"L": 15,
+		"GD": -21
+	},
+	{
+		"Club": "CAR",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 25,
+		"played": 29,
+		"W": 7,
+		"D": 4,
+		"L": 18,
+		"GD": -32
+	},
+	{
+		"Club": "CHE",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 56,
+		"played": 28,
+		"W": 17,
+		"D": 5,
+		"L": 6,
+		"GD": 19
+	},
+	{
+		"Club": "CRY",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 33,
+		"played": 29,
+		"W": 9,
+		"D": 6,
+		"L": 14,
+		"GD": -4
+	},
+	{
+		"Club": "EVE",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 37,
+		"played": 29,
+		"W": 10,
+		"D": 7,
+		"L": 12,
+		"GD": 0
+	},
+	{
+		"Club": "FUL",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 17,
+		"played": 29,
+		"W": 4,
+		"D": 5,
+		"L": 20,
+		"GD": -38
+	},
+	{
+		"Club": "HUD",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 14,
+		"played": 29,
+		"W": 3,
+		"D": 5,
+		"L": 21,
+		"GD": -36
+	},
+	{
+		"Club": "LEI",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 35,
+		"played": 29,
+		"W": 10,
+		"D": 5,
+		"L": 14,
+		"GD": -6
+	},
+	{
+		"Club": "LIV",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 70,
+		"played": 29,
+		"W": 21,
+		"D": 7,
+		"L": 1,
+		"GD": 49
+	},
+	{
+		"Club": "MCI",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 71,
+		"played": 29,
+		"W": 23,
+		"D": 2,
+		"L": 4,
+		"GD": 56
+	},
+	{
+		"Club": "MUN",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 58,
+		"played": 29,
+		"W": 17,
+		"D": 7,
+		"L": 5,
+		"GD": 20
+	},
+	{
+		"Club": "NEW",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 31,
+		"played": 29,
+		"W": 8,
+		"D": 7,
+		"L": 14,
+		"GD": -10
+	},
+	{
+		"Club": "SOU",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 27,
+		"played": 29,
+		"W": 6,
+		"D": 9,
+		"L": 14,
+		"GD": -17
+	},
+	{
+		"Club": "TOT",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 61,
+		"played": 29,
+		"W": 20,
+		"D": 1,
+		"L": 8,
+		"GD": 26
+	},
+	{
+		"Club": "WAT",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 43,
+		"played": 29,
+		"W": 12,
+		"D": 7,
+		"L": 10,
+		"GD": 43
+	},
+	{
+		"Club": "WHU",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"points": 39,
+		"played": 29,
+		"W": 11,
+		"D": 6,
+		"L": 12,
+		"GD": -4
+	},
+	{
+		"Club": "WOL",
+		"img": "/static/ClubLogos/AFC_Bournemouth.png",
+		"pos": 43,
+		"played": 29,
+		"W": 12,
+		"D": 7,
+		"L": 10,
+		"GD": 2
+	}
+]
