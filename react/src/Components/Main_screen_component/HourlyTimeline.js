@@ -25,7 +25,7 @@ class HourlyTimeline extends Component {
         const date = new Date(each.DateTime);
         let time = date.getHours() + ":00";
         let temperature = Math.round((each.Temperature.Value - 32) * (5 / 9));
-        let daylight = each.IsDayLight;
+        let daylight = each.IsDaylight;
         let obj = {
           time: time,
           weather: each.IconPhrase,

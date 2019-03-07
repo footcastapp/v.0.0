@@ -1,0 +1,24 @@
+﻿FootCast
+Contribution Report
+
+Member Names:
+
+1) Bilal Imran:
+     	
+	Designed and implemented the football information page using 		React, CSS and JSX. 
+
+2) Md Mabrur Husan Dihyat:
+    
+	Designed and implemented the club information page using React, 	CSS and JSX.
+	
+3) Muhammad Sumeer:
+   	
+	Designed and implemented the search function of the app using 		React,CSS and JSX. Also completed the custom API for club 		information using NodeJS.
+
+4) Khizar Malik:
+	
+	Designed and implemented the home page using React,CSS and JSX.
+
+5) Mehmood Khan:
+	
+	Set up the core CSS design for the app.
