@@ -12,6 +12,10 @@
   background-color: rgba(14, 28, 73, 0.8);
 }
 
+.football-container {
+  margin-bottom: 60px;
+}
+
 .u {
   border-bottom: 1px solid white;
 

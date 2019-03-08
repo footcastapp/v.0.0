@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Top from './Top';
-
+import Daily from './DailyWeather';
+import Hourly from './HourlyWeather';
 class Stadium extends Component {
 	constructor() {
 		super();
@@ -28,8 +29,11 @@ class Stadium extends Component {
 
 	render() {
 		return (
-			<div className='info'>
+			<div className='weather-container'>
 				<Top weather={this.state} other={this.props} />
+				<Hourly weather={this.state} other={this.props} />
+				<hr />
+				<Daily weather={this.state} other={this.props} />
 			</div>
 		);
 	}

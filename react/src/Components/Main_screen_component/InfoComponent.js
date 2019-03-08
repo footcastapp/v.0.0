@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 class InfoComponent extends Component {
   render() {
-    console.log("I am in info component");
     return (
       <div className="container b-radius padding-10 m-left-right">
         <h1>{this.props.city}</h1>
