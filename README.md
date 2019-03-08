@@ -1,5 +1,9 @@
+##important info
+the node modules was taking up too much space therefore we removed it.
+You will have to go through npm install to install the node modules required
+
 ##prerequisites
-node v10.15.3 link: https://nodejs.org/en/ This come with npm
+node v10.15.3 link: https://nodejs.org/en/ This comes with npm
 
 ##Step 1:
 
