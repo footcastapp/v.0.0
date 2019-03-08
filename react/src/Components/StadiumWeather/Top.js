@@ -5,7 +5,7 @@ class Top extends Component {
 
 	render() {
 		console.log(this.props.weather.weatherCurrent);
-		let src = 'http://localhost:5000/static/weatherIcon/';
+		let src = 'http://localhost:3000/Images/';
 		switch (this.props.weather.weatherCurrent.wx_desc) {
 			case 'Partly cloudy':
 				src += 'Intermittent cloud.svg';

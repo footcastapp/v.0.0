@@ -61,7 +61,7 @@ class HourlyTimeline extends Component {
               <button onClick={this.previous}>{`<`}</button>
             </li>
             {this.showHourlyComponent().map(each => (
-              <li className="hourly-tagg">
+              <li className="hourly-tag">
                 <HourlyComponent
                   time={each.time}
                   weather={each.weather}
