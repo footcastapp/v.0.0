@@ -31,7 +31,7 @@ class Main extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="football-container">
         <PL />
         <p> </p>
         <Result result={this.state.resultweek} />
