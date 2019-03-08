@@ -5,7 +5,6 @@ import "../../Styles/Daily.css";
 class Daily extends Component {
   showComponents = () => {
     if (this.props.dailydata != "") {
-      console.log("I am in daily class");
       let data = this.props.dailydata;
       let components = [];
       const days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
@@ -27,10 +26,8 @@ class Daily extends Component {
           tempDate--;
         }
         eachDay.day = days[tempDate];
-        console.log(new Date(each.Date).getDay());
         components.push(eachDay);
       }
-      console.log(components);
       return components;
     }
   };
