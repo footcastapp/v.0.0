@@ -11,10 +11,13 @@ class Top extends Component {
 				src += 'Intermittent cloud.svg';
 				break;
 			case 'Mostly cloudy':
-				src += 'cloudy.png';
+				src += 'cloudy.svg';
 				break;
 			case 'Light Rain':
 				src += 'Showers.svg';
+				break;
+			default:
+				src += 'Intermittent cloud.svg';
 				break;
 		}
 		let today = new Date();
@@ -38,7 +41,7 @@ class Top extends Component {
 					{this.props.other.club.Stadium.Name} Stadium
 				</h2>
 				<p className='left' id='stadium'>
-					Location: {' ' + this.props.other.club.Stadium.Location}
+					Location: {this.props.other.club.Stadium.Location}
 				</p>
 				<p className='left' id='weatherdesc'>
 					{this.props.weather.weatherCurrent.wx_desc}
