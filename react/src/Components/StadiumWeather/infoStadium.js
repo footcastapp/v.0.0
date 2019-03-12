@@ -1,17 +1,33 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
-
-=======
 import Top from './Top';
 import Daily from './DailyWeather';
 import Hourly from './HourlyWeather';
->>>>>>> 12019ef427e05569c202ca1f08e7bf6a580255f6
 class Stadium extends Component {
-	state = {};
+	constructor() {
+		super();
+		this.state = {
+			weatherCurrent: [],
+			weatherForecast: [],
+		};
+	}
+	componentDidMount() {
+		fetch(
+			'http://api.weatherunlocked.com/api/current/UK.' +
+				this.props.postcode +
+				'?app_id=c8d45e0d&app_key=2fc409dd0e7d62983d91826396c15100'
+		)
+			.then(res => res.json())
+			.then(weatherCurrent => this.setState({ weatherCurrent }));
+		fetch(
+			'http://api.weatherunlocked.com/api/forecast/UK.' +
+				this.props.postcode +
+				'?app_id=c8d45e0d&app_key=2fc409dd0e7d62983d91826396c15100'
+		)
+			.then(res => res.json())
+			.then(weatherForecast => this.setState({ weatherForecast }));
+	}
+
 	render() {
-<<<<<<< HEAD
-		return <div className="info">{this.props.club.Club}</div>;
-=======
 		return (
 			<div className='weather-container'>
 				<Top weather={this.state} other={this.props} />
@@ -20,7 +36,6 @@ class Stadium extends Component {
 				<Daily weather={this.state} other={this.props} />
 			</div>
 		);
->>>>>>> 12019ef427e05569c202ca1f08e7bf6a580255f6
 	}
 }
 

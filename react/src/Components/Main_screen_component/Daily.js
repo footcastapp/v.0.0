@@ -19,9 +19,6 @@ class Daily extends Component {
         eachDay.max = maxTemp;
         eachDay.min = minTemp;
         eachDay.weather = each.Day.IconPhrase;
-<<<<<<< HEAD
-        eachDay.day = days[new Date(each.Date).getDay()];
-=======
         let tempDate = new Date(each.Date).getDay();
         if (tempDate == 0) {
           tempDate = 6;
@@ -29,7 +26,6 @@ class Daily extends Component {
           tempDate--;
         }
         eachDay.day = days[tempDate];
->>>>>>> 12019ef427e05569c202ca1f08e7bf6a580255f6
         components.push(eachDay);
       }
       return components;
@@ -57,7 +53,7 @@ class Daily extends Component {
                     max={each.max}
                     min={each.min}
                     weather={each.weather}
-                    day={each.day}
+                    day={"Today"}
                   />
                 </li>
               )

@@ -423,9 +423,9 @@ Matchday 28
   Arsenal FC              5-1 AFC Bournemouth
   Leicester City          2-1 Brighton & Hove Albion
   Cardiff City            0-3 Everton FC
-[Wed Feb/27]
   Huddersfield Town       1-0 Wolverhampton Wanderers
   Newcastle United        2-0 Burnley FC
+[Wed Feb/27]
   Crystal Palace          1-3 Manchester United
   Southampton FC          2-0 Fulham FC
   Chelsea FC              2-0 Tottenham Hotspur
@@ -435,31 +435,21 @@ Matchday 28
 
 Matchday 29
 [Sat Mar/2]
-  Tottenham Hotspur       - Arsenal FC
-  Wolverhampton Wanderers - Cardiff City
-  Burnley FC              - Crystal Palace
+  Tottenham Hotspur       1-1 Arsenal FC
+  Wolverhampton Wanderers 2-0 Cardiff City
+  Burnley FC              1-3 Crystal Palace
 [Sun Mar/3]
-  Brighton & Hove Albion  - Huddersfield Town
-  AFC Bournemouth         - Manchester City
-  West Ham United         - Newcastle United
-  Manchester United       - Southampton FC
-  Watford FC              - Leicester City
-  Everton FC              - Liverpool FC
-  Fulham FC               - Chelsea FC
+  Brighton & Hove Albion  1-0 Huddersfield Town
+  AFC Bournemouth         0-1 Manchester City
+  West Ham United         2-0 Newcastle United
+  Manchester United       3-2 Southampton FC
+  Watford FC              2-1 Leicester City
+  Everton FC              0-0 Liverpool FC
+  Fulham FC               1-2 Chelsea FC
   
   
 Matchday 30
 [Sat Mar/9]
-<<<<<<< HEAD
-  Huddersfield Town       - AFC Bournemouth
-  Crystal Palace          - Brighton & Hove Albion
-  Leicester City          - Fulham FC
-  Manchester City         - Watford FC
-  Cardiff City            - West Ham United
-  Newcastle United        - Everton FC
-  Southampton FC          - Tottenham Hotspur
-[Sun Mar/10]
-=======
   Huddersfield Town       0-2 AFC Bournemouth
   Crystal Palace          1-2 Brighton & Hove Albion
   Leicester City          3-1 Fulham FC
@@ -468,7 +458,6 @@ Matchday 30
   Cardiff City            2-0 West Ham United
   Newcastle United        3-2 Everton FC
   Southampton FC          2-1 Tottenham Hotspur
->>>>>>> 12019ef427e05569c202ca1f08e7bf6a580255f6
   Liverpool FC            - Burnley FC
   Chelsea FC              - Wolverhampton Wanderers
   Arsenal FC              - Manchester United
