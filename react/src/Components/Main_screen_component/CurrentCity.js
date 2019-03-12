@@ -14,7 +14,11 @@ class CurrentCity extends Component {
 		daylight: '',
 		hourlydata: '',
 		dailydata: '',
+<<<<<<< HEAD
 		apiKey: `iXgAA686OsaU7jvwEyJPKJEldgAJq8We`,
+=======
+		apiKey: `toRxP8wDhv0YnSKLDXxcI63KvAASRz50`,
+>>>>>>> 12019ef427e05569c202ca1f08e7bf6a580255f6
 		cityKey: '',
 	};
 	constructor() {
@@ -77,12 +81,45 @@ class CurrentCity extends Component {
 				that.state.weather = currentHour.IconPhrase;
 				that.state.daylight = currentHour.IsDaylight;
 				let date = new Date(currentHour.DateTime);
+<<<<<<< HEAD
 				let value =
 					date.getDate() +
 					' / ' +
 					(date.getMonth() + 1) +
 					' / ' +
 					date.getFullYear();
+=======
+				const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+				const month = [
+					'Jan',
+					'Feb',
+					'Mar',
+					'Apr',
+					'May',
+					'Jun',
+					'July',
+					'Aug',
+					'Sept',
+					'Oct',
+					'Nov',
+					'Dec',
+				];
+				let tempDate = date.getDay();
+				if (tempDate == 0) {
+					tempDate = 6;
+				} else {
+					tempDate--;
+				}
+				let value =
+					date.getDate() +
+					' ' +
+					month[date.getMonth() + 1] +
+					' ' +
+					date.getFullYear() +
+					' (' +
+					days[tempDate] +
+					')';
+>>>>>>> 12019ef427e05569c202ca1f08e7bf6a580255f6
 				that.state.date = value;
 				that.state.hourlydata = data;
 				that.getDailyTemperature();

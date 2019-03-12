@@ -26,18 +26,37 @@
 }
 #temp {
 	font-size: 35px;
-	margin-right: -160px;
+	margin-right: -180px;
 	margin-top: 100px;
 }
 #image {
 	height: 100px;
 	margin-right: -30px;
 }
-#weatherdesc{
-    margin-top:110px;
-    margin-left:-200px;
+#weatherdesc {
+	margin-top: 110px;
+	margin-left: -200px;
 }
-#date{
-    margin-top:150px;
-    margin-left:-200px;
+#date {
+	margin-top: 150px;
+	margin-left: -200px;
+}
+.daily {
+	background: rgba(14, 28, 73, 0.5);
+	border-radius: 10px;
+	width: 414px;
+}
+#days {
+	font-size: 12px;
+}
+.margin {
+	margin-top: 20px;
+}
+.hourly-tagg {
+	float: left;
+	height: 100%;
+	font-size: 15px;
+}
+.hourlydiv {
+	width: 414px;
 }

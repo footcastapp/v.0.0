@@ -34,22 +34,18 @@ class HourlyTimeline extends Component {
         };
         Components[x] = obj;
       }
-      console.log("This is the object");
-      console.log(Components);
       return Components;
     }
   };
 
   next = () => {
     if (this.state.pointer == 0) {
-      console.log("Next");
       this.state.pointer = 6;
       this.setState({ state: this.state });
     }
   };
   previous = () => {
     if (this.state.pointer == 6) {
-      console.log("Previous");
       this.state.pointer = 0;
       this.setState({ state: this.state });
     }
@@ -86,19 +82,3 @@ class HourlyTimeline extends Component {
 }
 
 export default HourlyTimeline;
-/*
-{this.props.hourlydata != null ? (
-              this.props.hourlydata.map(each => (
-                <li className="hourly-tag">
-                  <HourlyComponent
-                    time={each.DateTime}
-                    weather={each.weather}
-                    temp={each.temp}
-                    daylight={each.daylight}
-                  />
-                </li>
-              ))
-            ) : (
-              <li>Internet problem</li>
-            )}
- */

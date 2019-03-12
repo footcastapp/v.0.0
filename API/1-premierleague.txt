@@ -450,6 +450,7 @@ Matchday 29
   
 Matchday 30
 [Sat Mar/9]
+<<<<<<< HEAD
   Huddersfield Town       - AFC Bournemouth
   Crystal Palace          - Brighton & Hove Albion
   Leicester City          - Fulham FC
@@ -458,6 +459,16 @@ Matchday 30
   Newcastle United        - Everton FC
   Southampton FC          - Tottenham Hotspur
 [Sun Mar/10]
+=======
+  Huddersfield Town       0-2 AFC Bournemouth
+  Crystal Palace          1-2 Brighton & Hove Albion
+  Leicester City          3-1 Fulham FC
+[Sun Mar/10]
+  Manchester City         3-1 Watford FC
+  Cardiff City            2-0 West Ham United
+  Newcastle United        3-2 Everton FC
+  Southampton FC          2-1 Tottenham Hotspur
+>>>>>>> 12019ef427e05569c202ca1f08e7bf6a580255f6
   Liverpool FC            - Burnley FC
   Chelsea FC              - Wolverhampton Wanderers
   Arsenal FC              - Manchester United
@@ -469,7 +480,7 @@ Matchday 31
   Brighton & Hove Albion  - Cardiff City       postponed
   West Ham United         - Huddersfield Town
   Burnley FC              - Leicester City
-  Manchester United       - Manchester City    postponed
+  Manchester United       - Manchester City    postponed 24.4.
   AFC Bournemouth         - Newcastle United
   Watford FC              - Southampton FC     postponed
 [Sun Mar/17]
@@ -536,6 +547,11 @@ Matchday 35
   Wolverhampton Wanderers - Brighton & Hove Albion
 
 
+## in addition matchday 31
+[Wed Apr/24]
+  Manchester United       - Manchester City 
+  
+  
 Matchday 36
 [Sat Apr/27]
   Brighton & Hove Albion  - Newcastle United
