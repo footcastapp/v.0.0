@@ -10,12 +10,12 @@ const rstream = fs.createReadStream(
 let weekAPI = {
 	txt: '',
 	count: [0, 0],
-	name: 'Matchday 29',
+	name: 'Matchday 28',
 };
 let fixture = {
 	txt: '',
 	count: [0, 0],
-	name: 'Matchday 30',
+	name: 'Matchday 29',
 };
 
 const wStreamWeek = fs.createWriteStream(__dirname + '/API/week.txt', 'utf8');

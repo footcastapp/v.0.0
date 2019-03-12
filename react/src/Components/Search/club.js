@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 class club extends Component {
 	render() {
 		return (
-			<a className='link' href={'/' + this.props.clubInfo.Club}>
+			<a className = "link" href='/arsenal'>
 				<div className='ratio'>
 					<img
 						className='clubImg'

@@ -28,7 +28,7 @@ class trophy extends Component {
                 />
               );
             }
-            if (obj.name === "FA") { /*comment*/ 
+            if (obj.name === "FA") {
               fa = (
                 <img
                   className="image2"
